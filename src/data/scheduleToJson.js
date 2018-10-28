@@ -72,12 +72,12 @@ function getNewToken(oAuth2Client, callback) {
 
 function getDatas(auth) {
   const sheets = google.sheets({version: 'v4', auth});
-  const startRow = 2;
-  const endRow = 16;
-  const sheet = "Sheet1"
+  const startRow = 1;
+  const endRow = 20;
+  const sheet = "Sheet5"
 
   return sheets.spreadsheets.values.get({
-    spreadsheetId: '1njYeruKjnxLk7trRv7WbyMzjCVSex6AcWVYDwU7cWUA',
+    spreadsheetId: '1e61Vdyc38611QGEUx7UQGSqlprnkG7tOlDGJrLhVsys',
     range: sheet + '!' + startRow + ':' + endRow + '',
   }, (err, res) => {
         if (err) return console.log('The API returned an error: ' + err);
@@ -94,28 +94,24 @@ function formatData(res) {
     //the data
     var data = res.data.values;
 
-    //get the dates and times
-    var dates = data[dateRow];
-    var times = data.map(i => i[0]);
-
-    //get rid of the first elements
-    dates.shift();
-    times.shift();
-
     var json = "[\n"
-    var counter = 1;
-    for (var i = dateRow+1; i < times.length + 1; i++) {
-      for(var j = timeCollumn+1; j < dates.length + 1; j++) {
-        if (data[i][j] != "" && data[i][j] != undefined) {
-          data[i][j] = data[i][j].replace(/(\r\n\t|\n|\r\t)/gm," ");
-          data[i][j] = data[i][j].charAt(0) + data[i][j].slice(1).toLowerCase()
-          jsonFormatter = "\t{\n\t\t\"id\": %d,\n\t\t\"date\": \"%s\",\n\t\t\"times\": \"%s\",\n\t\t\"title\": \"%s\",\n\t\t\"details\": \"%s\",\n\t\t\"picUrl\": \"%s\",\n\t\t\"location\": \"%s\"\n\t},\n"
-          json += util.format(jsonFormatter, counter++, dates[j-1], times[i-1], data[i][j], '', '', '')
-        }
+    for(var rowIndex = 1; rowIndex < data.length; rowIndex++){
+      if (data[rowIndex][0] != "" && data[rowIndex][0] != undefined) {
+        var title = data[rowIndex][0].replace(/(\r\n\t|\n|\r\t)/gm," ");
+        var startTime = data[rowIndex][1]
+        var endTime = data[rowIndex][2]
+        var date = data[rowIndex][3]
+        var description = data[rowIndex][4]
+        var longDescription = data[rowIndex][5]
+        var instructor = data[rowIndex][6]
+        var location = data[rowIndex][7]
+        jsonFormatter = "\t{\n\t\t\"id\": %d,\n\t\t\"startTime\": \"%s\",\n\t\t\"endTime\": \"%s\",\n\t\t\"date\": \"%s\",\n\t\t\"title\": \"%s\",\n\t\t\"description\": \"%s\",\n\t\t\"longDescription\": \"%s\",\n\t\t\"instructor\": \"%s\",\n\t\t\"location\": \"%s\"\n\t},\n"
+        json += util.format(jsonFormatter, rowIndex, startTime, endTime, date, title, description, longDescription, instructor,location);
       }
     }
-    json += "]"
-    console.log(json)
+          
+     json += "]"
+     console.log(json)
     fs.writeFile(storeLocation, json, function(err) {
     if(err) {
         return console.log(err);
@@ -124,4 +120,3 @@ function formatData(res) {
     console.log("The file was saved!");
     }); 
   }
-
