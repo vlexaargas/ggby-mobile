@@ -2,9 +2,13 @@ import { StyleSheet } from "react-native";
 import * as v from "theme/variables";
 
 export default StyleSheet.create({
+  screenView: {
+    flex: 1
+  },
+
   eventImage: {
     width: "100%",
-    height: "60%",
+    height: "40%",
     resizeMode: "cover"
   },
 
@@ -32,6 +36,7 @@ export default StyleSheet.create({
   },
 
   contentContainer: {
+    flex: 1,
     padding: v.BASE_VALUE * 2
   },
 
