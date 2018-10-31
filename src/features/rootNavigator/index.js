@@ -1,6 +1,6 @@
 import React from "react";
 
-import { createBottomTabNavigator } from "react-navigation";
+import { createMaterialBottomTabNavigator } from "react-navigation-material-bottom-tabs";
 
 import Schedule from "../schedule";
 import Map from "../map";
@@ -13,7 +13,7 @@ import * as v from "../../theme/variables";
 // features) we'll probably want to move this into its own feature dir. For
 // now, the RootNavigator below is pretty much just providing a header.
 
-const RootNavigator = createBottomTabNavigator(
+const RootNavigator = createMaterialBottomTabNavigator(
   {
     Schedule: {
       screen: Schedule,
@@ -42,14 +42,12 @@ const RootNavigator = createBottomTabNavigator(
     }
   },
   {
-    tabBarOptions: {
-      style: {
-        backgroundColor: v.DARK_BACKGROUND_COLOR,
-        alignItems: "flex-end"
-      },
-      inactiveTintColor: v.WHITE,
-      activeTintColor: v.ACCENT_COLOR
-    }
+    barStyle: {
+      backgroundColor: v.DARK_BACKGROUND_COLOR
+    },
+    inactiveColor: v.WHITE,
+    activeColor: v.ACCENT_COLOR,
+    initialRouteName: 'Schedule'
   }
 );
 
