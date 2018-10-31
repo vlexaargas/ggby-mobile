@@ -21,7 +21,8 @@ export default {
             height: 30,
             resizeMode: "contain"
           }}
-          source={require("../../../assets/images/ggby-logo.png")}
+          fadeDuration={0}
+          source={require("../../../assets/images/ggby-logo-120.png")}
         />
         <Image
           style={{
@@ -30,6 +31,7 @@ export default {
             height: 25,
             resizeMode: "contain"
           }}
+          fadeDuration={0}
           source={require("../../../assets/images/ggby-name.png")}
         />
       </React.Fragment>
