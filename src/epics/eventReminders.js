@@ -35,6 +35,16 @@ const reminderTitles = [
   "Finish those cosmic downloads!"
 ];
 
+
+// TODO: remove this. for testing only
+Notifications.presentLocalNotificationAsync({
+  title: "Hey this is a test",
+  body: `Test notification body bla bla bla`,
+  ios: { sound: true },
+  android: { icon: "./assets/images/ggby-logo-96-grayscale.png"}
+}
+)
+
 const sample = arr => arr[Math.floor(Math.random() * arr.length)];
 
 const scheduleEventReminderEpic = action$ =>
@@ -74,7 +84,8 @@ const scheduleEventReminderEpic = action$ =>
               {
                 title: sample(reminderTitles),
                 body: `You've got 30 minutes till ${event.name}.`,
-                ios: { sound: true }
+                ios: { sound: true },
+                android: { icon: "../../assets/images/ggby-logo-96-grayscale.png"}
               },
               {
                 time: moment(event.startAt)
