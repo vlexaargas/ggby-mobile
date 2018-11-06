@@ -1,5 +1,5 @@
 import { StyleSheet } from "react-native";
-import * as v from "theme/variables";
+import * as v from "../../theme/variables";
 
 export default StyleSheet.create({
   screenView: {
