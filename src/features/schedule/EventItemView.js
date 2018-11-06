@@ -15,7 +15,7 @@ export default class EventItemView extends React.Component {
       onReminderIconPress
     } = this.props;
 
-    const { title, startTime, endTime, description } = event;
+    const { title, startDateTime, duration, description } = event;
 
     return (
       <TouchableOpacity onPress={onEventPress}>
@@ -24,10 +24,12 @@ export default class EventItemView extends React.Component {
             <Text style={styles.normalText}>
               {startTime}
             </Text>
-
-            <Text style={styles.secondaryText}>
-              {endTime}
-            </Text>
+            { duration &&
+              <Text style={styles.secondaryText}>
+                {moment(startDateTime).add(duration, 'h').format("h:m a")}
+              </Text>
+            }
+       
           </View>
 
           <View style={styles.centerEventItemSection}>
