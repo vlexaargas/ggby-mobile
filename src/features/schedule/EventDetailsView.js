@@ -57,10 +57,10 @@ function getPicForInstructor(instructorName) {
 }
 
 function getDescription(event) {
-  if (event.longDescription == "" || event.longDescription == undefined) {
-    return event.description;
+  if (event.description == "" || event.description == undefined) {
+    return event.shortDescription;
   }
-  return event.longDescription;
+  return event.description;
 }
 
 function getRender(navigation) {
@@ -75,7 +75,7 @@ function getRender(navigation) {
 
       <View style={styles.contentContainer}>
         <Text style={styles.titleText}>{event.title}</Text>
-        <Text style={styles.normalText}>{event.longDescription}</Text>
+        <Text style={styles.normalText}>{event.description}</Text>
 
         <View style={styles.instructorsSection}>
           <Text style={styles.secondaryTitleText}>Taught by:</Text>

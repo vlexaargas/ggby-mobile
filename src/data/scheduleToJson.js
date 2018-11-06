@@ -98,9 +98,9 @@ function formatData(res) {
     for(var rowIndex = 1; rowIndex < data.length; rowIndex++){
       if (data[rowIndex][0] != "" && data[rowIndex][0] != undefined) {
         var title = cleanfield(data[rowIndex][0])
-        var startTime = cleanfield(data[rowIndex][1])
-        var endTime = cleanfield(data[rowIndex][2])
-        var date = cleanfield(data[rowIndex][3])
+        var startDateTime = cleanfield(data[rowIndex][1])
+        var duration = cleanfield(data[rowIndex][2])
+        var shortDescription = cleanfield(data[rowIndex][3]) // if no short description provided, just chop long one
         var description = cleanfield(data[rowIndex][4])
         var longDescription = cleanfield(data[rowIndex][5])
         var instructor = cleanfield(data[rowIndex][6])
