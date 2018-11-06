@@ -5,7 +5,7 @@ const util = require('util');
 
 // If modifying these scopes, delete token.json.
 const SCOPES = ['https://www.googleapis.com/auth/spreadsheets.readonly'];
-const TOKEN_PATH = './token.json'; // expects to be run from root
+const TOKEN_PATH = '../token.json'; // expects to be run from root
 
 const storeLocation = "assets/json/events.json"
 
