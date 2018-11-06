@@ -48,6 +48,7 @@
     "redux-observable": "^1.0.0",
     "redux-persist": "^5.10.0",
     "rxjs": "^6.3.3",
+    "sentry-expo": "^1.10.0",
     "whatwg-fetch": "^2.0.4"
   }
 }
