@@ -97,14 +97,14 @@ function formatData(res) {
     var json = "[\n"
     for(var rowIndex = 1; rowIndex < data.length; rowIndex++){
       if (data[rowIndex][0] != "" && data[rowIndex][0] != undefined) {
-        var title = data[rowIndex][0].replace(/(\r\n\t|\n|\r\t)/gm," ");
-        var startTime = data[rowIndex][1]
-        var endTime = data[rowIndex][2]
-        var date = data[rowIndex][3]
-        var description = data[rowIndex][4]
-        var longDescription = data[rowIndex][5]
-        var instructor = data[rowIndex][6]
-        var location = data[rowIndex][7]
+        var title = cleanfield(data[rowIndex][0])
+        var startTime = cleanfield(data[rowIndex][1])
+        var endTime = cleanfield(data[rowIndex][2])
+        var date = cleanfield(data[rowIndex][3])
+        var description = cleanfield(data[rowIndex][4])
+        var longDescription = cleanfield(data[rowIndex][5])
+        var instructor = cleanfield(data[rowIndex][6])
+        var location = cleanfield(data[rowIndex][7])
         jsonFormatter = "\t{\n\t\t\"id\": %d,\n\t\t\"startTime\": \"%s\",\n\t\t\"endTime\": \"%s\",\n\t\t\"date\": \"%s\",\n\t\t\"title\": \"%s\",\n\t\t\"description\": \"%s\",\n\t\t\"longDescription\": \"%s\",\n\t\t\"instructor\": \"%s\",\n\t\t\"location\": \"%s\"\n\t},\n"
         json += util.format(jsonFormatter, rowIndex, startTime, endTime, date, title, description, longDescription, instructor,location);
       }
@@ -119,4 +119,13 @@ function formatData(res) {
 
     console.log("The file was saved!");
     });
+  }
+
+  function cleanfield(data) {
+    if(data == undefined) {
+      return ""
+    }
+    data = data.replace(/(\")/g,"\'");
+    data = data.replace(/(\r\n\t|\n|\r\t)/gm," ");
+    return data;
   }
