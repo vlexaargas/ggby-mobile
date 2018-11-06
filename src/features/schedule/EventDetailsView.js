@@ -75,6 +75,7 @@ function getRender(navigation) {
 
       <View style={styles.contentContainer}>
         <Text style={styles.titleText}>{event.title}</Text>
+        
         <Text style={styles.normalText}>{event.description}</Text>
 
         <View style={styles.instructorsSection}>
