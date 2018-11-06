@@ -22,11 +22,11 @@ export default class EventItemView extends React.Component {
         <View style={styles.eventItemContainer}>
           <View style={styles.leftEventItemSection}>
             <Text style={styles.normalText}>
-              {startTime}
+              {moment(startDateTime).format("h a")}
             </Text>
             { duration &&
               <Text style={styles.secondaryText}>
-                {moment(startDateTime).add(duration, 'h').format("h:m a")}
+                {`${duration} hours`}
               </Text>
             }
        

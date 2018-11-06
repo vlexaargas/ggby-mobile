@@ -5,7 +5,7 @@ const util = require('util');
 
 // If modifying these scopes, delete token.json.
 const SCOPES = ['https://www.googleapis.com/auth/spreadsheets.readonly'];
-const TOKEN_PATH = '../token.json';
+const TOKEN_PATH = './token.json'; // expects to be run from root
 
 const storeLocation = "assets/json/events.json"
 
@@ -80,7 +80,7 @@ function getDatas(auth) {
     spreadsheetId: '1e61Vdyc38611QGEUx7UQGSqlprnkG7tOlDGJrLhVsys',
     range: sheet + '!' + startRow + ':' + endRow + '',
   }, (err, res) => {
-        if (err) return console.log('The API returned an error: ' + err);
+        if (err) return console.log('The API returned an error: ', err);
         return formatData(res);
     }
   );
@@ -104,8 +104,8 @@ function formatData(res) {
         var description = data[rowIndex][4]
         var instructor = data[rowIndex][5]
         var location = data[rowIndex][6]
-        jsonFormatter = "\t{\n\t\t\"id\": %d,\n\t\t\"startTime\": \"%s\",\n\t\t\"endTime\": \"%s\",\n\t\t\"date\": \"%s\",\n\t\t\"title\": \"%s\",\n\t\t\"description\": \"%s\",\n\t\t\"longDescription\": \"%s\",\n\t\t\"instructor\": \"%s\",\n\t\t\"location\": \"%s\"\n\t},\n"
-        json += util.format(jsonFormatter, rowIndex, startTime, endTime, date, title, description, longDescription, instructor,location);
+        jsonFormatter = "\t{\n\t\t\"id\": %d,\n\t\t\"startDateTime\": \"%s\",\n\t\t\"title\": \"%s\",\n\t\t\"duration\": \"%s\",\n\t\t\"shortDescription\": \"%s\",\n\t\t\"description\": \"%s\",\n\t\t\"instructor\": \"%s\",\n\t\t\"location\": \"%s\"\n\t},\n"
+        json += util.format(jsonFormatter, rowIndex, startDateTime, title, duration, shortDescription, description, instructor, location);
       }
     }
 
