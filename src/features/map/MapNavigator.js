@@ -4,10 +4,6 @@ import { View, Text, Image } from "react-native";
 import { createStackNavigator } from "react-navigation";
 import defaultStackNavigatorConfigs from "../../components/navigator";
 
-import Sentry from 'sentry-expo';
-
-Sentry.captureException(new Error('Testing error reporting 54321!'))
-
 const Map = () => (
   <Image
     style={{
