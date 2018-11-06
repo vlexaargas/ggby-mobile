@@ -7,7 +7,7 @@ const util = require('util');
 const SCOPES = ['https://www.googleapis.com/auth/spreadsheets.readonly'];
 const TOKEN_PATH = '../token.json';
 
-const storeLocation = "assets/json/stagingEvents.json"
+const storeLocation = "assets/json/events.json"
 
 if (process.argv[2] != null) {
   storeLocation =process.argv[2]
@@ -72,9 +72,9 @@ function getNewToken(oAuth2Client, callback) {
 
 function getDatas(auth) {
   const sheets = google.sheets({version: 'v4', auth});
-  const startRow = 1;
-  const endRow = 20;
-  const sheet = "Sheet5"
+  const startRow = 2;
+  const endRow = 50;
+  const sheet = "Data"
 
   return sheets.spreadsheets.values.get({
     spreadsheetId: '1e61Vdyc38611QGEUx7UQGSqlprnkG7tOlDGJrLhVsys',
@@ -109,7 +109,7 @@ function formatData(res) {
         json += util.format(jsonFormatter, rowIndex, startTime, endTime, date, title, description, longDescription, instructor,location);
       }
     }
-          
+
      json += "]"
      console.log(json)
     fs.writeFile(storeLocation, json, function(err) {
@@ -118,5 +118,5 @@ function formatData(res) {
     }
 
     console.log("The file was saved!");
-    }); 
+    });
   }
