@@ -40,20 +40,24 @@ const instructorPicMap = {
 
 function getPicForEvent(title) {
   // This is just an example will be changed once we populate the maps
-  return eventPicMap.slackro;
+  if(eventPicMap.indexOf(title) != -1) {
+    return instrueventPicMapctorPicMap[title];
+  }
+  //Not sure what to do when the event doesn't have a picture.
+  return undefined;
   // return eventPicMap[title];
 }
 
 function getInstructorList(event) {
-  // This is just an example will be changed once we populate the maps
-  return ["alex"];
-  // return event.instructors.replace(' ','').split(',').map(i -> {return {name: i}});
+  return event.instructors.replace(' ','').split(',').map(i -> {return {name: i}});
 }
 
 function getPicForInstructor(instructorName) {
-  // This is just an example will be changed once we populate the maps
-  return instructorPicMap.michelle;
-  // return instructorPicMap[instructorName];
+  if(instructorPicMap.indexOf(instructorName) != -1) {
+    return instructorPicMap[instructorName];
+  }
+  //Not sure what to do when the instructor doesn't have a picture.
+  return undefined;
 }
 
 function getDescription(event) {
@@ -75,7 +79,7 @@ function getRender(navigation) {
 
       <View style={styles.contentContainer}>
         <Text style={styles.titleText}>{event.title}</Text>
-        
+
         <Text style={styles.normalText}>{event.description}</Text>
 
         <View style={styles.instructorsSection}>

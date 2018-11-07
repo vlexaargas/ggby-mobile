@@ -102,11 +102,11 @@ function formatData(res) {
         var duration = cleanfield(data[rowIndex][2])
         var shortDescription = cleanfield(data[rowIndex][3]) // if no short description provided, just chop long one
         var description = cleanfield(data[rowIndex][4])
-        var instructor = cleanfield(data[rowIndex][6])
-        var location = cleanfield(data[rowIndex][7])
+        var instructor = cleanfield(data[rowIndex][5])
+        var location = cleanfield(data[rowIndex][6])
         jsonFormatter = "\t{\n\t\t\"id\": %d,\n\t\t\"title\": \"%s\",\n\t\t\"startDateTime\": \"%s\",\n\t\t\"duration\": \"%s\",\n\t\t\"shortDescription\": \"%s\",\n\t\t\"description\": \"%s\",\n\t\t\"instructor\": \"%s\",\n\t\t\"location\": \"%s\"\n\t},\n"
         json += util.format(jsonFormatter, rowIndex, title, startDateTime, duration, shortDescription, description, instructor, location);
-      } 
+      }
     }
 
      json += "]"
