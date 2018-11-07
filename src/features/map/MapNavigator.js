@@ -1,6 +1,6 @@
 import React from "react";
 
-import { View, Text, Image, WebView } from "react-native";
+import { WebView } from "react-native";
 import { createStackNavigator } from "react-navigation";
 import defaultStackNavigatorConfigs from "../../components/navigator";
 
