@@ -5,27 +5,6 @@ import { ScrollView, View, Text, Image } from "react-native";
 
 import styles from "./EventDetailsView.style";
 
-// const event = {
-//   title: "Slackro",
-//   longDetails:
-//     "You may have tried Acroyoga before, but perhaps you haven't tried the type of acroyoga that's designed specifically for YOUR strengths. Slackro is a type of acroyoga that utilizes the sort of balance and focus skill that you EXCEL at because of your slackline practice. Come balance and wiggle on other humans in between wiggling on one-inch bridges.",
-//   picRef: "slackro",
-//   instructors: [
-//     {
-//       name: "Michelle",
-//       picRef: "michelle"
-//     },
-//     {
-//       name: "Alex",
-//       picRef: "alex"
-//     },
-//     {
-//       name: "Brian",
-//       picRef: "brian"
-//     }
-//   ]
-// };
-
 // TODO: Extract into own service
 const eventPicMap = {
   slackro: require("../../../assets/images/events/slackro.jpg")
@@ -33,27 +12,33 @@ const eventPicMap = {
 
 // TODO: Extract into own service
 const instructorPicMap = {
+  default: require("../../../assets/images/default-profile.jpg"),
   michelle: require("../../../assets/images/events/slackro.jpg"),
   alex: require("../../../assets/images/events/slackro.jpg"),
-  brian: require("../../../assets/images/events/slackro.jpg")
+  //brian: require("../../../assets/images/events/slackro.jpg"),
+  "slackline josh": require("../../../assets/images/events/slackro.jpg")
 };
 
 function getPicForEvent(title) {
-  // This is just an example will be changed once we populate the maps
-  return eventPicMap.slackro;
-  // return eventPicMap[title];
+  var cleanTitle = title.trim().toLowerCase();
+  if(cleanTitle in eventPicMap) {
+    return eventPicMap[cleanTitle];
+  }
+  //Not sure what to do when the event doesn't have a picture.
+  return undefined;
 }
 
 function getInstructorList(event) {
-  // This is just an example will be changed once we populate the maps
-  return ["alex"];
-  // return event.instructors.replace(' ','').split(',').map(i -> {return {name: i}});
+  return event.instructor.split(',').map(i => {return {name: i.trim()}});
 }
 
 function getPicForInstructor(instructorName) {
-  // This is just an example will be changed once we populate the maps
-  return instructorPicMap.michelle;
-  // return instructorPicMap[instructorName];
+  var cleanInstructorName = instructorName.toLowerCase();
+  if(cleanInstructorName in instructorPicMap) {
+    return instructorPicMap[cleanInstructorName];
+  } else {
+    return instructorPicMap.default;
+  }
 }
 
 function getDescription(event) {
@@ -75,7 +60,7 @@ function getRender(navigation) {
 
       <View style={styles.contentContainer}>
         <Text style={styles.titleText}>{event.title}</Text>
-        
+
         <Text style={styles.normalText}>{event.description}</Text>
 
         <View style={styles.instructorsSection}>
@@ -87,13 +72,12 @@ function getRender(navigation) {
                 console.log(name) || (
                   <View
                     style={styles.instructorView}
-                    key={getPicForEvent(event.title)}
+                    key={name}
                   >
                     <Image
                       style={styles.instructorImage}
                       source={getPicForInstructor(name)}
                     />
-
                     <Text style={styles.normalText}>{name}</Text>
                   </View>
                 ),
