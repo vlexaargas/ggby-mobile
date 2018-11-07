@@ -12,7 +12,7 @@ const Map = () => (
       width: undefined,
       height: undefined
     }}
-    source={require("../../../assets/images/hand-map.jpg")}
+    source={require("../../../assets/images/hand-map-2.jpg")}
   />
 );
 
