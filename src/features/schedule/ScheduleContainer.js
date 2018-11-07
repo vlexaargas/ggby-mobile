@@ -8,22 +8,6 @@ import { selectIndexedEventReminders } from "../../domain/eventReminders";
 
 import ScheduleView from "./ScheduleView";
 
-const mockEventTimes = event => {
-  let seedTime = moment();
-
-  if (event.id === 1) {
-    seedTime = seedTime.subtract(1, "day");
-  } else if (event.id % 2 === 0) {
-    seedTime = seedTime.add(1, "day");
-  }
-
-  return {
-    ...event,
-    startAt: seedTime.add(event.id, "hour").format(),
-    endAt: seedTime.add(event.id + 1, "hour").format()
-  };
-};
-
 const emptyMessageMap = {
   upcoming:
     "Wow. Looks like GGBY 2018 has come to an end.\n\nThank you so very" +
@@ -44,10 +28,9 @@ class ScheduleContainer extends React.Component {
     const { indexedEventReminders, filterBy } = this.props;
 
     let { events } = this.props;
-    events = map(mockEventTimes, events);
 
     const upcomingEvents = filter(
-      e => moment(e.startAt).isAfter(moment()),
+      e => moment(e.startDateTime).isAfter(moment()), // TODO: do we want to show ongoing events in the upcoming or past tab?
       events
     );
 
@@ -57,7 +40,7 @@ class ScheduleContainer extends React.Component {
       case "interested":
         return filter(e => indexedEventReminders[e.id], upcomingEvents);
       case "past":
-        return filter(e => moment(e.startAt).isBefore(moment()), events);
+        return filter(e => moment(e.startDateTime).isBefore(moment()), events); // TODO: refactor to use the negation of the upcoming events filter
       default:
         return events;
     }

@@ -5,7 +5,7 @@ const util = require('util');
 
 // If modifying these scopes, delete token.json.
 const SCOPES = ['https://www.googleapis.com/auth/spreadsheets.readonly'];
-const TOKEN_PATH = '../token.json';
+const TOKEN_PATH = '../token.json'; // expects to be run from root
 
 const storeLocation = "assets/json/events.json"
 
@@ -80,7 +80,7 @@ function getDatas(auth) {
     spreadsheetId: '1e61Vdyc38611QGEUx7UQGSqlprnkG7tOlDGJrLhVsys',
     range: sheet + '!' + startRow + ':' + endRow + '',
   }, (err, res) => {
-        if (err) return console.log('The API returned an error: ' + err);
+        if (err) return console.log('The API returned an error: ', err);
         return formatData(res);
     }
   );
@@ -98,16 +98,15 @@ function formatData(res) {
     for(var rowIndex = 1; rowIndex < data.length; rowIndex++){
       if (data[rowIndex][0] != "" && data[rowIndex][0] != undefined) {
         var title = cleanfield(data[rowIndex][0])
-        var startTime = cleanfield(data[rowIndex][1])
-        var endTime = cleanfield(data[rowIndex][2])
-        var date = cleanfield(data[rowIndex][3])
+        var startDateTime = cleanfield(data[rowIndex][1])
+        var duration = cleanfield(data[rowIndex][2])
+        var shortDescription = cleanfield(data[rowIndex][3]) // if no short description provided, just chop long one
         var description = cleanfield(data[rowIndex][4])
-        var longDescription = cleanfield(data[rowIndex][5])
         var instructor = cleanfield(data[rowIndex][6])
         var location = cleanfield(data[rowIndex][7])
-        jsonFormatter = "\t{\n\t\t\"id\": %d,\n\t\t\"startTime\": \"%s\",\n\t\t\"endTime\": \"%s\",\n\t\t\"date\": \"%s\",\n\t\t\"title\": \"%s\",\n\t\t\"description\": \"%s\",\n\t\t\"longDescription\": \"%s\",\n\t\t\"instructor\": \"%s\",\n\t\t\"location\": \"%s\"\n\t},\n"
-        json += util.format(jsonFormatter, rowIndex, startTime, endTime, date, title, description, longDescription, instructor,location);
-      }
+        jsonFormatter = "\t{\n\t\t\"id\": %d,\n\t\t\"title\": \"%s\",\n\t\t\"startDateTime\": \"%s\",\n\t\t\"duration\": \"%s\",\n\t\t\"shortDescription\": \"%s\",\n\t\t\"description\": \"%s\",\n\t\t\"instructor\": \"%s\",\n\t\t\"location\": \"%s\"\n\t},\n"
+        json += util.format(jsonFormatter, rowIndex, title, startDateTime, duration, shortDescription, description, instructor, location);
+      } 
     }
 
      json += "]"

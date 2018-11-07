@@ -22,8 +22,8 @@ class ScheduleView extends React.PureComponent {
   sectionListData = () => {
     const { events } = this.props;
 
-    const groupByDate = ({ startAt }) =>
-      moment(startAt).format("dddd, DD MMMM");
+    const groupByDate = ({ startDateTime }) =>
+      moment(startDateTime).format("dddd, MMMM Do");
 
     const groupedEvents = groupBy(groupByDate, events);
 

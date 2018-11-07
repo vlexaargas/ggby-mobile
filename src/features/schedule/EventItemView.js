@@ -15,25 +15,27 @@ export default class EventItemView extends React.Component {
       onReminderIconPress
     } = this.props;
 
-    const { title, startTime, endTime, description } = event;
+    const { title, startDateTime, duration, shortDescription, description } = event;
 
     return (
       <TouchableOpacity onPress={onEventPress}>
         <View style={styles.eventItemContainer}>
           <View style={styles.leftEventItemSection}>
             <Text style={styles.normalText}>
-              {startTime}
+              {moment(startDateTime).format("h a")}
             </Text>
-
-            <Text style={styles.secondaryText}>
-              {endTime}
-            </Text>
+            { !!duration &&  // ugly double negation needed to type coerce the int to a bool and check it's truthiness. (error without)
+              <Text style={styles.secondaryText}>
+                {`${duration} hour${duration > 1 ? "s" : ""}`}
+              </Text>
+            }
+       
           </View>
 
           <View style={styles.centerEventItemSection}>
             <Text style={styles.eventTitleText}>{title}</Text>
-            <Text style={styles.secondaryText}>
-              {description}
+            <Text style={styles.secondaryText} numberOfLines={3} ellipsizeMode="tail">
+              {shortDescription ? shortDescription : description}
             </Text>
           </View>
 

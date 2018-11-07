@@ -77,7 +77,7 @@ const scheduleEventReminderEpic = action$ =>
                 ios: { sound: true }
               },
               {
-                time: moment(event.startAt)
+                time: moment(event.startDateTime)
                   .subtract("30", "minutes")
                   .valueOf() // unix timestamp in ms
               }
