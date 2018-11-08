@@ -13,8 +13,7 @@
       "package": "com.slacklineus.ggbypreview"
     },
     "assetBundlePatterns": [
-      "assets/json/*",
-      "assets/images/*",
+      "assets/**/*",
       "node_modules/@expo/vector-icons/fonts/*"
     ],
     "description": "GGBY (Gobble Gobble Bitches Yeah) is the slackline festival in Moab, UT! We've been here every Thanksgiving for over 10 years. This is your guide to the experience of a lifetime.",
