@@ -13,9 +13,26 @@ const eventPicMap = {
 // TODO: Extract into own service
 const instructorPicMap = {
   default: require("../../../assets/images/default-profile.jpg"),
+  Andrew:  require("../../../assets/images/Andrew-Gasparis.jpg"),
+  Ashley:  require("../../../assets/images/Ashley-Meyer.jpg"),
+  Brian:   require("../../../assets/images/Brian-Mosbaugh.jpg"),
+  Brooke:  require("../../../assets/images/Brooke-Kollman.jpg"),
+  Caroline:require("../../../assets/images/Caroline-Dignes.png"),
+  Dan:     require("../../../assets/images/Dan-Walsh.jpg"),
+  Freidi:  require("../../../assets/images/Friedi-Kühne.jpg"),
+  Jerry:   require("../../../assets/images/Jerry-Miszewski.png"),
+  Jess:    require("../../../assets/images/Jess-Joy.jpg"),
+  Josh:    require("../../../assets/images/Josh-Beaudoin.jpg"),
+  Kali:    require("../../../assets/images/Kali-Turner.jpg"),
+  "Liz Thomas": require("../../../assets/images/Liz-Thomas.jpg"),
+  Louie:   require("../../../assets/images/Louie-Wray.jpg"),
+  Melissa: require("../../../assets/images/Melissa-Brady(1).jpg"),
+  Paulina: require("../../../assets/images/Paulina-Rojas(1).jpg"),
+  RJ:      require("../../../assets/images/RJ.jpg"),
+  Sara:    require("../../../assets/images/Sara-Kokklenberg.png"),
+  Will:    require("../../../assets/images/Will-Primrose.jpg"),
   michelle: require("../../../assets/images/events/slackro.jpg"),
   alex: require("../../../assets/images/events/slackro.jpg"),
-  //brian: require("../../../assets/images/events/slackro.jpg"),
   "slackline josh": require("../../../assets/images/events/slackro.jpg")
 };
 
