@@ -6,6 +6,11 @@
     "icon": "./assets/appicon/ggby-logo.png",
     "version": "1.0.0",
     "slug": "ggby-preview",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#F5F4F4"
+    },
     "ios": {
       "bundleIdentifier": "com.slacklineus.ggbypreview"
     },
