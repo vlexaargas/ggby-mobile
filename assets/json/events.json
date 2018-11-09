@@ -1,38 +1,38 @@
 [
 	{
 		"id": 1,
-		"title": "Mounting the Line",
-		"startDateTime": "2018-11-19 11:00",
+		"title": "Yin ",
+		"startDateTime": "2018-11-19 10:00",
 		"duration": "1",
 		"shortDescription": "",
-		"description": "One of the first steps to ensuring a safe and successful highline experience is to perfect your mount. There are many variations and Liz will be covering a variety of them. You may have heard of the chongo mount, the sit start, and the drop knee start, learn techniques to get you started or perfect your mount to take back to the highline with you.",
-		"instructor": "Liz Thomas",
+		"description": "",
+		"instructor": "Alex",
 		"location": ""
 	},
 	{
 		"id": 2,
-		"title": "Slackro ",
-		"startDateTime": "2018-11-19 13:00",
+		"title": "Mounting the Line",
+		"startDateTime": "2018-11-19 11:00",
 		"duration": "1",
 		"shortDescription": "",
-		"description": "You may have tried Acroyoga before, but perhaps you haven't tried the type of acroyoga that's designed specifically for YOUR strengths. Slackro is a type of acroyoga that utilizes the sort of balance and focus skill that you EXCEL at because of your slackline practice. Come balance and wiggle on other humans in between wiggling on one-inch bridges.",
-		"instructor": "Michelle, Alex, Brian",
+		"description": "One of the first steps to ensuring a safe and successful highline experience is to perfect your mount. There are many variations and Liz will be covering a variety of them. You may have heard of the chongo mount, the sit start, and the drop knee start, learn techniques to get you started and or perfect your mount to take back to the highline with you.",
+		"instructor": "Liz Thomas",
 		"location": ""
 	},
 	{
 		"id": 3,
-		"title": "Guided Jam",
-		"startDateTime": "2018-11-19 14:00",
+		"title": "Tandem Slackline",
+		"startDateTime": "2018-11-19 13:00",
 		"duration": "1",
 		"shortDescription": "",
-		"description": "",
-		"instructor": "slackline Josh",
+		"description": "Come explore a new way to be on the slackline. Tandem slacklining requires a slackliner to pay attention not only to the energy they are putting into the line, but the energy of their partner as well. This workshop will be a fun, attainable, new concept for the community to experience. Bring a partner to work on some tandem drills both on the ground line at the bowl and also training techniques on the ground.",
+		"instructor": "Michelle, Josh",
 		"location": ""
 	},
 	{
 		"id": 4,
-		"title": "Movement And Contact Improvisation",
-		"startDateTime": "2018-11-19 15:00",
+		"title": "DNAce iMprovisation The`art",
+		"startDateTime": "2018-11-19 14:00",
 		"duration": "1",
 		"shortDescription": "",
 		"description": "In an explorative movement experience, we facilitate a safe space to dance and flow, looking at quality movement with and between each other. We focus on the language of the body, contact, play, and opening up to think about our bodies and what they can do in different and innovative ways.",
@@ -41,6 +41,26 @@
 	},
 	{
 		"id": 5,
+		"title": "Guided Jam",
+		"startDateTime": "2018-11-19 15:00",
+		"duration": "1",
+		"shortDescription": "",
+		"description": "",
+		"instructor": "Slackline Josh",
+		"location": ""
+	},
+	{
+		"id": 6,
+		"title": "Slackro",
+		"startDateTime": "2018-11-19 16:00",
+		"duration": "1",
+		"shortDescription": "",
+		"description": "You may have tried Acroyoga before, but perhaps you haven't tried the type of acroyoga that's designed specifically for YOUR strengths. Slackro is a type of acroyoga that utilizes the sort of balance and focus skill that you EXCEL at because of your slackline practice. Come balance and wiggle on other humans in between wiggling on one-inch bridges.",
+		"instructor": "Michelle, Alexandra, Brian",
+		"location": ""
+	},
+	{
+		"id": 7,
 		"title": "Therapeutic Highlines",
 		"startDateTime": "2018-11-19 17:00",
 		"duration": "1",
@@ -50,7 +70,7 @@
 		"location": ""
 	},
 	{
-		"id": 6,
+		"id": 8,
 		"title": "Bon Fire: Fire Spinning & History of GGBY",
 		"startDateTime": "2018-11-19 20:00",
 		"duration": "",
@@ -60,7 +80,17 @@
 		"location": ""
 	},
 	{
-		"id": 7,
+		"id": 9,
+		"title": "Strength & Recovery",
+		"startDateTime": "2018-11-20 09:00",
+		"duration": "1",
+		"shortDescription": "",
+		"description": "This yoga class will focus on breathing techniques, focus techniques, and light strengthening of areas we need to be the most successful at slacklining. We'll stretch, strengthen, relax, and practice mindfulness and relaxation practices that can be transferred from on the mat to the slackline.",
+		"instructor": "Michelle",
+		"location": ""
+	},
+	{
+		"id": 10,
 		"title": "Vinyasa",
 		"startDateTime": "2018-11-20 09:00",
 		"duration": "1",
@@ -70,7 +100,7 @@
 		"location": ""
 	},
 	{
-		"id": 8,
+		"id": 11,
 		"title": "Mindful Breathing",
 		"startDateTime": "2018-11-20 10:00",
 		"duration": "1",
@@ -80,7 +110,7 @@
 		"location": ""
 	},
 	{
-		"id": 9,
+		"id": 12,
 		"title": "Highline Pranayama ",
 		"startDateTime": "2018-11-20 11:00",
 		"duration": "1",
@@ -90,27 +120,37 @@
 		"location": ""
 	},
 	{
-		"id": 10,
-		"title": "Inversions in Acro",
+		"id": 13,
+		"title": "Painting with Pony",
 		"startDateTime": "2018-11-20 13:00",
 		"duration": "1",
 		"shortDescription": "",
-		"description": "AcroYoga is a lifelong infinite endeavor or communication, exploration and ecstatic motivation. One of our favorite ways to get this launch initiated is to develop skills that involve inversion of the flier. Don’t be alarmed! If we can teach a 69 year old woman from Vancouver how to do it, you can too! Learn and engage with skills like, star, reverse star, shoulder stand, and candlestick! We will link these skills together to form a short flow!",
+		"description": "Join surrealistic artist, Pony G, as she takes you thru her dancing color theories of magical planetary expression and expansion Express yourself thru the use of paint Or come have your body painted",
+		"instructor": "Pony G",
+		"location": ""
+	},
+	{
+		"id": 14,
+		"title": "Inversions in Acro",
+		"startDateTime": "2018-11-20 14:00",
+		"duration": "1",
+		"shortDescription": "",
+		"description": "AcroYoga is a lifelong infinite endeavor or communication, exploration and ecstatic motivation. One of our favorite ways to get this launch initiated is to develop skills that involve inversion of the flier. Don’t be alarmed! If we can teach a 69 year old woman from vancouver how to do it, you can too! Learn and engage with skills like, star, reverse star, shoulder stand, and candlestick! We will link these skills together to form a short flow!",
 		"instructor": "Dani, Rachel",
 		"location": ""
 	},
 	{
-		"id": 11,
+		"id": 15,
 		"title": "Way of the Wiggle Warrior",
-		"startDateTime": "2018-11-20 15:00",
+		"startDateTime": "2018-11-20 16:00",
 		"duration": "1",
 		"shortDescription": "In this class you’ll be invited to explore what it means to have a successful highline experience and learn tools we can use to embrace the wiggly walk in the sky. We’ll use mindfulness techniques including breath, movement, mantra, and silliness and learn how to apply them to our highlining experience.",
 		"description": "In this class you’ll be invited to explore what it means to have a successful highline experience and learn tools we can use to embrace the wiggly walk in the sky. We’ll use mindfulness techniques including breath, movement, mantra, and silliness and learn how to apply them to our highlining experience. This class will highlight that there is no 'wrong way' to highline as long as safety is not compromised. Class will serve the new members of our community as well as the seasoned wiggle walkers, reminding us all that's it's ok to be where we are in our journey, and will encourage us above all to have fun.",
-		"instructor": "cosmic",
+		"instructor": "Cosmic",
 		"location": ""
 	},
 	{
-		"id": 12,
+		"id": 16,
 		"title": "Slackline US & ISA",
 		"startDateTime": "2018-11-20 17:00",
 		"duration": "1",
@@ -120,7 +160,7 @@
 		"location": ""
 	},
 	{
-		"id": 13,
+		"id": 17,
 		"title": "Sunset Om Circle",
 		"startDateTime": "2018-11-20 18:00",
 		"duration": "1",
@@ -130,7 +170,7 @@
 		"location": ""
 	},
 	{
-		"id": 14,
+		"id": 18,
 		"title": "Movie Night",
 		"startDateTime": "2018-11-20 20:00",
 		"duration": "",
@@ -140,19 +180,9 @@
 		"location": ""
 	},
 	{
-		"id": 15,
-		"title": "Strength & Recovery",
-		"startDateTime": "2018-11-21 09:00",
-		"duration": "1",
-		"shortDescription": "",
-		"description": "This yoga class will focus on breathing techniques, focus techniques, and light strengthening of areas we need to be the most successful at slacklining. We'll stretch, strengthen, relax, and practice mindfulness and relaxation practices that can be transferred from on the mat to the slackline.",
-		"instructor": "Michellel",
-		"location": ""
-	},
-	{
-		"id": 16,
+		"id": 19,
 		"title": "Flexibility",
-		"startDateTime": "2018-11-21 10:00",
+		"startDateTime": "2018-11-21 09:00",
 		"duration": "1",
 		"shortDescription": "",
 		"description": "Yoga not your thing? This workshop will focus on mobility in your shoulders and hips while building strength in your active range of motion.",
@@ -160,19 +190,29 @@
 		"location": ""
 	},
 	{
-		"id": 17,
+		"id": 20,
+		"title": "Quite Mind",
+		"startDateTime": "2018-11-21 10:00",
+		"duration": "1",
+		"shortDescription": "",
+		"description": "",
+		"instructor": "Shane",
+		"location": ""
+	},
+	{
+		"id": 21,
 		"title": "Intro To Highline",
 		"startDateTime": "2018-11-21 11:00",
 		"duration": "1",
 		"shortDescription": "",
 		"description": "This foundational course will provide you with tools to feel stronger and safer in your first experiences on the highline. We will address basic rigging observation, techniques to climb the leash and discuss the increased awareness provided by this practice. Lecture Q & A and demonstration oriented. Please come prepared with your harness, PAS, and 18 metric tons of stoke!",
-		"instructor": "danny, Louie",
+		"instructor": "Danny B., Louie",
 		"location": ""
 	},
 	{
-		"id": 18,
+		"id": 22,
 		"title": "Acro Dance ",
-		"startDateTime": "2018-11-21 13:00",
+		"startDateTime": "2018-11-21 14:00",
 		"duration": "1",
 		"shortDescription": "",
 		"description": "Love acrobatics? Love dance? Love lifting your beautiful friends and spinning them around like Swayzee? Leila and Andrew are proud to be facilitating this dynamic acro dance lifts workshop. Focusing their energy on creative, smooth, flowing movement and communication between base and flier in this gravity defying, passionate play space.",
@@ -180,27 +220,27 @@
 		"location": ""
 	},
 	{
-		"id": 19,
-		"title": "Tandem Slackline",
-		"startDateTime": "2018-11-21 14:00",
+		"id": 23,
+		"title": "State Of flow",
+		"startDateTime": "2018-11-21 15:00",
 		"duration": "1",
 		"shortDescription": "",
-		"description": "Come explore a new way to be on the slackline. Tandem slacklining requires a slackliner to pay attention not only to the energy they are putting into the line, but the energy of their partner as well. This workshop will be a fun, attainable, new concept for the community to experience. Bring a partner to work on some tandem drills both on the ground line at the bowl and also training techniques on the ground.",
-		"instructor": "Michelle, Josh",
+		"description": "",
+		"instructor": "Josh",
 		"location": ""
 	},
 	{
-		"id": 20,
+		"id": 24,
 		"title": "Shibari",
-		"startDateTime": "2018-11-21 15:00",
+		"startDateTime": "2018-11-21 16:00",
 		"duration": "1",
 		"shortDescription": "Shibari, Kinbaku, Japanese Rope Bondage - What is that?",
 		"description": "Shibari, Kinbaku, Japanese Rope Bondage - What is that? Learn basic single and double column ties and advance up to a harness or body binder by the end of class. Please bring rope to tie with - 30 foot lengths of 5-8mm rope work best. No partner needed, you can match up with one in the class.",
-		"instructor": "Sara, Mad, Jer, Kali",
+		"instructor": "Sara, Kali",
 		"location": ""
 	},
 	{
-		"id": 21,
+		"id": 25,
 		"title": "How NOT to Have an Open Relationship",
 		"startDateTime": "2018-11-21 17:00",
 		"duration": "1",
@@ -210,17 +250,17 @@
 		"location": ""
 	},
 	{
-		"id": 22,
-		"title": "Talent Show",
+		"id": 26,
+		"title": "SlacklifeBC Dance Party",
 		"startDateTime": "2018-11-21 20:00",
 		"duration": "",
 		"shortDescription": "",
-		"description": "With so many beautiful, talented people in attendance this year we're stoked to host our 2018 GGBY TALENT SHOW!! If you've got entertaining skills to show off this is the place for you to be. If you've got eyes to watch entertaining skills, this is also the place to be. Please submit your skit to an organizer and you’ll be added to the performance list.",
+		"description": "",
 		"instructor": "",
 		"location": ""
 	},
 	{
-		"id": 23,
+		"id": 27,
 		"title": "Cliffside Coffee",
 		"startDateTime": "2018-11-22 08:00",
 		"duration": "2",
@@ -230,7 +270,7 @@
 		"location": ""
 	},
 	{
-		"id": 24,
+		"id": 28,
 		"title": "Power Yoga",
 		"startDateTime": "2018-11-22 09:00",
 		"duration": "1",
@@ -240,7 +280,7 @@
 		"location": ""
 	},
 	{
-		"id": 25,
+		"id": 29,
 		"title": "Cosmic Meditation ",
 		"startDateTime": "2018-11-22 10:00",
 		"duration": "1",
@@ -250,17 +290,27 @@
 		"location": ""
 	},
 	{
-		"id": 26,
-		"title": "Highline Freestyle: The Art of Bouncery",
+		"id": 30,
+		"title": "ISA TeacherCcertification",
+		"startDateTime": "2018-11-22 10:00",
+		"duration": "3",
+		"shortDescription": "",
+		"description": "",
+		"instructor": "",
+		"location": ""
+	},
+	{
+		"id": 31,
+		"title": "Monolithic Bounce",
 		"startDateTime": "2018-11-22 11:00",
 		"duration": "1",
 		"shortDescription": "Learn bounce basics, rigging and safety from a crotchety old man.",
 		"description": "In this workshop, we will discuss how to optimize highlines for bounceability, bounce safety and risk management, and review the technical foundations of basic bounce tricks, including buttbounce, chestbounce, backbounce, and nevermind. Half lecture/Q & A, half demonstration.",
-		"instructor": "Zac",
+		"instructor": "Zac, Friedi",
 		"location": ""
 	},
 	{
-		"id": 27,
+		"id": 32,
 		"title": "Arm Balance",
 		"startDateTime": "2018-11-22 13:00",
 		"duration": "1",
@@ -270,7 +320,17 @@
 		"location": ""
 	},
 	{
-		"id": 28,
+		"id": 33,
+		"title": "Dirt Bag Rope Play",
+		"startDateTime": "2018-11-22 14:00",
+		"duration": "1",
+		"shortDescription": "",
+		"description": "Shibari based knowledge to blur the boundaries between rope play and practical use. Lessons will focus on useful seat & chest harnesses, and easy mechanical advantage. Then we will discuss how to use these for safety, rescue, and suspension. Participants are asked to bring 100” of cheap 6mm hardware store rope per couple. ",
+		"instructor": "",
+		"location": ""
+	},
+	{
+		"id": 34,
 		"title": "Tribal Dance",
 		"startDateTime": "2018-11-22 15:00",
 		"duration": "1",
@@ -280,7 +340,17 @@
 		"location": ""
 	},
 	{
-		"id": 29,
+		"id": 35,
+		"title": "Van Life Tours",
+		"startDateTime": "2018-11-22 16:00",
+		"duration": "1",
+		"shortDescription": "",
+		"description": "",
+		"instructor": "Nick",
+		"location": ""
+	},
+	{
+		"id": 36,
 		"title": "Self Care is Health Care",
 		"startDateTime": "2018-11-22 17:00",
 		"duration": "1",
@@ -290,7 +360,7 @@
 		"location": ""
 	},
 	{
-		"id": 30,
+		"id": 37,
 		"title": "Thanksgiving Potluck",
 		"startDateTime": "2018-11-22 18:00",
 		"duration": "",
@@ -300,18 +370,38 @@
 		"location": ""
 	},
 	{
-		"id": 31,
-		"title": "SlacklifeBC Dance Party",
+		"id": 38,
+		"title": "Talent Show",
 		"startDateTime": "2018-11-22 20:00",
+		"duration": "1",
+		"shortDescription": "",
+		"description": "With so many beautiful, talented people in attendance this year we're stoked to host our 2018 GGBY TALENT SHOW!! If you've got entertaining skills to show off this is the place for you to be. If you've got eyes to watch entertaining skills, this is also the place to be. Please submit your skit to an organizer and you’ll be added to the performance list.",
+		"instructor": "",
+		"location": ""
+	},
+	{
+		"id": 39,
+		"title": "Tinker Toots Campfire Tales",
+		"startDateTime": "2018-11-22 21:00",
 		"duration": "",
+		"shortDescription": "",
+		"description": "Exhausted from raging your face off? You are cordially invited to bedtime stories, stuffies, smores and mores with Tinker Toots and Aunt Pony. Slip into your onesie, snuggle up with a friend and relax by the fire while Tinker Toots spins magical tales of far off lands filled with romance, monsters, and adventure. BE there or got to bed sleepy head!",
+		"instructor": "Tinker Toots, Aunt Pony",
+		"location": ""
+	},
+	{
+		"id": 40,
+		"title": "Derig Space Net",
+		"startDateTime": "2018-11-23 08:00",
+		"duration": "1",
 		"shortDescription": "",
 		"description": "",
 		"instructor": "",
 		"location": ""
 	},
 	{
-		"id": 32,
-		"title": "Sacred Sacral Mobility",
+		"id": 41,
+		"title": "Sacred Mobility",
 		"startDateTime": "2018-11-23 09:00",
 		"duration": "1",
 		"shortDescription": "",
@@ -320,7 +410,17 @@
 		"location": ""
 	},
 	{
-		"id": 33,
+		"id": 42,
+		"title": "Restorative Flow",
+		"startDateTime": "2018-11-23 10:00",
+		"duration": "1",
+		"shortDescription": "",
+		"description": "",
+		"instructor": "Jess",
+		"location": ""
+	},
+	{
+		"id": 43,
 		"title": "Rigging Analysis",
 		"startDateTime": "2018-11-23 11:00",
 		"duration": "1",
@@ -330,7 +430,7 @@
 		"location": ""
 	},
 	{
-		"id": 34,
+		"id": 44,
 		"title": "Group Movement Share Slackrotopia",
 		"startDateTime": "2018-11-23 13:00",
 		"duration": "1",
@@ -340,17 +440,7 @@
 		"location": ""
 	},
 	{
-		"id": 35,
-		"title": "Guided Jam",
-		"startDateTime": "2018-11-23 14:00",
-		"duration": "1",
-		"shortDescription": "",
-		"description": "",
-		"instructor": "Slackline Josh",
-		"location": ""
-	},
-	{
-		"id": 36,
+		"id": 45,
 		"title": "Thai Massage",
 		"startDateTime": "2018-11-23 15:00",
 		"duration": "1",
@@ -360,7 +450,7 @@
 		"location": ""
 	},
 	{
-		"id": 37,
+		"id": 46,
 		"title": "Conscious And Sustainable Living",
 		"startDateTime": "2018-11-23 17:00",
 		"duration": "1",
@@ -370,8 +460,8 @@
 		"location": ""
 	},
 	{
-		"id": 38,
-		"title": "Fire Ceremony",
+		"id": 47,
+		"title": "Turkey Boogie",
 		"startDateTime": "2018-11-23 20:00",
 		"duration": "",
 		"shortDescription": "",

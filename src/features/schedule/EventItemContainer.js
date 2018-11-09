@@ -16,7 +16,9 @@ import EventItemView from "./EventItemView";
 class EventItemContainer extends React.PureComponent {
   onEventPress = () => {
     const { navigation, event } = this.props;
-    navigation.navigate("EventDetails", { event });
+    if (event.description) {
+      navigation.navigate("EventDetails", { event });
+    }
   };
 
   onReminderIconPress = () => {

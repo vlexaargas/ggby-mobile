@@ -9,7 +9,7 @@ export default StyleSheet.create({
   eventImage: {
     width: "100%",
     height: "40%",
-    resizeMode: "cover"
+    resizeMode: "contain"
   },
 
   instructorsSection: {
