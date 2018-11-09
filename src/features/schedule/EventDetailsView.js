@@ -7,16 +7,38 @@ import styles from "./EventDetailsView.style";
 
 // TODO: Extract into own service
 const eventPicMap = {
-  slackro: require("../../../assets/images/events/slackro.jpg")
+  slackro:                                require("../../../assets/images/events/slackro.jpg"),
+  "mounting the line":                    require("../../../assets/images/events/Mounting-The-Line.jpg"),
+  "rigging analysis":                     require("../../../assets/images/events/Rigging-Analysis.jpg"),
+  "highline pranayama":                   require("../../../assets/images/events/Highline-Pranayama.jpg"),
+  "how not to have an open relationship": require("../../../assets/images/events/Open-Relationship.jpg")
 };
 
 // TODO: Extract into own service
 const instructorPicMap = {
-  default: require("../../../assets/images/default-profile.jpg"),
-  michelle: require("../../../assets/images/events/slackro.jpg"),
-  alex: require("../../../assets/images/events/slackro.jpg"),
-  //brian: require("../../../assets/images/events/slackro.jpg"),
-  "slackline josh": require("../../../assets/images/events/slackro.jpg")
+  default:          require("../../../assets/images/instructors/default-profile.jpg"),
+  andrew:           require("../../../assets/images/instructors/Andrew-Gasparis.jpg"),
+  ashley:           require("../../../assets/images/instructors/Ashley-Meyer.jpg"),
+  brian:            require("../../../assets/images/instructors/Brian-Mosbaugh.jpg"),
+  brooke:           require("../../../assets/images/instructors/Brooke-Kollman.jpg"),
+  caroline:         require("../../../assets/images/instructors/Caroline-Dignes.png"),
+  dan:              require("../../../assets/images/instructors/Dan-Walsh.jpg"),
+  freidi:           require("../../../assets/images/instructors/Friedi.jpg"),
+  jerry:            require("../../../assets/images/instructors/Jerry-Miszewski.png"),
+  jess:             require("../../../assets/images/instructors/Jess-Joy.jpg"),
+  josh:             require("../../../assets/images/instructors/Josh-Beaudoin.jpg"),
+  kali:             require("../../../assets/images/instructors/Kali-Turner.jpg"),
+  louie:            require("../../../assets/images/instructors/Louie-Wray.jpg"),
+  melissa:          require("../../../assets/images/instructors/Melissa-Brady.jpg"),
+  paulina:          require("../../../assets/images/instructors/Paulina-Rojas.jpg"),
+  rj:               require("../../../assets/images/instructors/RJ.jpg"),
+  sara:             require("../../../assets/images/instructors/Sara-K.jpg"),
+  will:             require("../../../assets/images/instructors/Will-Primrose.jpg"),
+  kim:              require("../../../assets/images/instructors/Kimberly-Weglin.jpg"),
+  michelle:         require("../../../assets/images/instructors/Michelle-G.jpeg"),
+  alexandra:        require("../../../assets/images/instructors/Alexandra-R.jpeg"),
+  "sarah and damon":require("../../../assets/images/instructors/Sarah-Damon.jpeg"),
+  "liz thomas":     require("../../../assets/images/instructors/Liz-Thomas.jpg"),
 };
 
 function getPicForEvent(title) {
