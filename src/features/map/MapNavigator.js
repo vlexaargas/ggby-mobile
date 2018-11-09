@@ -8,7 +8,7 @@ const Map = () => (
   <Image
     style={{
       flex: 1,
-      resizeMode: 'cover',
+      resizeMode: 'contain',
       width: undefined,
       height: undefined
     }}
