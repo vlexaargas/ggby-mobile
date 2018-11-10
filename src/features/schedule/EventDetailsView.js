@@ -11,7 +11,29 @@ const eventPicMap = {
   "mounting the line":                    require("../../../assets/images/events/Mounting-The-Line.jpg"),
   "rigging analysis":                     require("../../../assets/images/events/Rigging-Analysis.jpg"),
   "highline pranayama":                   require("../../../assets/images/events/Highline-Pranayama.jpg"),
-  "how not to have an open relationship": require("../../../assets/images/events/Open-Relationship.jpg")
+  "how not to have an open relationship": require("../../../assets/images/events/Open-Relationship.jpg"),
+  "arm balance":                          require("../../../assets/images/events/ArmBalance.jpg"),
+  "cliffside coffee":                     require("../../../assets/images/events/cliffsidecoffe.jpg"),
+  "cosmic meditation":                    require("../../../assets/images/events/Cosmic-Meditation.jpg"),
+  "bon fire: fire spinning & history of ggby": require("../../../assets/images/events/FireSpinning.jpg"),
+  "dnace improvisation the`art":          require("../../../assets/images/events/DNAce.jpg"),
+  "flexibility":                          require("../../../assets/images/events/Flexibilty.jpg"),
+  "breath and movement group engagement": require("../../../assets/images/events/GroupBreath.jpg"),
+  "how not to have an open relationship": require("../../../assets/images/events/OpenRelationship.jpg"),
+  "monolithic bounce":                    require("../../../assets/images/events/monolithic-bounce.jpg"),
+  "sacred mobility":                      require("../../../assets/images/events/SacredMobility.jpg"),
+  "acro dance":                           require("../../../assets/images/events/acrodance.jpg"),
+  "shibari":                              require("../../../assets/images/events/shibari.jpg"),
+  "way of the wiggle warrior":            require("../../../assets/images/events/Wiggle-Warriors.jpg"),
+  "tandem slackline":                     require("../../../assets/images/events/tandemslacking.jpg"),
+  "talent show":                          require("../../../assets/images/events/TalentShow.jpg"),
+  "tinker toots campfire tales":          require("../../../assets/images/events/TinkerTootsTales.jpg"),
+  "strength & recovery":                  require("../../../assets/images/events/Strength-Recovery.jpg"),
+  "state of flow":                        require("../../../assets/images/events/StateOfFlow.jpg"),
+  "group movement share slackrotopia":    require("../../../assets/images/events/Slackrotopia.jpg"),
+  "slacklifebc dance party":              require("../../../assets/images/events/SlacklifeBCDance.jpg"),
+  "inversions in acro":                   require("../../../assets/images/events/Inversions.jpg"),
+  "intro to highline":                    require("../../../assets/images/events/IntroToHighline.jpg")
 };
 
 // TODO: Extract into own service
