@@ -1,9 +1,9 @@
 {
   "expo": {
     "sdkVersion": "30.0.0",
-    "privacy": "unlisted",
-    "name": "GGBY Preview",
-    "icon": "./assets/appicon/ggby-logo.png",
+    "privacy": "public",
+    "name": "GGBY 2018 Festival Guide",
+    "icon": "./assets/appicon/ggby-logo-ios.png",
     "version": "1.0.0",
     "slug": "ggby-preview",
     "splash": {
@@ -11,28 +11,24 @@
       "resizeMode": "contain",
       "backgroundColor": "#F5F4F4"
     },
+    "updates" : {
+      "fallbackToCacheTimeout" : 0
+    },
     "ios": {
-      "bundleIdentifier": "com.slacklineus.ggbypreview"
+      "icon": "./assets/appicon/ggby-logo-ios.png",
+      "buildNumber": "1.0.0",
+      "bundleIdentifier": "com.slacklineus.ggby-guide-2018"
     },
     "android": {
-      "package": "com.slacklineus.ggbypreview"
+      "icon": "./assets/appicon/ggby-logo-android.png",
+      "versionCode": 1,
+      "package": "com.slacklineus.ggby-guide-2018",
+      "permissions": []
     },
     "assetBundlePatterns": [
       "assets/**/*",
       "node_modules/@expo/vector-icons/fonts/*"
     ],
-    "description": "GGBY (Gobble Gobble Bitches Yeah) is the slackline festival in Moab, UT! We've been here every Thanksgiving for over 10 years. This is your guide to the experience of a lifetime.",
-    "hooks": {
-      "postPublish": [
-        {
-          "file": "sentry-expo/upload-sourcemaps",
-          "config": {
-            "organization": "slackline-us",
-            "project": "ggby-mobile",
-            "authToken": "43a6dee6eea74f89870d2c411a84bbb6230c8069521245e48a6a449337518d97"
-          }
-        }
-      ]
-    }
+    "description": "GGBY 2018 is the 11th annual gathering of the international highline community at the Fruit Bowl over the canyons of Moab, Utah over Thanksgiving. This festival guide will help you find your way around, discover workshops, and learn how protect the Fruit Bowl for years to come.",
   }
 }
