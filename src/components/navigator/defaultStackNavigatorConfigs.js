@@ -22,7 +22,7 @@ export default {
             resizeMode: "contain"
           }}
           fadeDuration={0}
-          source={require("../../../assets/images/ggby-logo-120.png")}
+          source={require("../../../assets/appicon/ggby-logo-no-text.png")}
         />
         <Image
           style={{
