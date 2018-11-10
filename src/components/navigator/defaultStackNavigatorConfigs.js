@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Image } from "react-native";
+import { Image, StatusBar } from "react-native";
 
 import * as v from "../../theme/variables";
 
@@ -14,6 +14,7 @@ export default {
     },
     headerTitle: () => (
       <React.Fragment>
+        <StatusBar barStyle="light-content" />
         <Image
           style={{
             marginLeft: v.BASE_VALUE,

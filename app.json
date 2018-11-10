@@ -5,7 +5,9 @@
     "name": "GGBY 2018 Festival Guide",
     "icon": "./assets/appicon/ggby-logo-ios.png",
     "version": "1.0.0",
+    "orientation": "portrait",
     "slug": "ggby-guide-2018",
+    "primaryColor": "#252A33",
     "splash": {
       "image": "./assets/images/splash.png",
       "resizeMode": "contain",
@@ -17,12 +19,13 @@
     "ios": {
       "icon": "./assets/appicon/ggby-logo-ios.png",
       "buildNumber": "1.0.0",
-      "bundleIdentifier": "com.slacklineus.ggby-guide-2018"
+      "bundleIdentifier": "com.slacklineus.ggby.guide2018",
+      "supportsTablet": false
     },
     "android": {
       "icon": "./assets/appicon/ggby-logo-android.png",
       "versionCode": 1,
-      "package": "com.slacklineus.ggby-guide-2018",
+      "package": "com.slacklineus.ggby.guide2018",
       "permissions": []
     },
     "assetBundlePatterns": [
