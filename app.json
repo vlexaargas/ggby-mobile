@@ -2,7 +2,7 @@
   "expo": {
     "sdkVersion": "30.0.0",
     "privacy": "public",
-    "name": "GGBY 2018 Festival Guide",
+    "name": "GGBY Guide",
     "icon": "./assets/appicon/ggby-logo-ios.png",
     "version": "1.0.0",
     "orientation": "portrait",
