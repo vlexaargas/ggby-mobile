@@ -49,7 +49,6 @@
     "redux-persist": "^5.10.0",
     "rn-pdf-reader-js": "^0.1.7",
     "rxjs": "^6.3.3",
-    "sentry-expo": "^1.10.0",
     "whatwg-fetch": "^2.0.4"
   }
 }
