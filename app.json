@@ -5,7 +5,7 @@
     "name": "GGBY 2018 Festival Guide",
     "icon": "./assets/appicon/ggby-logo-ios.png",
     "version": "1.0.0",
-    "slug": "ggby-preview",
+    "slug": "ggby-guide-2018",
     "splash": {
       "image": "./assets/images/splash.png",
       "resizeMode": "contain",
