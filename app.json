@@ -13,8 +13,8 @@
       "resizeMode": "contain",
       "backgroundColor": "#F5F4F4"
     },
-    "updates" : {
-      "fallbackToCacheTimeout" : 0
+    "updates": {
+      "fallbackToCacheTimeout": 0
     },
     "ios": {
       "icon": "./assets/appicon/ggby-logo-ios.png",
@@ -32,6 +32,6 @@
       "assets/**/*",
       "node_modules/@expo/vector-icons/fonts/*"
     ],
-    "description": "GGBY 2018 is the 11th annual gathering of the international highline community at the Fruit Bowl over the canyons of Moab, Utah over Thanksgiving. This festival guide will help you find your way around, discover workshops, and learn how protect the Fruit Bowl for years to come.",
+    "description": "GGBY 2018 is the 11th annual gathering of the international highline community at the Fruit Bowl over the canyons of Moab, Utah over Thanksgiving. This festival guide will help you find your way around, discover workshops, and learn how protect the Fruit Bowl for years to come."
   }
 }
