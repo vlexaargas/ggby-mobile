@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Image } from "react-native";
+import { Image, StatusBar } from "react-native";
 
 import * as v from "../../theme/variables";
 
@@ -14,6 +14,7 @@ export default {
     },
     headerTitle: () => (
       <React.Fragment>
+        <StatusBar barStyle="light-content" />
         <Image
           style={{
             marginLeft: v.BASE_VALUE,
@@ -22,7 +23,7 @@ export default {
             resizeMode: "contain"
           }}
           fadeDuration={0}
-          source={require("../../../assets/images/ggby-logo-120.png")}
+          source={require("../../../assets/appicon/ggby-logo-ios.png")}
         />
         <Image
           style={{
