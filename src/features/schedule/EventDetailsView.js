@@ -113,28 +113,30 @@ function getRender(navigation) {
 
         <Text style={styles.normalText}>{event.description}</Text>
 
-        <View style={styles.instructorsSection}>
-          <Text style={styles.secondaryTitleText}>Taught by:</Text>
+        { !!event.instructor && 
+          (<View style={styles.instructorsSection}>
+            <Text style={styles.secondaryTitleText}>Taught by:</Text>
 
-          <View style={styles.instructorListView}>
-            {map(
-              ({ name }) =>
-                console.log(name) || (
-                  <View
-                    style={styles.instructorView}
-                    key={name}
-                  >
-                    <Image
-                      style={styles.instructorImage}
-                      source={getPicForInstructor(name)}
-                    />
-                    <Text style={styles.normalText}>{name}</Text>
-                  </View>
-                ),
-              getInstructorList(event)
-            )}
-          </View>
-        </View>
+            <View style={styles.instructorListView}>
+              {map(
+                ({ name }) =>
+                  console.log(name) || (
+                    <View
+                      style={styles.instructorView}
+                      key={name}
+                    >
+                      <Image
+                        style={styles.instructorImage}
+                        source={getPicForInstructor(name)}
+                      />
+                      <Text style={styles.normalText}>{name}</Text>
+                    </View>
+                  ),
+                getInstructorList(event)
+              )}
+            </View>
+          </View>)
+        }
       </View>
     </ScrollView>
   );
