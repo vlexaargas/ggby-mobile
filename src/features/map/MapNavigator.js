@@ -1,19 +1,30 @@
 import React from "react";
 
-import { View, Text, Image, WebView } from "react-native";
+import { Image, Dimensions } from "react-native";
+import ImageZoom from 'react-native-image-pan-zoom';
 import { createStackNavigator } from "react-navigation";
 import defaultStackNavigatorConfigs from "../../components/navigator";
 
 const Map = () => (
-  <Image
-    style={{
-      flex: 1,
-      resizeMode: 'contain',
-      width: undefined,
-      height: undefined
-    }}
-    source={require("../../../assets/images/the-beautiful-fucking-map.png")}
-  />
+
+   <ImageZoom cropWidth={Dimensions.get('screen').width}
+                       cropHeight={Dimensions.get('screen').height}
+                       imageWidth={1988}
+                       imageHeight={2547}
+                       enableCenterFocus={false}
+                       centerOn={{ x: 0, y: 0, scale: 0.25, duration: 100 }}
+                       minScale={0.2}
+                       maxScale={2.0}
+                       maxOverflow={0}>
+                <Image
+                style={{
+                  width: 1988,
+                  height: 2547
+                }}
+                source={require("../../../assets/images/the-beautiful-fucking-map.png")}
+                />
+            </ImageZoom>
+  
 );
 
 const MapNavigator = createStackNavigator(
