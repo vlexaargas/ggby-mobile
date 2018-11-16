@@ -18,13 +18,13 @@
     },
     "ios": {
       "icon": "./assets/appicon/ggby-logo-ios.png",
-      "buildNumber": "1.1.0",
+      "buildNumber": "1.2.0",
       "bundleIdentifier": "com.slacklineus.ggby.guide2018",
       "supportsTablet": false
     },
     "android": {
       "icon": "./assets/appicon/ggby-logo-android.png",
-      "versionCode": 2,
+      "versionCode": 3,
       "package": "com.slacklineus.ggby.guide2018",
       "permissions": []
     },
