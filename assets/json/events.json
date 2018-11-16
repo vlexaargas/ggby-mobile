@@ -1,5 +1,15 @@
 [
 	{
+		"id": 0,
+		"title": "Breath And Movement Group Engagement",
+		"startDateTime": "2018-11-19 09:00",
+		"duration": "1",
+		"shortDescription": "",
+		"description": "",
+		"instructor": "",
+		"location": ""
+	},
+	{
 		"id": 1,
 		"title": "Yin Yoga",
 		"startDateTime": "2018-11-19 10:00",
@@ -22,7 +32,7 @@
 	{
 		"id": 3,
 		"title": "Tandem Slackline",
-		"startDateTime": "2018-11-19 13:00",
+		"startDateTime": "2018-11-19 12:00",
 		"duration": "1",
 		"shortDescription": "The art of two on one webbing.",
 		"description": "Come explore a new way to be on the slackline. Tandem slacklining requires a slackliner to pay attention not only to the energy they are putting into the line, but the energy of their partner as well. This workshop will be a fun, attainable, new concept for the community to experience. Bring a partner to work on some tandem drills both on the ground line at the bowl and also training techniques on the ground.",
@@ -32,7 +42,7 @@
 	{
 		"id": 4,
 		"title": "DNAce iMprovisation The`art",
-		"startDateTime": "2018-11-19 14:00",
+		"startDateTime": "2018-11-19 13:00",
 		"duration": "1",
 		"shortDescription": "Exploration and movement.",
 		"description": "In an explorative movement experience, we facilitate a safe space to dance and flow, looking at quality movement with and between each other. We focus on the language of the body, contact, play, and opening up to think about our bodies and what they can do in different and innovative ways.",
@@ -41,18 +51,18 @@
 	},
 	{
 		"id": 5,
-		"title": "Guided Jam",
-		"startDateTime": "2018-11-19 15:00",
+		"title": "Thai Massage",
+		"startDateTime": "2018-11-19 14:00",
 		"duration": "1",
-		"shortDescription": "Open slackline jam!",
-		"description": "Come jam with Josh! Open slackline invititational from an amazing teacher and slacker, Joshua Beaudoin.",
-		"instructor": "Slackline Josh",
+		"shortDescription": "",
+		"description": "Thai massage differs from many traditional massage techniques with its use of body positioning and movement within a certain position. Much like we expand the understanding of our own body through Yogic Asana, Thai massage brings us that much closer through the practice of Asana with someone else's body. Learn to gently touch and alleviate inflammation in others in this gentle touch workshop.",
+		"instructor": "Emily",
 		"location": ""
 	},
 	{
 		"id": 6,
 		"title": "Slackro",
-		"startDateTime": "2018-11-19 16:00",
+		"startDateTime": "2018-11-19 15:00",
 		"duration": "1",
 		"shortDescription": "Combine Slackline and Acroyog on the mat!",
 		"description": "You may have tried Acroyoga before, but perhaps you haven't tried the type of acroyoga that's designed specifically for YOUR strengths. Slackro is a type of acroyoga that utilizes the sort of balance and focus skill that you EXCEL at because of your slackline practice. Come balance and wiggle on other humans in between wiggling on one-inch bridges.",
@@ -62,7 +72,7 @@
 	{
 		"id": 7,
 		"title": "Therapeutic Highlines",
-		"startDateTime": "2018-11-19 17:00",
+		"startDateTime": "2018-11-19 16:00",
 		"duration": "1",
 		"shortDescription": "Join us in this open space to deliberate the feels.",
 		"description": "This is time designated to build peer support in practitioners' journeys through stress on a highline. Come for a chat to consider highlines as instruments for processing stress! (Please come sober)",
@@ -112,7 +122,7 @@
 	{
 		"id": 12,
 		"title": "Painting with Pony",
-		"startDateTime": "2018-11-20 13:00",
+		"startDateTime": "2018-11-20 12:00",
 		"duration": "1",
 		"shortDescription": "You've never painted like this.",
 		"description": "Join surrealistic artist, Pony G, as she takes you thru her dancing color theories of magical planetary expression and expansion Express yourself thru the use of paint Or come have your body painted",
@@ -122,7 +132,7 @@
 	{
 		"id": 13,
 		"title": "Inversions in Acro",
-		"startDateTime": "2018-11-20 14:00",
+		"startDateTime": "2018-11-20 13:00",
 		"duration": "1",
 		"shortDescription": "Order of upside down, for two!",
 		"description": "AcroYoga is a lifelong infinite endeavor or communication, exploration and ecstatic motivation. One of our favorite ways to get this launch initiated is to develop skills that involve inversion of the flier. Don’t be alarmed! If we can teach a 69 year old woman from vancouver how to do it, you can too! Learn and engage with skills like, star, reverse star, shoulder stand, and candlestick! We will link these skills together to form a short flow!",
@@ -132,7 +142,7 @@
 	{
 		"id": 14,
 		"title": "Tandem Slackline",
-		"startDateTime": "2018-11-20 15:00",
+		"startDateTime": "2018-11-20 14:00",
 		"duration": "1",
 		"shortDescription": "Slackline for two!",
 		"description": "Come explore a new way to be on the slackline. Tandem slacklining requires a slackliner to pay attention not only to the energy they are putting into the line, but the energy of their partner as well. This workshop will be a fun, attainable, new concept for the community to experience. Bring a partner to work on some tandem drills both on the ground line at the bowl and also training techniques on the ground.",
@@ -142,7 +152,7 @@
 	{
 		"id": 15,
 		"title": "Way of the Wiggle Warrior",
-		"startDateTime": "2018-11-20 16:00",
+		"startDateTime": "2018-11-20 15:00",
 		"duration": "1",
 		"shortDescription": "In this class you’ll be invited to explore what it means to have a successful highline experience and learn tools we can use to embrace the wiggly walk in the sky. We’ll use mindfulness techniques including breath, movement, mantra, and silliness and learn how to apply them to our highlining experience.",
 		"description": "In this class you’ll be invited to explore what it means to have a successful highline experience and learn tools we can use to embrace the wiggly walk in the sky. We’ll use mindfulness techniques including breath, movement, mantra, and silliness and learn how to apply them to our highlining experience. This class will highlight that there is no 'wrong way' to highline as long as safety is not compromised. Class will serve the new members of our community as well as the seasoned wiggle walkers, reminding us all that's it's ok to be where we are in our journey, and will encourage us above all to have fun.",
@@ -152,7 +162,7 @@
 	{
 		"id": 16,
 		"title": "Slackline US & ISA",
-		"startDateTime": "2018-11-20 17:00",
+		"startDateTime": "2018-11-20 16:00",
 		"duration": "1",
 		"shortDescription": "Become an ambassador of slacklining!",
 		"description": "The Ambassador Leadership Training Program is a new initiative from Slackline U.S. Participants will receive tools, knowledge, and skills to improve their abilities to assess local issues, build coalitions, organize, persuade, and make effective change. You'll learn about the mission, values, initiatives, and structure of Slackline U.S. taught by the Ambassador Coordinator, Rachel Dobos, and Slackline U.S. President, Dan Walsh before breaking into groups to engage in problem solving and leadership building activities. At the end, you'll have a one page strategic plan for your initiative, you'll get constructive and positive feedback from a friendly group, and you'll be on your way to becoming a Slackline U.S. Ambassador! Additionally Zac Timmons from the International Slackline Association (ISA) will provide an overview of their initiatives and work! Knowledge is power and we are stronger when we work together to implement change for a common goal. We hope you'll join us!",
@@ -181,12 +191,12 @@
 	},
 	{
 		"id": 19,
-		"title": "Quiet Mind",
+		"title": "Restorative Flow",
 		"startDateTime": "2018-11-21 10:00",
 		"duration": "1",
-		"shortDescription": "Explore the power of silence.",
-		"description": "Explore the Power of Silence with a quiet, gentle, morning meditation session. Explore this space through visualization and breath.",
-		"instructor": "Shane",
+		"shortDescription": "Slow it down and release.",
+		"description": "Restorative yoga is a practice that is all about slowing down and opening your body through passive stretching. Join jess for a morning of relaxing, opening, and soothing yoga after a week of raging and highlining.",
+		"instructor": "Jess",
 		"location": ""
 	},
 	{
@@ -201,18 +211,8 @@
 	},
 	{
 		"id": 21,
-		"title": "Tandem Slackline",
-		"startDateTime": "2018-11-21 13:00",
-		"duration": "1",
-		"shortDescription": "Slackline for two!",
-		"description": "Come explore a new way to be on the slackline. Tandem slacklining requires a slackliner to pay attention not only to the energy they are putting into the line, but the energy of their partner as well. This workshop will be a fun, attainable, new concept for the community to experience. Bring a partner to work on some tandem drills both on the ground line at the bowl and also training techniques on the ground.",
-		"instructor": "Josh",
-		"location": ""
-	},
-	{
-		"id": 22,
 		"title": "Acro Dance ",
-		"startDateTime": "2018-11-21 14:00",
+		"startDateTime": "2018-11-21 12:00",
 		"duration": "1",
 		"shortDescription": "Not quite a dance! Swayzee would love it.",
 		"description": "Love acrobatics? Love dance? Love lifting your beautiful friends and spinning them around like Swayzee? Leila and Andrew are proud to be facilitating this dynamic acro dance lifts workshop. Focusing their energy on creative, smooth, flowing movement and communication between base and flier in this gravity defying, passionate play space.",
@@ -220,9 +220,19 @@
 		"location": ""
 	},
 	{
+		"id": 22,
+		"title": "Shibari",
+		"startDateTime": "2018-11-21 13:00",
+		"duration": "1",
+		"shortDescription": "Shibari, Kinbaku, Japanese Rope Bondage - What is that?",
+		"description": "Shibari, Kinbaku, Japanese Rope Bondage - What is that? Learn basic single and double column ties and advance up to a harness or body binder by the end of class. Please bring rope to tie with - 30 foot lengths of 5-8mm rope work best. No partner needed, you can match up with one in the class.",
+		"instructor": "Sara, Kali",
+		"location": ""
+	},
+	{
 		"id": 23,
 		"title": "State Of Flow",
-		"startDateTime": "2018-11-21 15:00",
+		"startDateTime": "2018-11-21 14:00",
 		"duration": "1",
 		"shortDescription": "Find your slack flow.",
 		"description": "This workshop will be for all skill sets and all ages. This workshop will run through concepts that will challenge ones agility to flow with more ease and enhance the mind/body connection while slacklining. Come with an open mind and the want to slack.",
@@ -231,18 +241,18 @@
 	},
 	{
 		"id": 24,
-		"title": "Shibari",
-		"startDateTime": "2018-11-21 16:00",
+		"title": "Throat Singing",
+		"startDateTime": "2018-11-21 15:00",
 		"duration": "1",
-		"shortDescription": "Shibari, Kinbaku, Japanese Rope Bondage - What is that?",
-		"description": "Shibari, Kinbaku, Japanese Rope Bondage - What is that? Learn basic single and double column ties and advance up to a harness or body binder by the end of class. Please bring rope to tie with - 30 foot lengths of 5-8mm rope work best. No partner needed, you can match up with one in the class.",
-		"instructor": "Sara, Kali",
+		"shortDescription": "Find those overtones!",
+		"description": "",
+		"instructor": "",
 		"location": ""
 	},
 	{
 		"id": 25,
-		"title": "How NOT to Have an Open Relationship",
-		"startDateTime": "2018-11-21 17:00",
+		"title": "How NOT to be in an Open Relationship",
+		"startDateTime": "2018-11-21 16:00",
 		"duration": "1",
 		"shortDescription": "Monogamous and curious? Cum ask us questions.",
 		"description": "Ryan Jenks and Kim Weglin are in an open relationship and they are sharing their journey. This GGBY is their 1st year anniversary since their space net wedding and they have learned a lot and still have a lot to learn. Come hear their story and share about your experience and what you think works and what doesn't.",
@@ -291,16 +301,6 @@
 	},
 	{
 		"id": 30,
-		"title": "ISA Teacher Level C Certification",
-		"startDateTime": "2018-11-22 10:00",
-		"duration": "3",
-		"shortDescription": "ISA Instructor Class!",
-		"description": "The Instructor C certification provides individuals with the knowledge to teach workshops and courses designed to introduce people to the sport of slacklining. After this course, you will be able to organize and conduct your own slackline courses according to ISA standards.",
-		"instructor": "Miryana",
-		"location": ""
-	},
-	{
-		"id": 31,
 		"title": "Monolithic Bounce",
 		"startDateTime": "2018-11-22 11:00",
 		"duration": "1",
@@ -310,9 +310,9 @@
 		"location": ""
 	},
 	{
-		"id": 32,
+		"id": 31,
 		"title": "Arm Balance",
-		"startDateTime": "2018-11-22 13:00",
+		"startDateTime": "2018-11-22 12:00",
 		"duration": "1",
 		"shortDescription": "#LifeIsCoolerUpsideDown",
 		"description": "Often wonder if you could justify doubling your shoe closet by learning to walk on your hands? Wait no more! Come explore techniques and skills that will have you quickly ascending the infinite ladder of arm balancing techniques. We will galavant through various exercises to prep your body for the glorious adventure of inversion. Come prepared to have your mind blown like half a kilo of nitroglycerin in a pumpkin!",
@@ -320,9 +320,9 @@
 		"location": ""
 	},
 	{
-		"id": 33,
+		"id": 32,
 		"title": "Dirt Bag Rope Play",
-		"startDateTime": "2018-11-22 14:00",
+		"startDateTime": "2018-11-22 13:00",
 		"duration": "1",
 		"shortDescription": "Slightly advanced shibari fun.",
 		"description": "Shibari based knowledge to blur the boundaries between rope play and practical use. Lessons will focus on useful seat & chest harnesses, and easy mechanical advantage. Then we will discuss how to use these for safety, rescue, and suspension. Participants are asked to bring 100” of cheap 6mm hardware store rope per couple. ",
@@ -330,9 +330,9 @@
 		"location": ""
 	},
 	{
-		"id": 34,
+		"id": 33,
 		"title": "Tribal Dance",
-		"startDateTime": "2018-11-22 15:00",
+		"startDateTime": "2018-11-22 14:00",
 		"duration": "1",
 		"shortDescription": "Open yourself to free form dance!",
 		"description": "West African Dance moves to liberate the spine and set your spirit free. Dancing in West Africa is a form of social interaction where the whole tribe comes together. Come learn some basic African dance moves and then join in on a free-form tribal dance jam. We’ll use these moves to inspire a lightly facilitated space for each individual to move as internally guided and for the community to connect through free expression. Set to tribal drums, this is a great way to warm up, loosen up, and reconnect.",
@@ -340,9 +340,9 @@
 		"location": ""
 	},
 	{
-		"id": 35,
+		"id": 34,
 		"title": "Van Life Tours",
-		"startDateTime": "2018-11-22 16:00",
+		"startDateTime": "2018-11-22 15:00",
 		"duration": "1",
 		"shortDescription": "Join Nick for a tour of some of the raddest living vehicles in the country.",
 		"description": "Join Nick for a tour of some of the raddest living vehicles in the country.",
@@ -350,9 +350,9 @@
 		"location": ""
 	},
 	{
-		"id": 36,
+		"id": 35,
 		"title": "Self Care is Health Care",
-		"startDateTime": "2018-11-22 17:00",
+		"startDateTime": "2018-11-22 16:00",
 		"duration": "1",
 		"shortDescription": "Come learn to love yourself.",
 		"description": "Self care is often not the first measure of sustaining and bettering health, it is often the last. Over the course of  years traveling abroad. Louie has gained an intimate knowledge of keeping your body and your mind healthy in a growingly intense world. Learn about techniques such as meditation, dermabrasion, essential oils, and keeping warm! <3",
@@ -360,9 +360,9 @@
 		"location": ""
 	},
 	{
-		"id": 37,
+		"id": 36,
 		"title": "Thanksgiving Potluck",
-		"startDateTime": "2018-11-22 18:00",
+		"startDateTime": "2018-11-22 17:00",
 		"duration": "",
 		"shortDescription": "Bring a dish dirtbag! <3",
 		"description": "It’s Turkey day y'all! Since we're all so thankful everyone could come together this year and celebrate our wonderful community, what better way to celebrate than rounding out a day of stoke with a dinner of stuffing? This potluck style dinner will have a little something for everyone, and a lot of thankfulness to go around.",
@@ -370,7 +370,7 @@
 		"location": ""
 	},
 	{
-		"id": 38,
+		"id": 37,
 		"title": "Talent Show",
 		"startDateTime": "2018-11-22 20:00",
 		"duration": "1",
@@ -380,7 +380,7 @@
 		"location": ""
 	},
 	{
-		"id": 39,
+		"id": 38,
 		"title": "Tinker Toots Campfire Tales",
 		"startDateTime": "2018-11-22 21:00",
 		"duration": "",
@@ -390,7 +390,7 @@
 		"location": ""
 	},
 	{
-		"id": 40,
+		"id": 39,
 		"title": "Derig Space Net",
 		"startDateTime": "2018-11-23 08:00",
 		"duration": "1",
@@ -400,7 +400,7 @@
 		"location": ""
 	},
 	{
-		"id": 41,
+		"id": 40,
 		"title": "Sacred Mobility",
 		"startDateTime": "2018-11-23 09:00",
 		"duration": "1",
@@ -411,16 +411,6 @@
 	},
 	{
 		"id": 42,
-		"title": "Restorative Flow",
-		"startDateTime": "2018-11-23 10:00",
-		"duration": "1",
-		"shortDescription": "Slow it down and release.",
-		"description": "Restorative yoga is a practice that is all about slowing down and opening your body through passive stretching. Join jess for a morning of relaxing, opening, and soothing yoga after a week of raging and highlining.",
-		"instructor": "Jess",
-		"location": ""
-	},
-	{
-		"id": 43,
 		"title": "Rigging Analysis",
 		"startDateTime": "2018-11-23 11:00",
 		"duration": "1",
@@ -430,9 +420,9 @@
 		"location": ""
 	},
 	{
-		"id": 44,
+		"id": 43,
 		"title": "Group Movement Share Slackrotopia",
-		"startDateTime": "2018-11-23 13:00",
+		"startDateTime": "2018-11-23 12:00",
 		"duration": "1",
 		"shortDescription": "Group fun, come play and run!",
 		"description": "Please join the entire movement team for a collaborative group sharing workshop designed to expand the web of our collaborative skills. Acroyoga, slackline, shibari, arm balance, mindfulness, you name it, we’ll send it. If you have anything you’d like to share at the jam please reach out to a workshop coordinator or instructor and we’d be stoked to consult with you!",
@@ -440,9 +430,9 @@
 		"location": ""
 	},
 	{
-		"id": 45,
+		"id": 44,
 		"title": "Thai Massage",
-		"startDateTime": "2018-11-23 14:00",
+		"startDateTime": "2018-11-23 13:00",
 		"duration": "1",
 		"shortDescription": "Deep touch for a shallow world.",
 		"description": "Thai massage differs from many traditional massage techniques with its use of body positioning and movement within a certain position. Much like we expand the understanding of our own body through Yogic Asana, Thai massage brings us that much closer through the practice of Asana with someone else's body. Learn to gently touch and alleviate inflammation in others in this gentle touch workshop.",
@@ -450,9 +440,9 @@
 		"location": ""
 	},
 	{
-		"id": 46,
+		"id": 45,
 		"title": "Conscious And Sustainable Living",
-		"startDateTime": "2018-11-23 15:00",
+		"startDateTime": "2018-11-23 14:00",
 		"duration": "1",
 		"shortDescription": "Learn how to please the environment!",
 		"description": "What do conscious living and sustainability mean to you? This workshop is a facilitated group discussion exploring ways to live more consciously, improving our relationship with both the planet and each other. It is an opportunity to exchange ideas about how to reframe our choices as well as take practical actions to live more sustainably.",
@@ -460,9 +450,9 @@
 		"location": ""
 	},
 	{
-		"id": 47,
+		"id": 46,
 		"title": "Community Photograph at Sunset",
-		"startDateTime": "2018-11-23 16:00",
+		"startDateTime": "2018-11-23 15:00",
 		"duration": "",
 		"shortDescription": "LINE IT UP HIPPIES!",
 		"description": "Seriously without this how will we remember each other?",
