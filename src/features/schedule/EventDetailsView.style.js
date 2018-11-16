@@ -3,6 +3,7 @@ import * as v from "../../theme/variables";
 
 export default StyleSheet.create({
   screenView: {
+    paddingTop: "2%",
     flex: 1
   },
 

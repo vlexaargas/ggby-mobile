@@ -81,7 +81,7 @@
 	},
 	{
 		"id": 8,
-		"title": "Fire / Fire Spinning & History of GGBY",
+		"title": "Fire, Fire Spinning & History of GGBY",
 		"startDateTime": "2018-11-19 20:00",
 		"duration": "",
 		"shortDescription": "Talent is a flame, genius is a fire.",
@@ -166,11 +166,21 @@
 		"duration": "1",
 		"shortDescription": "Become an ambassador of slacklining!",
 		"description": "The Ambassador Leadership Training Program is a new initiative from Slackline U.S. Participants will receive tools, knowledge, and skills to improve their abilities to assess local issues, build coalitions, organize, persuade, and make effective change. You'll learn about the mission, values, initiatives, and structure of Slackline U.S. taught by the Ambassador Coordinator, Rachel Dobos, and Slackline U.S. President, Dan Walsh before breaking into groups to engage in problem solving and leadership building activities. At the end, you'll have a one page strategic plan for your initiative, you'll get constructive and positive feedback from a friendly group, and you'll be on your way to becoming a Slackline U.S. Ambassador! Additionally Zac Timmons from the International Slackline Association (ISA) will provide an overview of their initiatives and work! Knowledge is power and we are stronger when we work together to implement change for a common goal. We hope you'll join us!",
-		"instructor": "Rachel, Zac Timmons, Dan",
+		"instructor": "Rachel, Zac, Dan",
 		"location": ""
 	},
 	{
 		"id": 17,
+		"title": "Om Circle",
+		"startDateTime": "2018-11-20 17:00",
+		"duration": "1",
+		"shortDescription": "",
+		"description": "Come unite with us!",
+		"instructor": "Danny B.",
+		"location": ""
+	},
+	{
+		"id": 18,
 		"title": "Movie Night",
 		"startDateTime": "2018-11-20 20:00",
 		"duration": "",
@@ -180,7 +190,7 @@
 		"location": ""
 	},
 	{
-		"id": 18,
+		"id": 19,
 		"title": "Flexibility",
 		"startDateTime": "2018-11-21 09:00",
 		"duration": "1",
@@ -190,7 +200,7 @@
 		"location": ""
 	},
 	{
-		"id": 19,
+		"id": 20,
 		"title": "Restorative Flow",
 		"startDateTime": "2018-11-21 10:00",
 		"duration": "1",
@@ -200,7 +210,7 @@
 		"location": ""
 	},
 	{
-		"id": 20,
+		"id": 21,
 		"title": "Intro To Highline",
 		"startDateTime": "2018-11-21 11:00",
 		"duration": "1",
@@ -210,7 +220,7 @@
 		"location": ""
 	},
 	{
-		"id": 21,
+		"id": 22,
 		"title": "Acro Dance ",
 		"startDateTime": "2018-11-21 12:00",
 		"duration": "1",
@@ -220,7 +230,7 @@
 		"location": ""
 	},
 	{
-		"id": 22,
+		"id": 23,
 		"title": "Shibari",
 		"startDateTime": "2018-11-21 13:00",
 		"duration": "1",
@@ -230,7 +240,7 @@
 		"location": ""
 	},
 	{
-		"id": 23,
+		"id": 24,
 		"title": "State Of Flow",
 		"startDateTime": "2018-11-21 14:00",
 		"duration": "1",
@@ -240,17 +250,17 @@
 		"location": ""
 	},
 	{
-		"id": 24,
+		"id": 25,
 		"title": "Throat Singing",
 		"startDateTime": "2018-11-21 15:00",
 		"duration": "1",
 		"shortDescription": "Find those overtones!",
 		"description": "",
-		"instructor": "",
+		"instructor": "Tlaloc",
 		"location": ""
 	},
 	{
-		"id": 25,
+		"id": 26,
 		"title": "How NOT to be in an Open Relationship",
 		"startDateTime": "2018-11-21 16:00",
 		"duration": "1",
@@ -260,7 +270,7 @@
 		"location": ""
 	},
 	{
-		"id": 26,
+		"id": 27,
 		"title": "SlacklifeBC Dance Party",
 		"startDateTime": "2018-11-21 20:00",
 		"duration": "",
@@ -270,7 +280,7 @@
 		"location": ""
 	},
 	{
-		"id": 27,
+		"id": 28,
 		"title": "Cliffside Coffee",
 		"startDateTime": "2018-11-22 08:00",
 		"duration": "2",
@@ -280,7 +290,7 @@
 		"location": ""
 	},
 	{
-		"id": 28,
+		"id": 29,
 		"title": "Power Yoga",
 		"startDateTime": "2018-11-22 09:00",
 		"duration": "1",
@@ -290,7 +300,7 @@
 		"location": ""
 	},
 	{
-		"id": 29,
+		"id": 30,
 		"title": "Cosmic Meditation ",
 		"startDateTime": "2018-11-22 10:00",
 		"duration": "1",
@@ -300,7 +310,7 @@
 		"location": ""
 	},
 	{
-		"id": 30,
+		"id": 31,
 		"title": "Monolithic Bounce",
 		"startDateTime": "2018-11-22 11:00",
 		"duration": "1",
@@ -310,7 +320,7 @@
 		"location": ""
 	},
 	{
-		"id": 31,
+		"id": 32,
 		"title": "Arm Balance",
 		"startDateTime": "2018-11-22 12:00",
 		"duration": "1",
@@ -320,27 +330,27 @@
 		"location": ""
 	},
 	{
-		"id": 32,
+		"id": 33,
 		"title": "Dirt Bag Rope Play",
 		"startDateTime": "2018-11-22 13:00",
 		"duration": "1",
 		"shortDescription": "Slightly advanced shibari fun.",
 		"description": "Shibari based knowledge to blur the boundaries between rope play and practical use. Lessons will focus on useful seat & chest harnesses, and easy mechanical advantage. Then we will discuss how to use these for safety, rescue, and suspension. Participants are asked to bring 100” of cheap 6mm hardware store rope per couple. ",
-		"instructor": "",
+		"instructor": "Jeremiah, Maddie",
 		"location": ""
 	},
 	{
-		"id": 33,
+		"id": 34,
 		"title": "Tribal Dance",
 		"startDateTime": "2018-11-22 14:00",
 		"duration": "1",
 		"shortDescription": "Open yourself to free form dance!",
 		"description": "West African Dance moves to liberate the spine and set your spirit free. Dancing in West Africa is a form of social interaction where the whole tribe comes together. Come learn some basic African dance moves and then join in on a free-form tribal dance jam. We’ll use these moves to inspire a lightly facilitated space for each individual to move as internally guided and for the community to connect through free expression. Set to tribal drums, this is a great way to warm up, loosen up, and reconnect.",
-		"instructor": "Leila",
+		"instructor": "Leila,Andrew",
 		"location": ""
 	},
 	{
-		"id": 34,
+		"id": 35,
 		"title": "Van Life Tours",
 		"startDateTime": "2018-11-22 15:00",
 		"duration": "1",
@@ -350,7 +360,7 @@
 		"location": ""
 	},
 	{
-		"id": 35,
+		"id": 36,
 		"title": "Self Care is Health Care",
 		"startDateTime": "2018-11-22 16:00",
 		"duration": "1",
@@ -360,7 +370,7 @@
 		"location": ""
 	},
 	{
-		"id": 36,
+		"id": 37,
 		"title": "Thanksgiving Potluck",
 		"startDateTime": "2018-11-22 17:00",
 		"duration": "",
@@ -370,7 +380,7 @@
 		"location": ""
 	},
 	{
-		"id": 37,
+		"id": 38,
 		"title": "Talent Show",
 		"startDateTime": "2018-11-22 20:00",
 		"duration": "1",
@@ -380,7 +390,7 @@
 		"location": ""
 	},
 	{
-		"id": 38,
+		"id": 39,
 		"title": "Tinker Toots Campfire Tales",
 		"startDateTime": "2018-11-22 21:00",
 		"duration": "",
@@ -390,7 +400,7 @@
 		"location": ""
 	},
 	{
-		"id": 39,
+		"id": 40,
 		"title": "Derig Space Net",
 		"startDateTime": "2018-11-23 08:00",
 		"duration": "1",
@@ -400,7 +410,7 @@
 		"location": ""
 	},
 	{
-		"id": 40,
+		"id": 41,
 		"title": "Sacred Mobility",
 		"startDateTime": "2018-11-23 09:00",
 		"duration": "1",
@@ -410,7 +420,7 @@
 		"location": ""
 	},
 	{
-		"id": 42,
+		"id": 43,
 		"title": "Rigging Analysis",
 		"startDateTime": "2018-11-23 11:00",
 		"duration": "1",
@@ -420,7 +430,7 @@
 		"location": ""
 	},
 	{
-		"id": 43,
+		"id": 44,
 		"title": "Group Movement Share Slackrotopia",
 		"startDateTime": "2018-11-23 12:00",
 		"duration": "1",
@@ -430,7 +440,7 @@
 		"location": ""
 	},
 	{
-		"id": 44,
+		"id": 45,
 		"title": "Thai Massage",
 		"startDateTime": "2018-11-23 13:00",
 		"duration": "1",
@@ -440,7 +450,7 @@
 		"location": ""
 	},
 	{
-		"id": 45,
+		"id": 46,
 		"title": "Conscious And Sustainable Living",
 		"startDateTime": "2018-11-23 14:00",
 		"duration": "1",
@@ -450,7 +460,7 @@
 		"location": ""
 	},
 	{
-		"id": 46,
+		"id": 47,
 		"title": "Community Photograph at Sunset",
 		"startDateTime": "2018-11-23 15:00",
 		"duration": "",
