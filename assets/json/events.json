@@ -131,6 +131,16 @@
 	},
 	{
 		"id": 13,
+		"title": "BLM: Fruit Bowl Talk and Tour",
+		"startDateTime": "2018-11-20 12:00",
+		"duration": "1",
+		"shortDescription": "Guided tour of the Fruit Bowl from the BLM",
+		"description": "Come learn about the history, ecology, geology, and protection of the Fruit Bowl from the BLM rangers ",
+		"instructor": "Jennifer Jones, Katy Stevens",
+		"location": ""
+	},
+	{
+		"id": 14,
 		"title": "Inversions in Acro",
 		"startDateTime": "2018-11-20 13:00",
 		"duration": "1",
@@ -140,7 +150,7 @@
 		"location": ""
 	},
 	{
-		"id": 14,
+		"id": 15,
 		"title": "Tandem Slackline",
 		"startDateTime": "2018-11-20 14:00",
 		"duration": "1",
@@ -150,7 +160,7 @@
 		"location": ""
 	},
 	{
-		"id": 15,
+		"id": 16,
 		"title": "Way of the Wiggle Warrior",
 		"startDateTime": "2018-11-20 15:00",
 		"duration": "1",
@@ -160,7 +170,7 @@
 		"location": ""
 	},
 	{
-		"id": 16,
+		"id": 17,
 		"title": "Slackline US & ISA",
 		"startDateTime": "2018-11-20 16:00",
 		"duration": "1",
@@ -170,7 +180,7 @@
 		"location": ""
 	},
 	{
-		"id": 17,
+		"id": 18,
 		"title": "Om Circle",
 		"startDateTime": "2018-11-20 17:00",
 		"duration": "1",
@@ -180,7 +190,7 @@
 		"location": ""
 	},
 	{
-		"id": 18,
+		"id": 19,
 		"title": "Movie Night",
 		"startDateTime": "2018-11-20 20:00",
 		"duration": "",
@@ -190,7 +200,7 @@
 		"location": ""
 	},
 	{
-		"id": 19,
+		"id": 20,
 		"title": "Flexibility",
 		"startDateTime": "2018-11-21 09:00",
 		"duration": "1",
@@ -200,7 +210,7 @@
 		"location": ""
 	},
 	{
-		"id": 20,
+		"id": 21,
 		"title": "Restorative Flow",
 		"startDateTime": "2018-11-21 10:00",
 		"duration": "1",
@@ -210,7 +220,7 @@
 		"location": ""
 	},
 	{
-		"id": 21,
+		"id": 22,
 		"title": "Intro To Highline",
 		"startDateTime": "2018-11-21 11:00",
 		"duration": "1",
@@ -220,7 +230,7 @@
 		"location": ""
 	},
 	{
-		"id": 22,
+		"id": 23,
 		"title": "Acro Dance ",
 		"startDateTime": "2018-11-21 12:00",
 		"duration": "1",
@@ -230,7 +240,7 @@
 		"location": ""
 	},
 	{
-		"id": 23,
+		"id": 24,
 		"title": "Shibari",
 		"startDateTime": "2018-11-21 13:00",
 		"duration": "1",
@@ -240,7 +250,7 @@
 		"location": ""
 	},
 	{
-		"id": 24,
+		"id": 25,
 		"title": "State Of Flow",
 		"startDateTime": "2018-11-21 14:00",
 		"duration": "1",
@@ -250,7 +260,7 @@
 		"location": ""
 	},
 	{
-		"id": 25,
+		"id": 26,
 		"title": "Throat Singing",
 		"startDateTime": "2018-11-21 15:00",
 		"duration": "1",
@@ -260,7 +270,7 @@
 		"location": ""
 	},
 	{
-		"id": 26,
+		"id": 27,
 		"title": "How NOT to be in an Open Relationship",
 		"startDateTime": "2018-11-21 16:00",
 		"duration": "1",
@@ -270,7 +280,7 @@
 		"location": ""
 	},
 	{
-		"id": 27,
+		"id": 28,
 		"title": "SlacklifeBC Dance Party",
 		"startDateTime": "2018-11-21 20:00",
 		"duration": "",
@@ -280,7 +290,7 @@
 		"location": ""
 	},
 	{
-		"id": 28,
+		"id": 29,
 		"title": "Cliffside Coffee",
 		"startDateTime": "2018-11-22 08:00",
 		"duration": "2",
@@ -290,7 +300,7 @@
 		"location": ""
 	},
 	{
-		"id": 29,
+		"id": 30,
 		"title": "Power Yoga",
 		"startDateTime": "2018-11-22 09:00",
 		"duration": "1",
@@ -300,7 +310,7 @@
 		"location": ""
 	},
 	{
-		"id": 30,
+		"id": 31,
 		"title": "Cosmic Meditation ",
 		"startDateTime": "2018-11-22 10:00",
 		"duration": "1",
@@ -310,7 +320,7 @@
 		"location": ""
 	},
 	{
-		"id": 31,
+		"id": 32,
 		"title": "Monolithic Bounce",
 		"startDateTime": "2018-11-22 11:00",
 		"duration": "1",
@@ -320,7 +330,7 @@
 		"location": ""
 	},
 	{
-		"id": 32,
+		"id": 33,
 		"title": "Arm Balance",
 		"startDateTime": "2018-11-22 12:00",
 		"duration": "1",
@@ -330,7 +340,7 @@
 		"location": ""
 	},
 	{
-		"id": 33,
+		"id": 34,
 		"title": "Dirt Bag Rope Play",
 		"startDateTime": "2018-11-22 13:00",
 		"duration": "1",
@@ -340,7 +350,7 @@
 		"location": ""
 	},
 	{
-		"id": 34,
+		"id": 35,
 		"title": "Tribal Dance",
 		"startDateTime": "2018-11-22 14:00",
 		"duration": "1",
@@ -350,7 +360,7 @@
 		"location": ""
 	},
 	{
-		"id": 35,
+		"id": 36,
 		"title": "Van Life Tours",
 		"startDateTime": "2018-11-22 15:00",
 		"duration": "1",
@@ -360,7 +370,7 @@
 		"location": ""
 	},
 	{
-		"id": 36,
+		"id": 37,
 		"title": "Self Care is Health Care",
 		"startDateTime": "2018-11-22 16:00",
 		"duration": "1",
@@ -370,7 +380,7 @@
 		"location": ""
 	},
 	{
-		"id": 37,
+		"id": 38,
 		"title": "Thanksgiving Potluck",
 		"startDateTime": "2018-11-22 17:00",
 		"duration": "",
@@ -380,7 +390,7 @@
 		"location": ""
 	},
 	{
-		"id": 38,
+		"id": 39,
 		"title": "Talent Show",
 		"startDateTime": "2018-11-22 20:00",
 		"duration": "1",
@@ -390,7 +400,7 @@
 		"location": ""
 	},
 	{
-		"id": 39,
+		"id": 40,
 		"title": "Tinker Toots Campfire Tales",
 		"startDateTime": "2018-11-22 21:00",
 		"duration": "",
@@ -400,7 +410,7 @@
 		"location": ""
 	},
 	{
-		"id": 40,
+		"id": 41,
 		"title": "Derig Space Net",
 		"startDateTime": "2018-11-23 08:00",
 		"duration": "1",
@@ -410,7 +420,7 @@
 		"location": ""
 	},
 	{
-		"id": 41,
+		"id": 42,
 		"title": "Sacred Mobility",
 		"startDateTime": "2018-11-23 09:00",
 		"duration": "1",
@@ -420,7 +430,7 @@
 		"location": ""
 	},
 	{
-		"id": 43,
+		"id": 44,
 		"title": "Rigging Analysis",
 		"startDateTime": "2018-11-23 11:00",
 		"duration": "1",
@@ -430,7 +440,7 @@
 		"location": ""
 	},
 	{
-		"id": 44,
+		"id": 45,
 		"title": "Group Movement Share Slackrotopia",
 		"startDateTime": "2018-11-23 12:00",
 		"duration": "1",
@@ -440,7 +450,7 @@
 		"location": ""
 	},
 	{
-		"id": 45,
+		"id": 46,
 		"title": "Thai Massage",
 		"startDateTime": "2018-11-23 13:00",
 		"duration": "1",
@@ -450,7 +460,7 @@
 		"location": ""
 	},
 	{
-		"id": 46,
+		"id": 47,
 		"title": "Conscious And Sustainable Living",
 		"startDateTime": "2018-11-23 14:00",
 		"duration": "1",
@@ -460,7 +470,7 @@
 		"location": ""
 	},
 	{
-		"id": 47,
+		"id": 48,
 		"title": "Community Photograph at Sunset",
 		"startDateTime": "2018-11-23 15:00",
 		"duration": "",
