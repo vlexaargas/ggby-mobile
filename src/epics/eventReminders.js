@@ -32,7 +32,8 @@ const reminderTitles = [
   "Prepare yourselves!",
   "Align your chakras!",
   "Get Involved!",
-  "Finish those cosmic downloads!"
+  "Finish those cosmic downloads!",
+  "YO Dingus :)",
 ];
 
 const sample = arr => arr[Math.floor(Math.random() * arr.length)];
