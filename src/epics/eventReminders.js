@@ -1,7 +1,7 @@
 import { combineEpics, ofType } from "redux-observable";
 import { createAction } from "redux-actions";
 import { empty, from, merge, of } from "rxjs";
-import { mergeMap, map, filter, share } from "rxjs/operators";
+import { tap, mergeMap, map, filter, share } from "rxjs/operators";
 import moment from "moment";
 
 import { Alert } from "react-native";
@@ -84,7 +84,13 @@ const scheduleEventReminderEpic = action$ =>
             )
           )
         ),
-        map(notificationId => saveEventReminder(event.id, notificationId))
+        map(notificationId => saveEventReminder(event.id, notificationId)),
+        tap(() => {
+          Alert.alert(
+            "Get stoked!",
+            "We'll let you know 30 minutes before the event."
+          );
+        })
       );
 
       return merge(handleNoPerm$, scheduleReminder$);
