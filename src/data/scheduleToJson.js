@@ -95,7 +95,7 @@ function formatData(res) {
     var data = res.data.values;
 
     var json = "[\n"
-    for(var rowIndex = 1; rowIndex < data.length; rowIndex++){
+    for(var rowIndex = 0; rowIndex < data.length; rowIndex++){
       if (data[rowIndex][0] != "" && data[rowIndex][0] != undefined) {
         var title = cleanfield(data[rowIndex][0])
         var startDateTime = cleanfield(data[rowIndex][1])
