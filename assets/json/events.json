@@ -371,12 +371,12 @@
 	},
 	{
 		"id": 37,
-		"title": "Self Care is Health Care",
+		"title": "Community Photograph at Sunset",
 		"startDateTime": "2018-11-22 16:00",
 		"duration": "1",
-		"shortDescription": "Come learn to love yourself.",
-		"description": "Self care is often not the first measure of sustaining and bettering health, it is often the last. Over the course of  years traveling abroad. Louie has gained an intimate knowledge of keeping your body and your mind healthy in a growingly intense world. Learn about techniques such as meditation, dermabrasion, essential oils, and keeping warm! <3",
-		"instructor": "Louie, Paulina",
+		"shortDescription": "LINE IT UP HIPPIES!",
+		"description": "Seriously without this how will we remember each other?",
+		"instructor": "",
 		"location": ""
 	},
 	{
@@ -430,7 +430,7 @@
 		"location": ""
 	},
 	{
-		"id": 44,
+		"id": 43,
 		"title": "Rigging Analysis",
 		"startDateTime": "2018-11-23 11:00",
 		"duration": "1",
@@ -440,7 +440,7 @@
 		"location": ""
 	},
 	{
-		"id": 45,
+		"id": 44,
 		"title": "Group Movement Share Slackrotopia",
 		"startDateTime": "2018-11-23 12:00",
 		"duration": "1",
@@ -450,7 +450,7 @@
 		"location": ""
 	},
 	{
-		"id": 46,
+		"id": 45,
 		"title": "Thai Massage",
 		"startDateTime": "2018-11-23 13:00",
 		"duration": "1",
@@ -460,7 +460,7 @@
 		"location": ""
 	},
 	{
-		"id": 47,
+		"id": 46,
 		"title": "Conscious And Sustainable Living",
 		"startDateTime": "2018-11-23 14:00",
 		"duration": "1",
@@ -470,13 +470,13 @@
 		"location": ""
 	},
 	{
-		"id": 48,
-		"title": "Community Photograph at Sunset",
+		"id": 47,
+		"title": "Self Care is Health Care",
 		"startDateTime": "2018-11-23 15:00",
-		"duration": "",
-		"shortDescription": "LINE IT UP HIPPIES!",
-		"description": "Seriously without this how will we remember each other?",
-		"instructor": "",
+		"duration": "1",
+		"shortDescription": "Come learn to love yourself.",
+		"description": "Self care is often not the first measure of sustaining and bettering health, it is often the last. Over the course of  years traveling abroad. Louie has gained an intimate knowledge of keeping your body and your mind healthy in a growingly intense world. Learn about techniques such as meditation, dermabrasion, essential oils, and keeping warm! <3",
+		"instructor": "Louie, Paulina",
 		"location": ""
 	},
 ]
