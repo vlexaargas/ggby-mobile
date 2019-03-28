@@ -1,7 +1,7 @@
 import React from "react";
 import moment from "moment";
 import { connect } from "react-redux";
-import { map, cond, equals, filter } from "ramda";
+import { __, filter, reject, pluck, propSatisfies, includes } from "ramda";
 
 import { selectEvents } from "../../domain/events";
 import { selectIndexedEventReminders } from "../../domain/eventReminders";
@@ -27,10 +27,20 @@ class ScheduleContainer extends React.Component {
   sortedEvents = () => {
     const { indexedEventReminders, filterBy } = this.props;
 
-    let { events } = this.props;
+    const { events } = this.props;
 
+    // "Upcoming" events includes ongoing events
     const upcomingEvents = filter(
-      e => moment(e.startDateTime).isAfter(moment()), // TODO: do we want to show ongoing events in the upcoming or past tab?
+      ({ startDateTime, duration }) =>
+        moment(startDateTime)
+          .add(parseFloat(duration), "hours")
+          .isAfter(moment()),
+      events
+    );
+
+    // "Past" events are those that are not "Upcoming"
+    const pastEvents = reject(
+      propSatisfies(includes(__, pluck("id", upcomingEvents)), "id"),
       events
     );
 
@@ -40,7 +50,7 @@ class ScheduleContainer extends React.Component {
       case "interested":
         return filter(e => indexedEventReminders[e.id], upcomingEvents);
       case "past":
-        return filter(e => moment(e.startDateTime).isBefore(moment()), events); // TODO: refactor to use the negation of the upcoming events filter
+        return pastEvents;
       default:
         return events;
     }
