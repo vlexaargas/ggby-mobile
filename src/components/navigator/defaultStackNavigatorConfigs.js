@@ -33,7 +33,7 @@ export default {
             resizeMode: "contain"
           }}
           fadeDuration={0}
-          source={require("../../../assets/images/ggby-name.png")}
+          source={require("../../../assets/images/festival-name.png")}
         />
       </React.Fragment>
     )
