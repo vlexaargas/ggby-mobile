@@ -74,10 +74,10 @@ function getDatas(auth) {
   const sheets = google.sheets({version: 'v4', auth});
   const startRow = 2;
   const endRow = 50;
-  const sheet = "Data"
+  const sheet = "Schedule Content" // TODO parameterize
 
   return sheets.spreadsheets.values.get({
-    spreadsheetId: '1e61Vdyc38611QGEUx7UQGSqlprnkG7tOlDGJrLhVsys',
+    spreadsheetId: '1QBtACEflInYn8_Pt61KvaweCMBzpK8PWr-clYW9Y8VE', // TODO parameterize
     range: sheet + '!' + startRow + ':' + endRow + '',
   }, (err, res) => {
         if (err) return console.log('The API returned an error: ', err);
@@ -98,12 +98,13 @@ function formatData(res) {
     for(var rowIndex = 0; rowIndex < data.length; rowIndex++){
       if (data[rowIndex][0] != "" && data[rowIndex][0] != undefined) {
         var title = cleanfield(data[rowIndex][0])
-        var startDateTime = cleanfield(data[rowIndex][1])
-        var duration = cleanfield(data[rowIndex][2])
-        var shortDescription = cleanfield(data[rowIndex][3]) // if no short description provided, just chop long one
-        var description = cleanfield(data[rowIndex][4])
-        var instructor = cleanfield(data[rowIndex][5])
-        var location = cleanfield(data[rowIndex][6])
+        var event = cleanfield(data[rowIndex][1])
+        var startDateTime = cleanfield(data[rowIndex][2])
+        var duration = cleanfield(data[rowIndex][3])
+        var shortDescription = cleanfield(data[rowIndex][4]) // if no short description provided, just chop long one
+        var description = cleanfield(data[rowIndex][5])
+        var instructor = cleanfield(data[rowIndex][6])
+        var location = cleanfield(data[rowIndex][7])
         jsonFormatter = "\t{\n\t\t\"id\": %d,\n\t\t\"title\": \"%s\",\n\t\t\"startDateTime\": \"%s\",\n\t\t\"duration\": \"%s\",\n\t\t\"shortDescription\": \"%s\",\n\t\t\"description\": \"%s\",\n\t\t\"instructor\": \"%s\",\n\t\t\"location\": \"%s\"\n\t},\n"
         json += util.format(jsonFormatter, rowIndex, title, startDateTime, duration, shortDescription, description, instructor, location);
       }
