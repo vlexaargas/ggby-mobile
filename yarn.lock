@@ -8047,10 +8047,10 @@ rimraf@~2.4.0:
   dependencies:
     glob "^6.0.1"
 
-rn-pdf-reader-js@^0.1.7:
-  version "0.1.7"
-  resolved "https://registry.yarnpkg.com/rn-pdf-reader-js/-/rn-pdf-reader-js-0.1.7.tgz#a5b119b97427bcfd356653f57bc94bba1721dc68"
-  integrity sha512-K+gEays4ttDI2K8acQm3/hYXO4JABue7I8OLXcRppzSDXrSne+rIJwZhwB6VXLwnXbAHKuXjBMsTCze/LGyLxQ==
+rn-pdf-reader-js@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/rn-pdf-reader-js/-/rn-pdf-reader-js-0.2.1.tgz#87d439a9d0eb2e1d138d86a7ca40a9d23bfa8c65"
+  integrity sha512-NMpYoKPvPd0XC5+cBN2bqPQsDaV+JV59sw35vKwI3Dxx73PxjSUHHh6E7IuWdHuicvVjgoHjUacig7c/pEEEJg==
   dependencies:
     buffer "5.1.0"
     js-base64 "2.4.5"
