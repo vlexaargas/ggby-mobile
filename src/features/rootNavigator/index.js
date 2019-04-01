@@ -24,13 +24,13 @@ const RootNavigator = createMaterialBottomTabNavigator(
         )
       }
     },
-    // Map: {
-    //   screen: Map,
-    //   navigationOptions: {
-    //     tabBarLabel: "Map",
-    //     tabBarIcon: ({ focused }) => <TabBarIcon focused={focused} name="map" />
-    //   }
-    // },
+    Map: {
+      screen: Map,
+      navigationOptions: {
+        tabBarLabel: "Map",
+        tabBarIcon: ({ focused }) => <TabBarIcon focused={focused} name="map" />
+      }
+    },
     Info: {
       screen: Info,
       navigationOptions: {

@@ -23,12 +23,15 @@ const styles = StyleSheet.create({
   }
 });
 
-const Map = () => (
+const mapWidth = 2339;
+const mapHeight = 1654;
+
+const FestivalMap = () => (
   <ImageZoom // this is very brittle with respect to making a general slackline festival app. This code is specific to the GGBY file map. TODO -- clean up
     cropWidth={Dimensions.get("screen").width}
     cropHeight={Dimensions.get("screen").height}
-    imageWidth={1988}
-    imageHeight={2547}
+    imageWidth={mapWidth}
+    imageHeight={mapHeight}
     enableCenterFocus={false}
     centerOn={{ x: 0, y: 0, scale: 0.17, duration: 100 }} // yuck TODO no magic numbers
     minScale={0.1}
@@ -36,78 +39,25 @@ const Map = () => (
     maxoverflow={0}
     style={{
       flex: 1,
-      resizemode: "contain",
+      resizemode: "cover",
       alignSelf: "center"
     }}
   >
     <Image
       style={{
-        width: 1988, // yuck TODO no magics numbers
-        height: 2547
+        width: mapWidth, // yuck TODO no magics numbers
+        height: mapHeight
       }}
-      source={require("../../../assets/images/the-beautiful-fucking-map.png")}
+      source={require("../../../assets/images/festival-map.jpg")}
     />
   </ImageZoom>
 );
 
-const Map2 = () => (
-  <ImageZoom // this is very brittle with respect to making a general slackline festival app. This code is specific to the GGBY file map. TODO -- clean up
-    cropWidth={Dimensions.get("screen").width}
-    cropHeight={Dimensions.get("screen").height}
-    imageWidth={1988}
-    imageHeight={2547}
-    enableCenterFocus={false}
-    centerOn={{ x: 0, y: 0, scale: 0.17, duration: 100 }} // yuck TODO no magic numbers
-    minScale={0.1}
-    maxscale={2.0}
-    maxoverflow={0}
-    style={{
-      flex: 1,
-      resizemode: "contain",
-      alignSelf: "center"
-    }}
-  >
-    <Image
-      style={{
-        width: 1988, // yuck TODO remove magics numbers
-        height: 2547
-      }}
-      source={require("../../../assets/images/highline-sponsors.png")}
-    />
-  </ImageZoom>
-);
-
-const MapTabs = createMaterialTopTabNavigator(
-  {
-    FestivalMap: {
-      screen: props => <Map />,
-      navigationOptions: {
-        title: "Festival Map"
-      }
-    },
-    HighlineMap: {
-      screen: props => <Map2 />,
-      navigationOptions: {
-        title: "Highline Map"
-      }
-    }
-  },
-  {
-    tabBarOptions: {
-      style: styles.containerStyle,
-      indicatorStyle: styles.indicatorStyle,
-      labelStyle: styles.labelStyle,
-      activeTintColor: v.ACCENT_COLOR,
-      inactiveTintColor: v.WHITE,
-      upperCaseLabel: false
-    }
-  }
-);
 
 const MapNavigator = createStackNavigator(
   {
     MapTabs: {
-      screen: MapTabs
+      screen: FestivalMap
     }
   },
   defaultStackNavigatorConfigs
