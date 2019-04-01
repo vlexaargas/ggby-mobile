@@ -69,7 +69,7 @@ const Map2 = () => (
   >
     <Image
       style={{
-        width: 1988, // yuck TODO no magics numbers
+        width: 1988, // yuck TODO remove magics numbers
         height: 2547
       }}
       source={require("../../../assets/images/highline-sponsors.png")}

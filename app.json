@@ -3,7 +3,7 @@
     "sdkVersion": "30.0.0",
     "privacy": "public",
     "name": "GGBY Guide",
-    "icon": "./assets/appicon/ggby-logo-ios.png",
+    "icon": "./assets/appicon/SlackFestIcon.png",
     "version": "1.2.0",
     "orientation": "portrait",
     "slug": "ggby-guide-2018",

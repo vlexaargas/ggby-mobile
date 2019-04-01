@@ -28,8 +28,8 @@ export default {
         <Image
           style={{
             marginHorizontal: v.BASE_VALUE,
-            width: 120,
-            height: 120,
+            width: 240,
+            height: 240,
             resizeMode: "contain"
           }}
           fadeDuration={0}
