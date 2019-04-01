@@ -15,7 +15,7 @@ export default {
     headerTitle: () => (
       <React.Fragment>
         <StatusBar barStyle="light-content" />
-        <Image
+{/*        <Image
           style={{
             marginLeft: v.BASE_VALUE,
             width: 30,
@@ -24,12 +24,12 @@ export default {
           }}
           fadeDuration={0}
           source={require("../../../assets/appicon/ggby-logo-ios.png")}
-        />
+        />*/}
         <Image
           style={{
             marginHorizontal: v.BASE_VALUE,
-            width: 70,
-            height: 25,
+            width: 120,
+            height: 120,
             resizeMode: "contain"
           }}
           fadeDuration={0}
