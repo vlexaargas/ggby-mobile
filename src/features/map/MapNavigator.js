@@ -23,8 +23,8 @@ const styles = StyleSheet.create({
   }
 });
 
-const mapWidth = 2339;
-const mapHeight = 1654;
+const mapWidth = 2048;
+const mapHeight = 1171;
 
 const FestivalMap = () => (
   <ImageZoom // this is very brittle with respect to making a general slackline festival app. This code is specific to the GGBY file map. TODO -- clean up
