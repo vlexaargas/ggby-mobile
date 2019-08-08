@@ -25,27 +25,30 @@ const styles = StyleSheet.create({
 
 const mapWidth = 1080;
 const mapHeight = 1750;
+// There are a lot of magic numbers in this file.
+// The mapWidth and height must be included as well as the magic numbers 
+// for the crop width and height :/
+
 
 const FestivalMap = () => (
-  <ImageZoom // this is very brittle with respect to making a general slackline festival app. This code is specific to the GGBY file map. TODO -- clean up
+  <ImageZoom
     cropWidth={Dimensions.get("screen").width}
-    cropHeight={Dimensions.get("screen").height}
+    cropHeight={Dimensions.get("screen").height-240}
     imageWidth={mapWidth}
     imageHeight={mapHeight}
     enableCenterFocus={false}
-    centerOn={{ x: 0, y: 0, scale: .3, duration: 100 }} // yuck TODO no magic numbers
-    minScale={0.1}
+    centerOn={{ x: 0, y: 0, scale: .3, duration: 100 }} 
+    minScale={0.2}
     maxscale={2.0}
     maxoverflow={0}
     style={{
       flex: 1,
-      resizemode: "cover",
-      alignSelf: "center"
+      alignSelf: "stretch"
     }}
   >
     <Image
       style={{
-        width: mapWidth, // yuck TODO no magics numbers
+        width: mapWidth, 
         height: mapHeight
       }}
       source={require("../../../assets/images/festival-map.png")}

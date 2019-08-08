@@ -111,22 +111,22 @@
 	},
 	{
 		"id": 12,
-		"title": "Spleiss-Workshop (Philipp und Stephan)",
+		"title": "Spleiss Workshop ",
 		"startDateTime": "2019-08-24 11:00",
 		"duration": "1.5",
 		"shortDescription": "",
 		"description": "",
-		"instructor": "",
+		"instructor": "Philipp und Stephan",
 		"location": ""
 	},
 	{
 		"id": 13,
-		"title": "Exposure-Workshop (Karin)",
+		"title": "Exposure Workshop",
 		"startDateTime": "2019-08-24 11:00",
 		"duration": "1.5",
 		"shortDescription": "",
 		"description": "",
-		"instructor": "",
+		"instructor": "Karin",
 		"location": ""
 	},
 	{
@@ -171,22 +171,22 @@
 	},
 	{
 		"id": 18,
-		"title": "Freestyle On Longlines Workshop (Tlolac)",
+		"title": "Freestyle On Longlines Workshop",
 		"startDateTime": "2019-08-24 17:00",
 		"duration": "1",
 		"shortDescription": "",
 		"description": "",
-		"instructor": "",
+		"instructor": "Tlolac",
 		"location": ""
 	},
 	{
 		"id": 19,
-		"title": "Juggling on Slacklines Workshop (Tijmen)",
+		"title": "Juggling on Slacklines Workshop ",
 		"startDateTime": "2019-08-24 17:00",
 		"duration": "1",
 		"shortDescription": "",
 		"description": "",
-		"instructor": "",
+		"instructor": "Tijmen",
 		"location": ""
 	},
 	{
@@ -302,7 +302,7 @@
 	{
 		"id": 32,
 		"title": "Slackline",
-		"startDateTime": "2019-08-25 16:00",
+		"startDateTime": "2019-08-25 15:30",
 		"duration": "1",
 		"shortDescription": "",
 		"description": "",
@@ -311,12 +311,12 @@
 	},
 	{
 		"id": 33,
-		"title": "Slackline oder sonst was",
-		"startDateTime": "2019-08-25 16:00",
+		"title": "Lachyoga (Silvis)",
+		"startDateTime": "2019-08-25 15:30",
 		"duration": "1",
 		"shortDescription": "",
 		"description": "",
-		"instructor": "",
+		"instructor": "Silvis",
 		"location": ""
 	},
 	{

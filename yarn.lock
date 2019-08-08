@@ -8254,10 +8254,9 @@ rimraf@~2.4.0:
   dependencies:
     glob "^6.0.1"
 
-rn-pdf-reader-js@^0.2.1:
-  version "0.2.3"
-  resolved "https://registry.yarnpkg.com/rn-pdf-reader-js/-/rn-pdf-reader-js-0.2.3.tgz#4f7799cba1fb4cb8de52605ab5d6a4eca4cc5609"
-  integrity sha512-RZImjYL2kRmkmeqeYwLA4B6wztlMnwGHQeqGqkVus0pktAk4XioaAqviPVO9JQuk73fwiPnrQ5RzCoBA85kAiw==
+rn-pdf-reader-js@Codeko/rn-pdf-reader-js#v0.2.2:
+  version "0.2.2"
+  resolved "https://codeload.github.com/Codeko/rn-pdf-reader-js/tar.gz/2a03cf1ffe52c1b559273dcd9ce4eda9b5cecaa9"
   dependencies:
     buffer "5.1.0"
     js-base64 "2.4.5"

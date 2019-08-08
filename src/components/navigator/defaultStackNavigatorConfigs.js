@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Image, StatusBar } from "react-native";
+import { Image, StatusBar, Text } from "react-native";
 
 import * as v from "../../theme/variables";
 
@@ -25,7 +25,7 @@ export default {
           fadeDuration={0}
           source={require("../../../assets/appicon/ggby-logo-ios.png")}
         />*/}
-        <Image
+        {/*<Image
           style={{
             marginHorizontal: v.BASE_VALUE,
             width: 240,
@@ -34,7 +34,16 @@ export default {
           }}
           fadeDuration={0}
           source={require("../../../assets/images/festival-name.png")}
-        />
+        /> */}
+        <Text
+          style={{
+            color: 'white',
+            fontSize: 20,
+            fontWeight: 'bold'
+          }}
+        >
+          Bern City Slack
+        </Text>
       </React.Fragment>
     )
   }
