@@ -3,7 +3,7 @@ import moment from "moment";
 import { groupBy, map, keys } from "ramda";
 
 import { View, Text, SectionList } from "react-native";
-import { BlurView } from "expo";
+import { BlurView } from 'expo-blur';
 import EventItemContainer from "./EventItemContainer";
 
 import styles from "./ScheduleView.style";

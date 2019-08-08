@@ -23,8 +23,8 @@ const styles = StyleSheet.create({
   }
 });
 
-const mapWidth = 2048;
-const mapHeight = 1171;
+const mapWidth = 1080;
+const mapHeight = 1750;
 
 const FestivalMap = () => (
   <ImageZoom // this is very brittle with respect to making a general slackline festival app. This code is specific to the GGBY file map. TODO -- clean up
@@ -33,7 +33,7 @@ const FestivalMap = () => (
     imageWidth={mapWidth}
     imageHeight={mapHeight}
     enableCenterFocus={false}
-    centerOn={{ x: 0, y: 0, scale: 0.17, duration: 100 }} // yuck TODO no magic numbers
+    centerOn={{ x: 0, y: 0, scale: .3, duration: 100 }} // yuck TODO no magic numbers
     minScale={0.1}
     maxscale={2.0}
     maxoverflow={0}
@@ -48,7 +48,7 @@ const FestivalMap = () => (
         width: mapWidth, // yuck TODO no magics numbers
         height: mapHeight
       }}
-      source={require("../../../assets/images/festival-map.jpg")}
+      source={require("../../../assets/images/festival-map.png")}
     />
   </ImageZoom>
 );
