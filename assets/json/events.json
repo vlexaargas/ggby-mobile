@@ -332,7 +332,7 @@
 	{
 		"id": 35,
 		"title": "Slacklinepark geschlossen, Abbau",
-		"startDateTime": "2019-08-25 17:00",
+		"startDateTime": "2019-08-25 16:30",
 		"duration": "",
 		"shortDescription": "",
 		"description": "",
@@ -341,8 +341,8 @@
 	},
 	{
 		"id": 36,
-		"title": "Znacht",
-		"startDateTime": "2019-08-25 20:00",
+		"title": "Transalp-Meeting",
+		"startDateTime": "2019-08-25 19:00",
 		"duration": "",
 		"shortDescription": "",
 		"description": "",
@@ -351,7 +351,7 @@
 	},
 	{
 		"id": 37,
-		"title": "Transalp-Meeting",
+		"title": "Znacht",
 		"startDateTime": "2019-08-25 20:00",
 		"duration": "",
 		"shortDescription": "",
