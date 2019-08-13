@@ -29,8 +29,9 @@ const mapHeight = 1750;
 // The mapWidth and height must be included as well as the magic numbers 
 // for the crop width and height :/
 
-
-const FestivalMap = () => (
+// Also convert to stateful component so reset() can be called when component will mount.
+// without this, cropWidth 
+const CityMap = ({viewPortWidth, ViewPortHeight}) => (
   <ImageZoom
     cropWidth={Dimensions.get("screen").width}
     cropHeight={Dimensions.get("screen").height-240}
@@ -48,7 +49,7 @@ const FestivalMap = () => (
   >
     <Image
       style={{
-        width: mapWidth, 
+        width: mapWidth,
         height: mapHeight
       }}
       source={require("../../../assets/images/festival-map.png")}
@@ -56,11 +57,66 @@ const FestivalMap = () => (
   </ImageZoom>
 );
 
+const map2Width = 613;
+const map2Height = 280;
+
+const FestivalMap = () => (
+  <ImageZoom // this is very brittle with respect to making a general slackline festival app. This code is specific to the GGBY file map. TODO -- clean up
+    cropWidth={Dimensions.get("screen").width}
+    cropHeight={Dimensions.get("screen").height - 240}
+    imageWidth={map2Width}
+    imageHeight={map2Height}
+    enableCenterFocus={false}
+    centerOn={{ x: 0, y: 0, scale: 0.5, duration: 100 }} // yuck TODO no magic numbers
+    minScale={0.5}
+    maxscale={1.0}
+    maxoverflow={0}
+    style={{
+      flex: 1,
+      alignSelf: "stretch"
+    }}
+  >
+    <Image
+      style={{
+        width: map2Width, // yuck TODO no magics numbers
+        height: map2Height
+      }}
+      source={require("../../../assets/images/details-map.png")}
+    />
+  </ImageZoom>
+);
+
+const MapTabs = createMaterialTopTabNavigator(
+  {
+    CityMap: {
+      screen: props => <CityMap />,
+      navigationOptions: {
+        title: "City Map"
+      }
+    },
+    FestivalMap: {
+      screen: props => <FestivalMap />,
+      navigationOptions: {
+        title: "Festival Map"
+      }
+    }
+  },
+  {
+    tabBarOptions: {
+      style: styles.containerStyle,
+      indicatorStyle: styles.indicatorStyle,
+      labelStyle: styles.labelStyle,
+      activeTintColor: v.ACCENT_COLOR,
+      inactiveTintColor: v.WHITE,
+      upperCaseLabel: false
+    }
+  }
+);
 
 const MapNavigator = createStackNavigator(
   {
     MapTabs: {
-      screen: FestivalMap
+      screen: MapTabs
     }
   },
   defaultStackNavigatorConfigs
