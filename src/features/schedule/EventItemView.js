@@ -46,7 +46,7 @@ export default class EventItemView extends React.Component {
                 styles.reminderIcon,
                 hasReminder && styles.activeReminderIcon
               ]}
-              name={`ios-alarm${hasReminder ? "" : "-outline"}`}
+              name={`ios-alarm`}
             />
           </View>
         </View>
