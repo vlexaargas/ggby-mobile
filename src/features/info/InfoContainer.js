@@ -1,6 +1,6 @@
 import React from "react";
 import PDFReader from "rn-pdf-reader-js";
-import { Asset } from 'expo';
+import { Asset } from 'expo-asset';
 import { rawGuide } from "./rawGuide";
 // import bas64Pdf from "base64Pdf";
 // import InfoView from "./InfoView";
