@@ -2,11 +2,11 @@
   "expo": {
     "sdkVersion": "30.0.0",
     "privacy": "public",
-    "name": "SlackFest",
-    "icon": "./assets/appicon/SlackFestIcon.png",
-    "version": "1.0.0",
+    "name": "GGBY Guide",
+    "icon": "./assets/appicon/ggby-logo-ios.png",
+    "version": "1.3.0",
     "orientation": "portrait",
-    "slug": "slackfest",
+    "slug": "ggby-guide-2019",
     "primaryColor": "#252A33",
     "splash": {
       "image": "./assets/images/splash.png",
@@ -17,19 +17,21 @@
       "fallbackToCacheTimeout": 15
     },
     "ios": {
-      "buildNumber": "1.0.0",
-      "bundleIdentifier": "com.slacklineus.slackfest",
+      "icon": "./assets/appicon/ggby-logo-ios.png",
+      "buildNumber": "1.3.0",
+      "bundleIdentifier": "com.slacklineus.ggby.guide2018",
       "supportsTablet": false
     },
     "android": {
+      "icon": "./assets/appicon/ggby-logo-android.png",
       "versionCode": 1,
-      "package": "com.slacklineus.slackfest",
+      "package": "com.slacklineus.ggby.guide2018",
       "permissions": []
     },
     "assetBundlePatterns": [
       "assets/**/*",
       "node_modules/@expo/vector-icons/fonts/*"
     ],
-    "description": "The guide for slackline festivals around the world."
+    "description": "GGBY 2019 is the 12th annual gathering of the international highline community at the Fruit Bowl over the canyons of Moab, Utah over Thanksgiving. This festival guide will help you find your way around, discover workshops, and learn how protect the Fruit Bowl for years to come."
   }
 }
