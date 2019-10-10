@@ -9,6 +9,8 @@ const TOKEN_PATH = '../token.json'; // expects to be run from root
 
 const storeLocation = "assets/json/events.json"
 
+const spreadsheetId = "1-g3RgWzJzwTSxgpGGLpBtLGlJj2vieVooXs8_-A8u48"
+
 if (process.argv[2] != null) {
   storeLocation =process.argv[2]
 }
@@ -77,7 +79,7 @@ function getDatas(auth) {
   const sheet = "Schedule Content" // TODO parameterize
 
   return sheets.spreadsheets.values.get({
-    spreadsheetId: '1QBtACEflInYn8_Pt61KvaweCMBzpK8PWr-clYW9Y8VE', // TODO parameterize
+    spreadsheetId: spreadsheetId, // TODO parameterize
     range: sheet + '!' + startRow + ':' + endRow + '',
   }, (err, res) => {
         if (err) return console.log('The API returned an error: ', err);

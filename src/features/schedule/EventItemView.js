@@ -18,15 +18,15 @@ export default class EventItemView extends React.Component {
     const { title, startDateTime, duration, shortDescription, description, instructor } = event;
 
     return (
-      <TouchableOpacity onPress={onEventPress}>
+      <TouchableOpacity onPress={onEventPress} activeOpacity={description ? 0.2 : 1.0 }> 
         <View style={styles.eventItemContainer}>
           <View style={styles.leftEventItemSection}>
             <Text style={styles.normalText}>
-              {moment(startDateTime).format("hh:mm a")}
+              {moment(startDateTime).format("HH:mm")}
             </Text>
             { !!duration &&  // ugly double negation needed to type coerce the int to a bool and check it's truthiness. (error without)
               <Text style={styles.secondaryText}>
-                {`${duration} hour${duration > 1 ? "s" : ""}`}
+                {`${duration}hr`}
               </Text>
             }
        
@@ -35,7 +35,7 @@ export default class EventItemView extends React.Component {
           <View style={styles.centerEventItemSection}>
             <Text style={styles.eventTitleText}>{title}</Text>
             <Text style={styles.secondaryText} numberOfLines={3} ellipsizeMode="tail">
-              {shortDescription ? shortDescription : (description ? description : instructor ? (`Taught by: ${instructor}\nNo description`) : "No description")}
+              {shortDescription ? shortDescription : (description ? description : instructor ? (`Taught by: ${instructor}`) : "")}
             </Text>
           </View>
 
@@ -46,7 +46,7 @@ export default class EventItemView extends React.Component {
                 styles.reminderIcon,
                 hasReminder && styles.activeReminderIcon
               ]}
-              name={`ios-alarm${hasReminder ? "" : "-outline"}`}
+              name={`ios-alarm`}
             />
           </View>
         </View>
