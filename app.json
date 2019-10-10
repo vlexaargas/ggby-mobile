@@ -1,10 +1,10 @@
 {
   "expo": {
-    "sdkVersion": "30.0.0",
+    "sdkVersion": "33.0.0",
     "privacy": "public",
     "name": "SlackFest",
     "icon": "./assets/appicon/SlackFestIcon.png",
-    "version": "1.0.0",
+    "version": "1.3.0",
     "orientation": "portrait",
     "slug": "slackfest",
     "primaryColor": "#252A33",
@@ -17,12 +17,12 @@
       "fallbackToCacheTimeout": 15
     },
     "ios": {
-      "buildNumber": "1.0.0",
+      "buildNumber": "1.3.0",
       "bundleIdentifier": "com.slacklineus.slackfest",
       "supportsTablet": false
     },
     "android": {
-      "versionCode": 1,
+      "versionCode": 13,
       "package": "com.slacklineus.slackfest",
       "permissions": []
     },

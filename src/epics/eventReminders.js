@@ -5,7 +5,9 @@ import { tap, mergeMap, map, filter, share } from "rxjs/operators";
 import moment from "moment";
 
 import { Alert } from "react-native";
-import { Permissions, Notifications } from "expo";
+import { Notifications } from "expo";
+
+import * as Permissions from 'expo-permissions';
 
 import {
   saveEventReminder,
