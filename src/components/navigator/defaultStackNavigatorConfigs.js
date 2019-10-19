@@ -24,26 +24,18 @@ export default {
           }}
           fadeDuration={0}
           source={require("../../../assets/appicon/ggby-logo-ios.png")}
+          />
         
         <Image
           style={{
             marginHorizontal: v.BASE_VALUE,
-            width: 240,
-            height: 240,
+            width: 70,
+            height: 25,
             resizeMode: "contain"
           }}
           fadeDuration={0}
           source={require("../../../assets/images/ggby-name.png")}
         />
-        {/*<Text
-          style={{
-            color: 'white',
-            fontSize: 20,
-            fontWeight: 'bold'
-          }}
-        >
-          Bern City Slack
-        </Text>*/}
       </React.Fragment>
     )
   }
