@@ -1,5 +1,6 @@
 import React from "react";
 
+import { createAppContainer } from "react-navigation";
 import { createMaterialBottomTabNavigator } from "react-navigation-material-bottom-tabs";
 
 import Schedule from "../schedule";
@@ -47,8 +48,8 @@ const RootNavigator = createMaterialBottomTabNavigator(
     },
     inactiveColor: v.WHITE,
     activeColor: v.ACCENT_COLOR,
-    initialRouteName: 'Schedule'
+    initialRouteName: "Schedule"
   }
 );
 
-export default RootNavigator;
+export default createAppContainer(RootNavigator);

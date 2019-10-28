@@ -3,10 +3,8 @@ import React from "react";
 import { Image, Dimensions, StyleSheet } from "react-native";
 import ImageZoom from "react-native-image-pan-zoom";
 
-import {
-  createStackNavigator,
-  createMaterialTopTabNavigator
-} from "react-navigation";
+import { createStackNavigator } from "react-navigation-stack";
+import { createMaterialTopTabNavigator } from "react-navigation-tabs";
 
 import defaultStackNavigatorConfigs from "../../components/navigator";
 

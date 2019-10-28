@@ -1,9 +1,7 @@
 import React from "react";
 
-import {
-  createStackNavigator,
-  createMaterialTopTabNavigator
-} from "react-navigation";
+import { createStackNavigator } from "react-navigation-stack";
+import { createMaterialTopTabNavigator } from "react-navigation-tabs";
 
 import defaultStackNavigatorConfigs from "../../components/navigator";
 import * as v from "../../theme/variables";
