@@ -1,7 +1,9 @@
 import React from "react";
 
-import { Image, Dimensions, StyleSheet } from "react-native";
+
+import { Platform, Image, Dimensions, StyleSheet } from "react-native";
 import ImageZoom from "react-native-image-pan-zoom";
+import MapView from 'react-native-maps';
 
 import {
   createStackNavigator,
@@ -24,8 +26,8 @@ const styles = StyleSheet.create({
   }
 });
 
-const mapWidth = 1080;
-const mapHeight = 1750;
+const mapWidth = 2048;
+const mapHeight = 1977;
 // There are a lot of magic numbers in this file.
 // The mapWidth and height must be included as well as the magic numbers
 // for the crop width and height :/
@@ -48,7 +50,7 @@ class CityMap extends React.Component {
         width: mapWidth,
         height: mapHeight
       }}
-      source={require("../../../assets/images/festival-map.png")}
+      source={require("../../../assets/images/FruitBowl.jpg")}
     />
   );
 
@@ -58,7 +60,7 @@ class CityMap extends React.Component {
     return !error ? (
       <ImageZoom
         cropWidth={Dimensions.get("screen").width}
-        cropHeight={Dimensions.get("screen").height - 240}
+        cropHeight={Dimensions.get("screen").height-240}
         imageWidth={mapWidth}
         imageHeight={mapHeight}
         enableCenterFocus={false}
@@ -129,8 +131,47 @@ class FestivalMap extends React.Component {
   }
 }
 
+// Defines bounding region of map region and overlay (overhead shot) per MapView docs 
+// https://github.com/react-native-community/react-native-maps/blob/master/docs/mapview.md
+// https://github.com/react-native-community/react-native-maps/blob/master/docs/overlay.md
+const upperLeftLat = 38.537217
+const upperLeftLon = -109.948547
+const lowerRightLat = 38.532936
+const lowerRightLon = -109.944216
+class FruitBowlMap extends React.Component {
+
+  render() {
+    return ( <MapView
+    provider="google"
+    mapType="none"
+    initialRegion={{
+      latitude: (upperLeftLat + lowerRightLat ) / 2,
+      longitude: (upperLeftLon + lowerRightLon) / 2,
+      latitudeDelta: Math.abs(upperLeftLat - lowerRightLat),
+      longitudeDelta: Math.abs(upperLeftLon - lowerRightLon),
+    }}
+    overlay={{
+      image: "../../../assets/images/FruitBowl.jpg",
+      //38.537217, -109.948547
+      //38.532936, -109.944216
+      bounds: [
+          {latitude: upperLeftLat, longitude: upperLeftLon},
+          {latitude: lowerRightLat, longitude: lowerRightLon}
+      ]
+    }}
+    />
+    );
+  }
+}
+
 const MapTabs = createMaterialTopTabNavigator(
   {
+    FruitBowlMap: {
+      screen: props => <FruitBowlMap />,
+      navigationOptions: {
+        title: "Fruit Bowl"
+      }
+    },
     CityMap: {
       screen: props => <CityMap />,
       navigationOptions: {
