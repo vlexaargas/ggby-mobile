@@ -2,7 +2,7 @@
 
 The SlackFest app is built on ReactNative with the Expo framework to make it simpler to build and ship iOS and Android apps from one codebase with code push capabilities :) 
 
-[https://docs.expo.io/versions/v30.0.0/](https://docs.expo.io/versions/v30.0.0/)
+[https://docs.expo.io/versions/v33.0.0/](https://docs.expo.io/versions/v33.0.0/)
 
 ## Running Locally
 
