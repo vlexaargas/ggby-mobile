@@ -24,15 +24,16 @@ const styles = StyleSheet.create({
   }
 });
 
-const mapWidth = 1080;
-const mapHeight = 1750;
+const mapWidth = 1432;
+const mapHeight = 1864;
+const mapPath = "../../../assets/images/FruitBowl.jpg"
 // There are a lot of magic numbers in this file.
 // The mapWidth and height must be included as well as the magic numbers
 // for the crop width and height :/
 
 // Also convert to stateful component so reset() can be called when component will mount.
 // without this, cropWidth
-class CityMap extends React.Component {
+class FruitBowlMap extends React.Component {
   state = {
     error: false
   };
@@ -48,7 +49,7 @@ class CityMap extends React.Component {
         width: mapWidth,
         height: mapHeight
       }}
-      source={require("../../../assets/images/festival-map.png")}
+      source={require()}
     />
   );
 
@@ -79,10 +80,11 @@ class CityMap extends React.Component {
   }
 }
 
-const map2Width = 613;
-const map2Height = 280;
+const map2Width = 1080;
+const map2Height = 1750;
+const map2Path = "../../../assets/images/Overview.jpg";
 
-class FestivalMap extends React.Component {
+class OverviewMap extends React.Component {
   state = {
     error: false
   };
@@ -98,7 +100,7 @@ class FestivalMap extends React.Component {
         width: map2Width, // yuck TODO no magics numbers
         height: map2Height
       }}
-      source={require("../../../assets/images/details-map.png")}
+      source={require()}
     />
   );
 
@@ -131,16 +133,16 @@ class FestivalMap extends React.Component {
 
 const MapTabs = createMaterialTopTabNavigator(
   {
-    CityMap: {
-      screen: props => <CityMap />,
+    Map1: {
+      screen: props => <FruitBowlMap />,
       navigationOptions: {
-        title: "City Map"
+        title: "Fruit Bowl"
       }
     },
-    FestivalMap: {
-      screen: props => <FestivalMap />,
+    Map2: {
+      screen: props => <OverviewMap />,
       navigationOptions: {
-        title: "Festival Map"
+        title: "Overview"
       }
     }
   },
