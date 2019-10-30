@@ -26,7 +26,7 @@ const styles = StyleSheet.create({
 
 const mapWidth = 1432;
 const mapHeight = 1864;
-const mapPath = "../../../assets/images/FruitBowl.jpg"
+const mapPath = "../../../assets/images/FruitBowl.jpg";
 // There are a lot of magic numbers in this file.
 // The mapWidth and height must be included as well as the magic numbers
 // for the crop width and height :/
@@ -49,7 +49,7 @@ class FruitBowlMap extends React.Component {
         width: mapWidth,
         height: mapHeight
       }}
-      source={require()}
+      source={require(mapPath)}
     />
   );
 
@@ -100,7 +100,7 @@ class OverviewMap extends React.Component {
         width: map2Width, // yuck TODO no magics numbers
         height: map2Height
       }}
-      source={require()}
+      source={require(map2Path)}
     />
   );
 
@@ -114,8 +114,8 @@ class OverviewMap extends React.Component {
         imageWidth={map2Width}
         imageHeight={map2Height}
         enableCenterFocus={false}
-        centerOn={{ x: 0, y: 0, scale: 0.5, duration: 100 }} // yuck TODO no magic numbers
-        minScale={0.5}
+        centerOn={{ x: 0, y: 0, scale: 0.3, duration: 100 }} // yuck TODO no magic numbers
+        minScale={0.2}
         maxscale={1.0}
         maxoverflow={0}
         style={{
