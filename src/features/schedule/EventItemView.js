@@ -22,11 +22,11 @@ export default class EventItemView extends React.Component {
         <View style={styles.eventItemContainer}>
           <View style={styles.leftEventItemSection}>
             <Text style={styles.normalText}>
-              {moment(startDateTime).format("HH:mm")}
+              {moment(startDateTime).format("h:mm A")}
             </Text>
             { !!duration &&  // ugly double negation needed to type coerce the int to a bool and check it's truthiness. (error without)
               <Text style={styles.secondaryText}>
-                {`${duration}hr`}
+                {moment(startDateTime).add(duration, 'm').format("h:mm A") }
               </Text>
             }
        

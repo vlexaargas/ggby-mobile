@@ -12,7 +12,7 @@ const eventPicMap = {
 
 // TODO: Extract into own service
 const instructorPicMap = {
-  default:          require("../../../assets/images/instructors/default-profile.jpg"),
+  default:          require("../../../assets/images/default-profile.jpg"), // todo get gender non specific
 };
 
 function getPicForEvent(title) {
