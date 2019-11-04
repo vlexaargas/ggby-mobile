@@ -5,15 +5,15 @@ import { ScrollView, View, Text, Image } from "react-native";
 
 import styles from "./EventDetailsView.style";
 
+import { instructorPicMap } from './EventImageAssets'
+
 // TODO: Extract into own service
 const eventPicMap = {
   // slackro:                                require("../../../assets/images/events/slackro.jpg"),
 };
 
 // TODO: Extract into own service
-const instructorPicMap = {
-  default:          require("../../../assets/images/default-profile.jpg"), // todo get gender non specific
-};
+
 
 function getPicForEvent(title) {
   var cleanTitle = title.trim().toLowerCase();
@@ -28,7 +28,7 @@ function getInstructorList(event) {
 }
 
 function getPicForInstructor(instructorName) {
-  var cleanInstructorName = instructorName.toLowerCase();
+  var cleanInstructorName = instructorName.toLowerCase().replace(' ', '_');
   if(cleanInstructorName in instructorPicMap) {
     return instructorPicMap[cleanInstructorName];
   } else {
