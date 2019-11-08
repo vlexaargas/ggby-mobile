@@ -5,21 +5,19 @@ import { ScrollView, View, Text, Image } from "react-native";
 
 import styles from "./EventDetailsView.style";
 
-import { instructorPicMap } from './EventImageAssets'
-
-// TODO: Extract into own service
-const eventPicMap = {
-  // slackro:                                require("../../../assets/images/events/slackro.jpg"),
-};
-
-// TODO: Extract into own service
-
+import { instructorPicMap, eventPicMap } from './EventImageAssets'
 
 function getPicForEvent(title) {
-  var cleanTitle = title.trim().toLowerCase();
+  var cleanTitle = title
+    .trim()
+    .replace(/[\.\?&\':\\\/]/g, '')
+    .toLowerCase()
+    .replace(/ /g, '_');
+
   if(cleanTitle in eventPicMap) {
     return eventPicMap[cleanTitle];
   }
+  console.log(`no find :( cleaned title name: ${cleanTitle}`)
   return undefined;
 }
 
@@ -28,10 +26,14 @@ function getInstructorList(event) {
 }
 
 function getPicForInstructor(instructorName) {
-  var cleanInstructorName = instructorName.toLowerCase().replace(' ', '_');
+  var cleanInstructorName = instructorName
+    .replace(/ /g, "_")
+    .toLowerCase();
+
   if(cleanInstructorName in instructorPicMap) {
     return instructorPicMap[cleanInstructorName];
   } else {
+    console.log("no find :(" + cleanInstructorName);
     return instructorPicMap.default;
   }
 }
@@ -66,7 +68,7 @@ function getRender(navigation) {
             <View style={styles.instructorListView}>
               {map(
                 ({ name }) =>
-                  console.log(name) || (
+                   (
                     <View
                       style={styles.instructorView}
                       key={name}
