@@ -9,7 +9,7 @@ import os
 import sys
 
 input_path = sys.argv[1]
-workshop_images_output_path = "assets/images/instructor-headshots/"
+workshop_images_output_path = "assets/images/instructors/"
 
 print("input path: " + input_path)
 
