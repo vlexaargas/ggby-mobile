@@ -1,6 +1,7 @@
 import React from "react";
 
 import { Image, Dimensions, StyleSheet } from "react-native";
+import { ScreenOrientation } from "expo";
 import ImageZoom from "react-native-image-pan-zoom";
 
 import {
@@ -35,8 +36,23 @@ const mapPath = "../../../assets/images/FruitBowl.jpg";
 // without this, cropWidth
 class FruitBowlMap extends React.Component {
   state = {
-    error: false
+    error: false,
+    width: Dimensions.get("screen").width,
+    height: Dimensions.get("screen").height - 240
   };
+
+  constructor(props) {
+    super(props);
+
+    ScreenOrientation.addOrientationChangeListener(() => {
+      this.setState({
+        width: Dimensions.get("screen").width,
+        height: Dimensions.get("screen").height - 240
+      });
+    });
+  }
+
+  componentDidMount() {}
 
   static getDerivedStateFromError() {
     // Update state so the next render will show the fallback UI.
@@ -54,12 +70,12 @@ class FruitBowlMap extends React.Component {
   );
 
   render() {
-    const { error } = this.state;
+    const { error, width, height } = this.state;
 
     return !error ? (
       <ImageZoom
-        cropWidth={Dimensions.get("screen").width}
-        cropHeight={Dimensions.get("screen").height - 240}
+        cropWidth={width}
+        cropHeight={height}
         imageWidth={mapWidth}
         imageHeight={mapHeight}
         enableCenterFocus={false}
@@ -86,12 +102,25 @@ const map2Path = "../../../assets/images/Overview.jpg";
 
 class OverviewMap extends React.Component {
   state = {
-    error: false
+    error: false,
+    width: Dimensions.get("screen").width,
+    height: Dimensions.get("screen").height - 240
   };
 
   static getDerivedStateFromError() {
     // Update state so the next render will show the fallback UI.
     return { error: true };
+  }
+
+  constructor(props) {
+    super(props);
+
+    ScreenOrientation.addOrientationChangeListener(() => {
+      this.setState({
+        width: Dimensions.get("screen").width,
+        height: Dimensions.get("screen").height - 240
+      });
+    });
   }
 
   renderImage = () => (
@@ -105,12 +134,12 @@ class OverviewMap extends React.Component {
   );
 
   render() {
-    const { error } = this.state;
+    const { error, width, height } = this.state;
 
     return !error ? (
       <ImageZoom // this is very brittle with respect to making a general slackline festival app. This code is specific to the GGBY file map. TODO -- clean up
-        cropWidth={Dimensions.get("screen").width}
-        cropHeight={Dimensions.get("screen").height - 240}
+        cropWidth={width}
+        cropHeight={height}
         imageWidth={map2Width}
         imageHeight={map2Height}
         enableCenterFocus={false}
