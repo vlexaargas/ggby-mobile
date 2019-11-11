@@ -1,22 +1,22 @@
 [
 	{
 		"id": 0,
+		"title": "Slackline Instructor - Level C Certification Course",
+		"startDateTime": "2019-11-24 10:30",
+		"duration": "270",
+		"shortDescription": "4.5 hour Slackline Instructor Level C Certification Course from the International Slackline Association (ISA). ",
+		"description": "In this course we will discuss several techniques for teaching slacklining to beginners, as well as how to prepare and manage courses. Participants will learn techniques to efficiently teach basic foundational slacklining skills, injury prevention, basic rigging and technical knowledge, and learn a thorough and successful methodology for teaching beginners. The focus lies on education, not rigging, however participants are expected to have a solid understanding of rigging beginner slacklines safely. This is not a course for beginners. Participants must be able to comfortably walk a 15m slackline and be able to setup small slacklines with a ratchet and secure backup.",
+		"instructor": "",
+		"location": "Slackline Park"
+	},
+	{
+		"id": 1,
 		"title": "Welcome Vinyasa",
-		"startDateTime": "2019-11-24 13:00",
+		"startDateTime": "2019-11-24 13:30",
 		"duration": "75",
 		"shortDescription": "Welcome! Open your body and heart to the week of adventure ahead. ",
 		"description": "You've traveled all the way here, you've set up your camp, join Alex for 75 minutes of vinyasa flow to warm up your heart and body for the week of adventure ahead.",
 		"instructor": "Alexandra Reynaldo",
-		"location": "Yoga Zone"
-	},
-	{
-		"id": 1,
-		"title": "NamaShakeIt",
-		"startDateTime": "2019-11-24 16:00",
-		"duration": "60",
-		"shortDescription": "Come shake it off and get down dog!",
-		"description": "NamaShakeIt starts with the skeleton of a power Vinyasa practice, adds the playful flesh of a group dance class, is coated in the sensual skin of ecstatic dance, and topped with a sprinkling of twerkshop vibes; all set to uplifting booty shaking EDM.  Come shake it off and get down dog!  ",
-		"instructor": "Taylor Anderson",
 		"location": "Yoga Zone"
 	},
 	{
@@ -41,8 +41,18 @@
 	},
 	{
 		"id": 4,
+		"title": "NamaShakeIt",
+		"startDateTime": "2019-11-24 16:30",
+		"duration": "60",
+		"shortDescription": "Come shake it off and get down dog!",
+		"description": "NamaShakeIt starts with the skeleton of a power Vinyasa practice, adds the playful flesh of a group dance class, is coated in the sensual skin of ecstatic dance, and topped with a sprinkling of twerkshop vibes; all set to uplifting booty shaking EDM.  Come shake it off and get down dog!  ",
+		"instructor": "Taylor Anderson",
+		"location": "Yoga Zone"
+	},
+	{
+		"id": 5,
 		"title": "Find Your Flow",
-		"startDateTime": "2019-11-24 16:00",
+		"startDateTime": "2019-11-24 16:30",
 		"duration": "60",
 		"shortDescription": "Workshop on Flow Toys! Use our flow toys, or bring your own.",
 		"description": "This workshop will help you understand how to flow and move with an object with intention. Poi are Vinny's object, but he can give insight into how to investigate the movement of flow toys or objects in general. Flow objects will be provided as supplies last, feel free to use ours, or feel free to bring your own. ",
@@ -50,9 +60,9 @@
 		"location": "Movement Zone"
 	},
 	{
-		"id": 5,
+		"id": 6,
 		"title": "Sunrise Yoga Flow",
-		"startDateTime": "2019-11-25 07:00",
+		"startDateTime": "2019-11-25 07:45",
 		"duration": "60",
 		"shortDescription": "Come flow in the morning with Jess",
 		"description": "Come flow with Jess. Getting a gentle stretch to soothe those hard worked muscles and prepare them for more fun. A combination of hatha and yin yoga to pair with the intensity of the slack life. ",
@@ -60,7 +70,17 @@
 		"location": "Yoga Zone"
 	},
 	{
-		"id": 6,
+		"id": 7,
+		"title": "Sunrise Pranayam: Breathwork",
+		"startDateTime": "2019-11-25 07:45",
+		"duration": "60",
+		"shortDescription": "Sunrise breathwork that will reduce stress, energize, promote circulation, relax tense muscles and center the mind.",
+		"description": "Breath is essential to life. It's the first thing we do when we are born and the last thing we do when we leave. Join Kat for sunrise Pranayama where you'll be guided through several deep breathing techniques. These techniques will reduce stress, energize, promote circulation, relax tense muscles and center the mind. No experience necessary. Not recommended if you have a heart condition.",
+		"instructor": "Kat Ramirez",
+		"location": "Movement Zone"
+	},
+	{
+		"id": 8,
 		"title": "Letting Go of Perfectionism and Form in Yoga: Functional Anatomy",
 		"startDateTime": "2019-11-25 09:00",
 		"duration": "75",
@@ -70,29 +90,9 @@
 		"location": "Yoga Zone"
 	},
 	{
-		"id": 7,
-		"title": "Shoulder Anatomy Workshop & Yin Yoga",
-		"startDateTime": "2019-11-25 16:00",
-		"duration": "60",
-		"shortDescription": "In this workshop, learn the empowered anatomy of your own unique skeleton, and ways to effectively engage musculature around the shoulders to add strength and resiliency to your movement practices.",
-		"description": "The shoulders, being the most mobile joints in the body, are also the most prone to injury. In this workshop, learn the empowered anatomy of your own unique skeleton, and ways to effectively engage musculature around the shoulders to add strength and resiliency to your movement practices, from climbing to acro-yogaing and beyond. Enjoy a deeply resonant and relaxing yin yoga practice to address any imbalances in your system, lengthening and lubricating connective tissue and exploring the internal methods of mindfulness throughout. ",
-		"instructor": "Kali Basman",
-		"location": "Yoga Zone"
-	},
-	{
-		"id": 8,
-		"title": "Sunrise Pranayam: Breathwork",
-		"startDateTime": "2019-11-25 07:00",
-		"duration": "60",
-		"shortDescription": "Sunrise breathwork that will reduce stress, energize, promote circulation, relax tense muscles and center the mind.",
-		"description": "Breath is essential to life. It's the first thing we do when we are born and the last thing we do when we leave. Join Kat for sunrise Pranayama where you'll be guided through several deep breathing techniques. These techniques will reduce stress, energize, promote circulation, relax tense muscles and center the mind. No experience necessary. Not recommended if you have a heart condition.",
-		"instructor": "Kat Ramirez",
-		"location": "Movement Zone"
-	},
-	{
 		"id": 9,
 		"title": "ZenPlay: Movement Communication",
-		"startDateTime": "2019-11-25 09:00",
+		"startDateTime": "2019-11-25 10:00",
 		"duration": "75",
 		"shortDescription": "Zen Play; Researching creative communication with partners and games.",
 		"description": "Zen Play; Researching creative communication with partners and games. How do we express ourselves? How do we organize our bodies and strategies to communicate our ideas? What kind of games do we play to stay young? Where does our movement practice fit into the context of us aging and dying? Why does our physicical structure exist in these patterns? When does training intersect with playing? How well do you adapt? We exist in a web of information, constantly exchanging rythms with life and matter around us.",
@@ -101,16 +101,56 @@
 	},
 	{
 		"id": 10,
-		"title": "Parkour for Play",
-		"startDateTime": "2019-11-25 10:00",
+		"title": "Soft Shackle Construction",
+		"startDateTime": "2019-11-25 09:00",
 		"duration": "75",
-		"shortDescription": "Let's get creative and play with Parkour! ",
-		"description": "Parkour is the discipline of moving efficiently through any environment which utilizes proper jumping, landing, and climbing techniques to move about in a creative way. Let's get creative and play! ",
-		"instructor": "Adam LaPlante",
-		"location": "Movement Zone"
+		"shortDescription": "Come learn to make Soft Shackles! Materials provided while supplies last. ",
+		"description": "Come learn to make Soft Shackles! Materials provided while supplies last. ",
+		"instructor": "Ryan Pohl",
+		"location": "Living Room"
 	},
 	{
 		"id": 11,
+		"title": "Highlining Techniques for Beginners",
+		"startDateTime": "2019-11-25 09:00",
+		"duration": "75",
+		"shortDescription": "Not sure how you might perform on your first highline at GGBY?  This beginner's workshop will provide you with the knowledge and skills necessary for success.",
+		"description": "Not sure how you might perform on your first highline at GGBY? Nervous about mounting or getting back up after a potential fall? This beginner's workshop will provide you with the knowledge and skills necessary for success. Pre-requisites and required equipment: Should be able to walk a 20-50 foot slackline successfully, Must have a harness and helmet (helmets can be supplied upon request), Must be in good physical shape (mounting the line after a fall requires a lot of upper body strength and some flexibility), A positive attitude and a willingness to take some falls! Things you can expect to learn: Proper mounting techniques (the 'chongo mount', sit start, etc.), Catching the line, Re-mounting the line after a fall, Climbing the leash in the case of a 'whipper' (falling onto the leash), Getting back onto the line and pulling yourself back to the start, Walking technique (physical techniques, focus, rhythm, using your breath or mantras). Join Emily Sukeinnik, an accomplished slackliner and highliner, for your first steps into the abyss! Emily started slacklining in 2009 and became the 4th woman to walk the Lost Arrow Highline in Yosemite Valley. She spent many years as a sponsored athlete walking over 60 highlines across the US and aboard, being featured on CBS This morning and in various publications (Outside Magazine, National Geographic and Women's Adventure Magazine) for her accomplishments within the sport. She is most passionate about instruction and getting beginners onto their first lines. Emily will support you in your individual learning process and have you feeling both prepared and confident by the end of GGBY! Emily's Blog: www.theascentofem.blogspot.com",
+		"instructor": "Emily Sukiennik, Louie Wray",
+		"location": "Slackline Park"
+	},
+	{
+		"id": 12,
+		"title": "Off-Grid Solar Systems: 24/12 Volt",
+		"startDateTime": "2019-11-25 10:30",
+		"duration": "75",
+		"shortDescription": "This workshop will focus on traditional 12v off grid setups as well as the added benefits and disadvantages of a 24v system",
+		"description": "Whether you are building out a van, RV, tiny home or larger, we can help you discover options and methods to scale a system to your exact needs. This workshop will focus on traditional 12v off grid setups as well as the added benefits and disadvantages of a 24v system",
+		"instructor": "Ryan Pohl, Jesse Faircloth",
+		"location": "Living Room"
+	},
+	{
+		"id": 13,
+		"title": "Mount It Like It's Hot",
+		"startDateTime": "2019-11-25 10:30",
+		"duration": "75",
+		"shortDescription": "Come explore the world of all the different ways to mount a slackline, that is, going from sitting to standing, with Louie Wray.",
+		"description": "Come explore the world of all the different ways to mount a slackline, that is, going from sitting to standing, with Louie Wray. You'll explore the chongo, the sit start, the drop knee start, and more",
+		"instructor": "Louie Wray",
+		"location": "Slackline Park"
+	},
+	{
+		"id": 14,
+		"title": "Aerial Conditioning for Maximum Vascularity 101",
+		"startDateTime": "2019-11-25 10:30",
+		"duration": "75",
+		"shortDescription": "Come explore a this workshop efficient conditioning done consistently, with plenty of rest and recovery built in. Whether you’re a complete beginner, a baby aerialist, or you’ve been flying for years, this workshop is for you! ",
+		"description": "If you’ve ever asked yourself “HOW do aerialists make this all look so effortless and graceful?”, the answer is simple: MAGIC! Just kidding, it’s CONDITIONING. More specifically, efficient conditioning done consistently, with plenty of rest and recovery built in. Whether you’re a complete beginner, a baby aerialist or you’ve been flying for years, having a solid conditioning game is your key to foundational skill development, leveling up to bigger skills, moving gracefully with beautiful lines, and injury prevention. If you’ve been wondering what in the world you’re supposed be doing or focusing on, and you feel like you’re a flailing jellyfish trying every shiny new exercise posted on Instagram, this class is for you!",
+		"instructor": "Leila Noone, Andrew Gasparis",
+		"location": "Other"
+	},
+	{
+		"id": 15,
 		"title": "AcroLatin Dance Flow",
 		"startDateTime": "2019-11-25 12:00",
 		"duration": "75",
@@ -120,107 +160,17 @@
 		"location": "Movement Zone"
 	},
 	{
-		"id": 12,
-		"title": "Chromatic Dance Twerkshop",
-		"startDateTime": "2019-11-25 13:00",
-		"duration": "75",
-		"shortDescription": "Whether you're warming up, or cooling down, let's celebrate with movement, sound, and actual paint",
-		"description": "Paint your unique colorful dance on the canvas of the desert terrain. Whether you're warming up, or cooling down, let's celebrate with movement, sound, and actual paint. Pony will lead you through movement that encourages breath, spontaneity, and strength. Group sized canvas and paint provided. See you there!",
-		"instructor": "Melissa Brady",
-		"location": "Movement Zone"
-	},
-	{
-		"id": 13,
-		"title": "Casual Acro : A Guided Acro Jam for All Levels",
-		"startDateTime": "2019-11-25 15:00",
-		"duration": "75",
-		"shortDescription": "In this GUIDED ACRO JAM, we'll intentionally break the ice, provide tips and tricks for how to do this at jams in your own community, and have discussions about how to be respectful and consensual in our interactions.",
-		"description": "Acro can seem evasive and inclusive sometimes when you see the epic things people are doing, and it can be hard to break In if you are shy! But strangers at an acro jam are just friends you haven't flown yet! In this GUIDED ACRO JAM, we'll intentionally break the ice, provide tips and tricks for how to do this at jams in your own community, and have discussions about how to be respectful and consensual in our interactions. Come prepared to learn some fun new stuff, teach some fun new stuff, play with as many people as possible, and get a little weird. All levels, from beginner to advanced are encouraged to come. ",
-		"instructor": "Zachariah Cowan",
-		"location": "Movement Zone"
-	},
-	{
-		"id": 14,
-		"title": "Bo Staff Basics",
-		"startDateTime": "2019-11-25 16:00",
-		"duration": "60",
-		"shortDescription": "Josh will take you through the basics of how to spin and move the body in order to flow freely with the bo staff. 8 Bo staffs provided, but you're encouraged to bring your own",
-		"description": "Learn to flow spinning the Bo Staff with Slacklinejosh. Josh will take you through the basics of how to spin and move the body in order to flow freely with the bo staff. There will be demonstrations, shared experience and thoughtful insight for all levels of those who are curious. Come to learn, come to play or simply come to observe. All are welcome and all levels of spin are challenged. There will be 8 bo staffs to be used by participants but all are encouraged to bring their own bo staff if you have one. ",
-		"instructor": "Josh Beaudoin",
-		"location": "Movement Zone"
-	},
-	{
-		"id": 15,
-		"title": "Soft Shackle Construction",
-		"startDateTime": "2019-11-25 09:00",
-		"duration": "75",
-		"shortDescription": "Come learn to make Soft Shackles! Materials provided while supplies last. ",
-		"description": "Come learn to make Soft Shackles! Materials provided while supplies last. ",
-		"instructor": "Ryan Pohl",
-		"location": "Education Zone"
-	},
-	{
 		"id": 16,
-		"title": "Off-Grid Solar Systems: 24/12 Volt",
-		"startDateTime": "2019-11-25 10:00",
-		"duration": "75",
-		"shortDescription": "This workshop will focus on traditional 12v off grid setups as well as the added benefits and disadvantages of a 24v system",
-		"description": "Whether you are building out a van, RV, tiny home or larger, we can help you discover options and methods to scale a system to your exact needs. This workshop will focus on traditional 12v off grid setups as well as the added benefits and disadvantages of a 24v system",
-		"instructor": "Ryan Pohl, Jesse Faircloth",
-		"location": "Education Zone"
-	},
-	{
-		"id": 17,
 		"title": "How NOT to Highline Q&A",
 		"startDateTime": "2019-11-25 12:00",
 		"duration": "75",
 		"shortDescription": "Have questions or ideas or stoke for HowNOTtoHighline? We will have fun quizzes, answer questions, and make a list of the weirdest things you want to see break tested.",
 		"description": "Have questions or ideas or stoke for HowNOTtoHighline?  We will have fun quizzes, answer questions, and make a list of the weirdest things you want to see break tested.  We will also show new unreleased projects and tests that are super unique.  Warning:  you might laugh and learn things.  If you consent, come get involved!",
 		"instructor": "Ryan Jenks",
-		"location": "Education Zone"
+		"location": "Living Room"
 	},
 	{
-		"id": 18,
-		"title": "Dirtbag rope play",
-		"startDateTime": "2019-11-25 13:00",
-		"duration": "75",
-		"shortDescription": "Learn knots and techniques for use in bondage and rescue situations.",
-		"description": "Learn knots and techniques for use in bondage and rescue situations. ",
-		"instructor": "Jeramiah Morgan",
-		"location": "Education Zone"
-	},
-	{
-		"id": 19,
-		"title": "Noise and Harmony: Improv Music Discussion and Guided Jam Session",
-		"startDateTime": "2019-11-25 15:00",
-		"duration": "75",
-		"shortDescription": "A discussion about music creation focusing on improvisational techniques and music theory, followed by a jam session. Bring something that makes noise!",
-		"description": "A discussion about music creation focusing on improvisational techniques and music theory, followed by a jam session. Bring something that makes noise! ",
-		"instructor": "Austin Dickey",
-		"location": "Education Zone"
-	},
-	{
-		"id": 20,
-		"title": "Highlining Techniques for Beginners",
-		"startDateTime": "2019-11-25 09:00",
-		"duration": "75",
-		"shortDescription": "Not sure how you might perform on your first highline at GGBY?  This beginner's workshop will provide you with the knowledge and skills necessary for success.",
-		"description": "Not sure how you might perform on your first highline at GGBY? Nervous about mounting or getting back up after a potential fall? This beginner's workshop will provide you with the knowledge and skills necessary for success. Pre-requisites and required equipment: Should be able to walk a 20-50 foot slackline successfully, Must have a harness and helmet (helmets can be supplied upon request), Must be in good physical shape (mounting the line after a fall requires a lot of upper body strength and some flexibility), A positive attitude and a willingness to take some falls! Things you can expect to learn: Proper mounting techniques (the 'chongo mount', sit start, etc.), Catching the line, Re-mounting the line after a fall, Climbing the leash in the case of a 'whipper' (falling onto the leash), Getting back onto the line and pulling yourself back to the start, Walking technique (physical techniques, focus, rhythm, using your breath or mantras). Join Emily Sukeinnik, an accomplished slackliner and highliner, for your first steps into the abyss! Emily started slacklining in 2009 and became the 4th woman to walk the Lost Arrow Highline in Yosemite Valley. She spent many years as a sponsored athlete walking over 60 highlines across the US and aboard, being featured on CBS This morning and in various publications (Outside Magazine, National Geographic and Women's Adventure Magazine) for her accomplishments within the sport. She is most passionate about instruction and getting beginners onto their first lines. Emily will support you in your individual learning process and have you feeling both prepared and confident by the end of GGBY! Emily's Blog: www.theascentofem.blogspot.com",
-		"instructor": "Emily Sukiennik, Louie Wray",
-		"location": "Slackline Park"
-	},
-	{
-		"id": 21,
-		"title": "Mount It Like It's Hot",
-		"startDateTime": "2019-11-25 10:00",
-		"duration": "75",
-		"shortDescription": "Come explore the world of all the different ways to mount a slackline, that is, going from sitting to standing, with Louie Wray.",
-		"description": "Come explore the world of all the different ways to mount a slackline, that is, going from sitting to standing, with Louie Wray. You'll explore the chongo, the sit start, the drop knee start, and more",
-		"instructor": "Louie Wray",
-		"location": "Slackline Park"
-	},
-	{
-		"id": 22,
+		"id": 17,
 		"title": "Tandem Slackline",
 		"startDateTime": "2019-11-25 12:00",
 		"duration": "75",
@@ -230,9 +180,29 @@
 		"location": "Slackline Park"
 	},
 	{
-		"id": 23,
+		"id": 18,
+		"title": "Chromatic Dance Twerkshop",
+		"startDateTime": "2019-11-25 13:30",
+		"duration": "75",
+		"shortDescription": "Whether you're warming up, or cooling down, let's celebrate with movement, sound, and actual paint",
+		"description": "Paint your unique colorful dance on the canvas of the desert terrain. Whether you're warming up, or cooling down, let's celebrate with movement, sound, and actual paint. Pony will lead you through movement that encourages breath, spontaneity, and strength. Group sized canvas and paint provided. See you there!",
+		"instructor": "Melissa Brady",
+		"location": "Movement Zone"
+	},
+	{
+		"id": 19,
+		"title": "Dirtbag rope play",
+		"startDateTime": "2019-11-25 13:30",
+		"duration": "75",
+		"shortDescription": "Learn knots and techniques for use in bondage and rescue situations.",
+		"description": "Learn knots and techniques for use in bondage and rescue situations. ",
+		"instructor": "Jeramiah Morgan",
+		"location": "Living Room"
+	},
+	{
+		"id": 20,
 		"title": "Shoulder Stand on the Slackline!",
-		"startDateTime": "2019-11-25 13:00",
+		"startDateTime": "2019-11-25 13:30",
 		"duration": "75",
 		"shortDescription": "Come learn progressions, entrances into, and exits out of the elusive shoulder stand on a slackline! ",
 		"description": "The elusive shoulder stand! This 'impressive' pose on a slackline can be entered without the ground, held statically, bounced in and out of, and for many people, it feels very out of reach! Come to this workshop if you want to learn basic progressions for a 'yoga style' shoulder stand on a slackline, along with entrances and exits, both with and without the ground. Come play! ",
@@ -240,7 +210,27 @@
 		"location": "Slackline Park"
 	},
 	{
-		"id": 24,
+		"id": 21,
+		"title": "Casual Acro : A Guided Acro Jam for All Levels",
+		"startDateTime": "2019-11-25 15:00",
+		"duration": "75",
+		"shortDescription": "In this GUIDED ACRO JAM, we'll intentionally break the ice, provide tips and tricks for how to do this at jams in your own community, and have discussions about how to be respectful and consensual in our interactions.",
+		"description": "Acro can seem evasive and inclusive sometimes when you see the epic things people are doing, and it can be hard to break In if you are shy! But strangers at an acro jam are just friends you haven't flown yet! In this GUIDED ACRO JAM, we'll intentionally break the ice, provide tips and tricks for how to do this at jams in your own community, and have discussions about how to be respectful and consensual in our interactions. Come prepared to learn some fun new stuff, teach some fun new stuff, play with as many people as possible, and get a little weird. All levels, from beginner to advanced are encouraged to come. ",
+		"instructor": "Zachariah Cowan",
+		"location": "Movement Zone"
+	},
+	{
+		"id": 22,
+		"title": "Noise and Harmony: Improv Music Discussion and Guided Jam Session",
+		"startDateTime": "2019-11-25 15:00",
+		"duration": "75",
+		"shortDescription": "A discussion about music creation focusing on improvisational techniques and music theory, followed by a jam session. Bring something that makes noise!",
+		"description": "A discussion about music creation focusing on improvisational techniques and music theory, followed by a jam session. Bring something that makes noise! ",
+		"instructor": "Austin Dickey",
+		"location": "Living Room"
+	},
+	{
+		"id": 23,
 		"title": "Slackline Techniques and Flow Management: A Slackline 'Jam'",
 		"startDateTime": "2019-11-25 15:00",
 		"duration": "75",
@@ -250,19 +240,39 @@
 		"location": "Slackline Park"
 	},
 	{
+		"id": 24,
+		"title": "Shoulder Anatomy Workshop & Yin Yoga",
+		"startDateTime": "2019-11-25 16:30",
+		"duration": "60",
+		"shortDescription": "In this workshop, learn the empowered anatomy of your own unique skeleton, and ways to effectively engage musculature around the shoulders to add strength and resiliency to your movement practices.",
+		"description": "The shoulders, being the most mobile joints in the body, are also the most prone to injury. In this workshop, learn the empowered anatomy of your own unique skeleton, and ways to effectively engage musculature around the shoulders to add strength and resiliency to your movement practices, from climbing to acro-yogaing and beyond. Enjoy a deeply resonant and relaxing yin yoga practice to address any imbalances in your system, lengthening and lubricating connective tissue and exploring the internal methods of mindfulness throughout. ",
+		"instructor": "Kali Basman",
+		"location": "Yoga Zone"
+	},
+	{
 		"id": 25,
-		"title": "Aerial Conditioning for Maximum Vascularity 101",
-		"startDateTime": "2019-11-25 10:00",
-		"duration": "75",
-		"shortDescription": "Come explore a this workshop efficient conditioning done consistently, with plenty of rest and recovery built in. Whether you’re a complete beginner, a baby aerialist, or you’ve been flying for years, this workshop is for you! ",
-		"description": "If you’ve ever asked yourself “HOW do aerialists make this all look so effortless and graceful?”, the answer is simple: MAGIC! Just kidding, it’s CONDITIONING. More specifically, efficient conditioning done consistently, with plenty of rest and recovery built in. Whether you’re a complete beginner, a baby aerialist or you’ve been flying for years, having a solid conditioning game is your key to foundational skill development, leveling up to bigger skills, moving gracefully with beautiful lines, and injury prevention. If you’ve been wondering what in the world you’re supposed be doing or focusing on, and you feel like you’re a flailing jellyfish trying every shiny new exercise posted on Instagram, this class is for you!",
-		"instructor": "Leila Noone, Andrew Gasparis",
-		"location": "Other"
+		"title": "Bo Staff Basics",
+		"startDateTime": "2019-11-25 16:30",
+		"duration": "60",
+		"shortDescription": "Josh will take you through the basics of how to spin and move the body in order to flow freely with the bo staff. 8 Bo staffs provided, but you're encouraged to bring your own",
+		"description": "Learn to flow spinning the Bo Staff with Slacklinejosh. Josh will take you through the basics of how to spin and move the body in order to flow freely with the bo staff. There will be demonstrations, shared experience and thoughtful insight for all levels of those who are curious. Come to learn, come to play or simply come to observe. All are welcome and all levels of spin are challenged. There will be 8 bo staffs to be used by participants but all are encouraged to bring their own bo staff if you have one. ",
+		"instructor": "Josh Beaudoin",
+		"location": "Movement Zone"
 	},
 	{
 		"id": 26,
+		"title": "OM Circle",
+		"startDateTime": "2019-11-25 16:30",
+		"duration": "60",
+		"shortDescription": "",
+		"description": "",
+		"instructor": "Julian Desforges",
+		"location": "Other"
+	},
+	{
+		"id": 27,
 		"title": "Sunrise Yoga",
-		"startDateTime": "2019-11-26 07:00",
+		"startDateTime": "2019-11-26 07:45",
 		"duration": "60",
 		"shortDescription": "Come ignite your inner fire with breath work, meditation, and movement while the sun rises over the fruit bowl!",
 		"description": "Come ignite your inner fire with breath work, meditation, and movement while the sun rises over the fruit bowl! Let's keep our fires burning throughout GGBY, and enjoy all that this festival has to offer! Please bring a yoga mat if you have one. ",
@@ -270,7 +280,27 @@
 		"location": "Yoga Zone"
 	},
 	{
-		"id": 27,
+		"id": 28,
+		"title": "Sunrise Ecstatic Dance",
+		"startDateTime": "2019-11-26 07:45",
+		"duration": "60",
+		"shortDescription": "Daybreaker! There's no better way to start the day than to dance ecstatically",
+		"description": "Ecstatic Dance at Sunrise. What else is there to say?",
+		"instructor": "Ariana Gradow",
+		"location": "Movement Zone"
+	},
+	{
+		"id": 29,
+		"title": "Coffee Talks: Flow with Josh Beaudoin",
+		"startDateTime": "2019-11-26 07:45",
+		"duration": "60",
+		"shortDescription": "An early morning of bad (or good) coffee, and the entire spectrum of communication minus the gossip: Sharing knowledge and gaining deeper appreciations for life will be the overall vibe on this early gathering.",
+		"description": "Come join Slacklinejosh for bad coffee and the entire spectrum of communication minus the gossip 🙂 Sharing knowledge and gaining deeper appreciations for life will be the overall vibe on this early gathering. So grab your reusable mug and a bud and come join us for a good time.",
+		"instructor": "Josh Beaudoin",
+		"location": "Living Room"
+	},
+	{
+		"id": 30,
 		"title": "Flexibility and Stretching",
 		"startDateTime": "2019-11-26 09:00",
 		"duration": "75",
@@ -280,27 +310,7 @@
 		"location": "Yoga Zone"
 	},
 	{
-		"id": 28,
-		"title": "Mindfulness and Meditation",
-		"startDateTime": "2019-11-26 16:00",
-		"duration": "60",
-		"shortDescription": "This workshop will provide a safe space for participants to delve into the mind, sit in silent meditation collectively and appreciate a sedentary space to focus energy.",
-		"description": "What does it mean to be mindful in this fast paced modern world and how can meditation help you on the journey to becoming a more conscious being? This workshop will touch on these two subjects and provide a safe space for participants to delve into the mind, sit in silent meditation collectively and appreciate a sedentary space to focus energy. ",
-		"instructor": "Brian Mosbaugh",
-		"location": "Yoga Zone"
-	},
-	{
-		"id": 29,
-		"title": "Sunrise Ecstatic Dance",
-		"startDateTime": "2019-11-26 07:00",
-		"duration": "60",
-		"shortDescription": "Daybreaker! There's no better way to start the day than to dance ecstatically",
-		"description": "Ecstatic Dance at Sunrise. What else is there to say?",
-		"instructor": "Ariana Gradow",
-		"location": "Movement Zone"
-	},
-	{
-		"id": 30,
+		"id": 31,
 		"title": "Aerial Actions!",
 		"startDateTime": "2019-11-26 09:00",
 		"duration": "75",
@@ -310,9 +320,9 @@
 		"location": "Movement Zone"
 	},
 	{
-		"id": 31,
+		"id": 32,
 		"title": "Beginner Acroyoga for All",
-		"startDateTime": "2019-11-26 10:00",
+		"startDateTime": "2019-11-26 10:30",
 		"duration": "75",
 		"shortDescription": "In this workshop, we will teach you the foundational basics in L-basing and flying!",
 		"description": "Ever seen an amazing acro yoga partner flow and curious about it? In this workshop, we will teach you the foundational basics in L-basing and flying! L-basing is where one person lays on the ground and uses their feet and hands to assist a partner in the air. We’ll cover the basics in communication, partner calibration, and using your body weight to stack. Acro yoga is for all ages, shapes, athletic abilities, and sizes! Come join us and discover your acrobatic flow. Clothes that breathe and allow you to move recommended. Partner not required.",
@@ -320,7 +330,37 @@
 		"location": "Movement Zone"
 	},
 	{
-		"id": 32,
+		"id": 33,
+		"title": "Herbal Medicine Storytelling & Sharing Circle",
+		"startDateTime": "2019-11-26 10:30",
+		"duration": "75",
+		"shortDescription": "We invite you to come learn and connect about plants and their many uses. Bring your tinctures & teas, bags & blends, medicines & other magickal remedies for us to meet and get to know.",
+		"description": "Plants are medicine. We invite you to come learn and connect about plants and their many uses. Bring your tinctures & teas, bags & blends, medicines & other magickal remedies for us to meet and get to know. Salves, essential oils, herbal teas, or smudges, all of nature’s gifts and potions we'd love to appreciate and experience. We'll share and listen to stories about how plants have brought connection, health, healing and vitality into our lives. What's your story, ritual, practice or relationship with a flower, plant, fungi, herb or spice? Nature can be part of our self-care & personal journey.",
+		"instructor": "Lyndsay McKeever",
+		"location": "Living Room"
+	},
+	{
+		"id": 34,
+		"title": "Women's Highline Clinic",
+		"startDateTime": "2019-11-26 10:30",
+		"duration": "75",
+		"shortDescription": "Women's specific highline clinic is here to nurture, inform and inspire lady highliners.",
+		"description": "Women's specific highline clinic is here to nurture, inform and inspire lady highliners.  You can expect an interactive talk about what strengths women take to the sport of highlining and how we have opportunity to adjust mindset and movements to accomplish goals and have more fun.  ",
+		"instructor": "Krista Van Parys",
+		"location": "Slackline Park"
+	},
+	{
+		"id": 35,
+		"title": "Fruit Bowl Tour with the Bureau of Land Management",
+		"startDateTime": "2019-11-26 10:30",
+		"duration": "75",
+		"shortDescription": "Come explore with the Bureau of Land Management (BLM) and GGBY Lead Organizer Dan Walsh around the Fruit Bowl to understand the history, ecology, geology, and wildlife of the canyon area.",
+		"description": "New or a veteran to the Fruit Bowl? Come explore with the Bureau of Land Management (BLM) and GGBY Lead Organizer Dan Walsh around the Fruit Bowl to understand the history, ecology, geology, and wildlife of the canyon area. Learn about the Mission of the BLM and Slackline U.S. and the great partnership driven to balance the priorities of the BLM with those of Slackline U.S. and the greater slackline community that use the Fruit Bowl. ",
+		"instructor": "Katie Stevens, Dan Walsh",
+		"location": "Other"
+	},
+	{
+		"id": 36,
 		"title": "Conscious Contact Dance",
 		"startDateTime": "2019-11-26 12:00",
 		"duration": "75",
@@ -330,107 +370,17 @@
 		"location": "Movement Zone"
 	},
 	{
-		"id": 33,
-		"title": "Sassy Acro: The Art of Acro Performance for All Levels",
-		"startDateTime": "2019-11-26 13:00",
-		"duration": "75",
-		"shortDescription": "In this all levels acro workshop, you'll learn how to take a few basic poses and moves, and put them together in a sequence that oozes with your own personality.",
-		"description": "You don't need to be an advanced acrobat to put together an acro sequence and performance! Turns out, putting together an act is all about two things: SASS and FLAIR! In this all levels acro workshop, you'll learn how to take a few basic poses and moves, and put them together in a sequence that oozes with your own personality. Whether your audience is your cat in your living room, or a night club, this workshop will introduce a few basic tips and tricks to take your acro performance to the next level! ",
-		"instructor": "Michelle Griffith, Jacque Garcia",
-		"location": "Movement Zone"
-	},
-	{
-		"id": 34,
-		"title": "Introductory to Intermediate Juggling: Solo and Passing",
-		"startDateTime": "2019-11-26 15:00",
-		"duration": "75",
-		"shortDescription": "I'll provide progressions to help you unlock those next steps in your exploration of juggling.",
-		"description": "If you've never juggled before, or if you want to work on group passing patterns, I'll provide progressions to help you unlock those next steps in your exploration of juggling. Scope of topics which can be covered, depending upon skill and interest of students: 3-5 ball solo patterns, club passing patterns, and progressions for numbers passing, for 2+ partners. ",
-		"instructor": "Stephen Shaffer",
-		"location": "Movement Zone"
-	},
-	{
-		"id": 35,
-		"title": "Movement Games! Inspired by the Ido Portal method",
-		"startDateTime": "2019-11-26 16:00",
-		"duration": "60",
-		"shortDescription": "We will take you through some of their favorite movement games which will inspire you to engage with your body, objects, and each other in new and fun ways.",
-		"description": "Mark, Simona and Nate are dedicated students of Johnny Sapinosa who teaches the Ido Portal method in San Francisco. The three have backgrounds in yoga, acrobatics, athletics, dance and fitness. They will take you through some of their favorite movement games which will inspire you to engage with your body, objects, and each other in new and fun ways.",
-		"instructor": "Nathaniel Floyd, Mark Gonzalez Pura, Simona Marie Asinovski",
-		"location": "Movement Zone"
-	},
-	{
-		"id": 36,
-		"title": "Coffee Talks: Flow with Josh Beaudoin",
-		"startDateTime": "2019-11-26 07:00",
-		"duration": "60",
-		"shortDescription": "An early morning of bad (or good) coffee, and the entire spectrum of communication minus the gossip: Sharing knowledge and gaining deeper appreciations for life will be the overall vibe on this early gathering.",
-		"description": "Come join Slacklinejosh for bad coffee and the entire spectrum of communication minus the gossip 🙂 Sharing knowledge and gaining deeper appreciations for life will be the overall vibe on this early gathering. So grab your reusable mug and a bud and come join us for a good time.",
-		"instructor": "Josh Beaudoin",
-		"location": "Education Zone"
-	},
-	{
 		"id": 37,
-		"title": "Herbal Medicine Storytelling & Sharing Circle",
-		"startDateTime": "2019-11-26 09:00",
-		"duration": "75",
-		"shortDescription": "We invite you to come learn and connect about plants and their many uses. Bring your tinctures & teas, bags & blends, medicines & other magickal remedies for us to meet and get to know.",
-		"description": "Plants are medicine. We invite you to come learn and connect about plants and their many uses. Bring your tinctures & teas, bags & blends, medicines & other magickal remedies for us to meet and get to know. Salves, essential oils, herbal teas, or smudges, all of nature’s gifts and potions we'd love to appreciate and experience. We'll share and listen to stories about how plants have brought connection, health, healing and vitality into our lives. What's your story, ritual, practice or relationship with a flower, plant, fungi, herb or spice? Nature can be part of our self-care & personal journey.",
-		"instructor": "Lyndsay McKeever",
-		"location": "Education Zone"
-	},
-	{
-		"id": 38,
-		"title": "What Are You Made Of?!",
-		"startDateTime": "2019-11-26 10:00",
-		"duration": "75",
-		"shortDescription": "Learn what you are made of so that you can squash fear and doubt, say goodbye to social anxiety for good, and manifest the shit out of your goals.",
-		"description": "Our integrity dictates how we show up in this world, so understanding our core values is essential if we want to walk a soulful, harmonious path. Confidence is fleeting, but competence is unwavering and true. Learn what you are made of so that you can squash fear and doubt, say goodbye to social anxiety for good, and manifest the shit out of your goals.",
-		"instructor": "Jules Costa",
-		"location": "Education Zone"
-	},
-	{
-		"id": 39,
 		"title": "Slackline U.S. Ambassadors Program",
 		"startDateTime": "2019-11-26 12:00",
 		"duration": "75",
 		"shortDescription": "The Ambassador Certification Workshop is an official program of Slackline U.S. to train individuals to become local slackline leaders in their region by providing essential leadership, coordination, and planning skills in the three pillars of the mission of Slackline U.S.; Access, Knowledge, and Conservation.",
 		"description": "The Ambassador Certification Workshop is an official program of Slackline U.S. to train individuals to become local slackline leaders in their region by providing essential leadership, coordination, and planning skills in the three pillars of the mission of Slackline U.S.; Access, Knowledge, and Conservation. Participants will get up to speed quickly on the mission of Slackline U.S. and its national efforts but the majority of the workshop will engage and train individuals to take inventory of local slackline spots and issues, assess and prioritize these issues, and develop an action plan in their communities.  Collaboration and leadership tools and techniques will be learned along the way through fun group exercises and handout summaries will be provided so the knowledge can be taken home. Participants will not just listen but will become trained local leaders and will receive a certificate in the end as having undergone the Slackline U.S. Ambassador training and may be listed as a local resource through Slackline U.S. Individuals will come out feeling empowered, skilled, and more confident to lead and improve upon issues in their community. ",
 		"instructor": "Dan Walsh",
-		"location": "Education Zone"
+		"location": "Living Room"
 	},
 	{
-		"id": 40,
-		"title": "'Tech Support'",
-		"startDateTime": "2019-11-26 13:00",
-		"duration": "75",
-		"shortDescription": "A space for the tech-minded, hardware or software, to discuss the impacts of various technologies on the outdoor recreation industry, share experiences of pivoting into the tech industry, and provide networking opportunities for tech professionals in the community. ",
-		"description": "A space for the tech-minded, hardware or software, to discuss the impacts of various technologies on the outdoor recreation industry, share experiences of pivoting into the tech industry, and provide networking opportunities for tech professionals in the community. ",
-		"instructor": "Joel Perkins",
-		"location": "Education Zone"
-	},
-	{
-		"id": 41,
-		"title": "Learning Shibari",
-		"startDateTime": "2019-11-26 15:00",
-		"duration": "75",
-		"shortDescription": "In this Shibari workshop, we will begin with the basics and move towards more moderate ties.",
-		"description": "Shibari is a beautiful, functional, and erotic rope bondage and art inspired by Japanese aesthetics. In this workshop, we will begin with the basics and move towards more moderate ties. Please bring your own rope (ideally two 30ft lengths); no partner needed in advance.",
-		"instructor": "Kali Turner, Sara Kokkelenberg",
-		"location": "Education Zone"
-	},
-	{
-		"id": 42,
-		"title": "Women's Highline Clinic",
-		"startDateTime": "2019-11-26 10:00",
-		"duration": "75",
-		"shortDescription": "Women's specific highline clinic is here to nurture, inform and inspire lady highliners.",
-		"description": "Women's specific highline clinic is here to nurture, inform and inspire lady highliners.  You can expect an interactive talk about what strengths women take to the sport of highlining and how we have opportunity to adjust mindset and movements to accomplish goals and have more fun.  ",
-		"instructor": "Krista Van Parys",
-		"location": "Slackline Park"
-	},
-	{
-		"id": 43,
+		"id": 38,
 		"title": "Beginner Slackline Yoga Flow",
 		"startDateTime": "2019-11-26 12:00",
 		"duration": "75",
@@ -440,9 +390,29 @@
 		"location": "Slackline Park"
 	},
 	{
-		"id": 44,
+		"id": 39,
+		"title": "Sassy Acro: The Art of Acro Performance for All Levels",
+		"startDateTime": "2019-11-26 13:30",
+		"duration": "75",
+		"shortDescription": "In this all levels acro workshop, you'll learn how to take a few basic poses and moves, and put them together in a sequence that oozes with your own personality.",
+		"description": "You don't need to be an advanced acrobat to put together an acro sequence and performance! Turns out, putting together an act is all about two things: SASS and FLAIR! In this all levels acro workshop, you'll learn how to take a few basic poses and moves, and put them together in a sequence that oozes with your own personality. Whether your audience is your cat in your living room, or a night club, this workshop will introduce a few basic tips and tricks to take your acro performance to the next level! ",
+		"instructor": "Michelle Griffith, Jacque Garcia",
+		"location": "Movement Zone"
+	},
+	{
+		"id": 40,
+		"title": "'Tech Support'",
+		"startDateTime": "2019-11-26 13:30",
+		"duration": "75",
+		"shortDescription": "A space for the tech-minded, hardware or software, to discuss the impacts of various technologies on the outdoor recreation industry, share experiences of pivoting into the tech industry, and provide networking opportunities for tech professionals in the community. ",
+		"description": "A space for the tech-minded, hardware or software, to discuss the impacts of various technologies on the outdoor recreation industry, share experiences of pivoting into the tech industry, and provide networking opportunities for tech professionals in the community. ",
+		"instructor": "Joel Perkins",
+		"location": "Living Room"
+	},
+	{
+		"id": 41,
 		"title": "Rigging Basics",
-		"startDateTime": "2019-11-26 13:00",
+		"startDateTime": "2019-11-26 13:30",
 		"duration": "75",
 		"shortDescription": "Learn the core principles of rigging a safe highline, and how to check the anchors. Participants will get hands on experience.",
 		"description": "You're visiting a new city and got invited to a highline - yeww! You are psyched as. Upon arriving you realize you don't know any of the riggers... You've traveled so long to get here and really want to go have a go, but something makes you feel unsure. How can you check if the line is safe to get on? Learn the core principles of rigging a safe highline, and how to check the anchors. Participants will get hands on experience.",
@@ -450,7 +420,27 @@
 		"location": "Slackline Park"
 	},
 	{
-		"id": 45,
+		"id": 42,
+		"title": "Introductory to Intermediate Juggling: Solo and Passing",
+		"startDateTime": "2019-11-26 15:00",
+		"duration": "75",
+		"shortDescription": "I'll provide progressions to help you unlock those next steps in your exploration of juggling.",
+		"description": "If you've never juggled before, or if you want to work on group passing patterns, I'll provide progressions to help you unlock those next steps in your exploration of juggling. Scope of topics which can be covered, depending upon skill and interest of students: 3-5 ball solo patterns, club passing patterns, and progressions for numbers passing, for 2+ partners. ",
+		"instructor": "Stephen Shaffer",
+		"location": "Movement Zone"
+	},
+	{
+		"id": 43,
+		"title": "Learning Shibari",
+		"startDateTime": "2019-11-26 15:00",
+		"duration": "75",
+		"shortDescription": "In this Shibari workshop, we will begin with the basics and move towards more moderate ties.",
+		"description": "Shibari is a beautiful, functional, and erotic rope bondage and art inspired by Japanese aesthetics. In this workshop, we will begin with the basics and move towards more moderate ties. Please bring your own rope (ideally two 30ft lengths); no partner needed in advance.",
+		"instructor": "Kali Turner, Sara Kokkelenberg",
+		"location": "Living Room"
+	},
+	{
+		"id": 44,
 		"title": "Highlining Techniques for Beginners",
 		"startDateTime": "2019-11-26 15:00",
 		"duration": "75",
@@ -460,33 +450,43 @@
 		"location": "Slackline Park"
 	},
 	{
+		"id": 45,
+		"title": "Movement Games! Inspired by the Ido Portal method",
+		"startDateTime": "2019-11-26 16:30",
+		"duration": "60",
+		"shortDescription": "We will take you through some of their favorite movement games which will inspire you to engage with your body, objects, and each other in new and fun ways.",
+		"description": "Mark, Simona and Nate are dedicated students of Johnny Sapinosa who teaches the Ido Portal method in San Francisco. The three have backgrounds in yoga, acrobatics, athletics, dance and fitness. They will take you through some of their favorite movement games which will inspire you to engage with your body, objects, and each other in new and fun ways.",
+		"instructor": "Nathaniel Floyd, Mark Gonzalez Pura, Simona Marie Asinovski",
+		"location": "Movement Zone"
+	},
+	{
 		"id": 46,
-		"title": "Fruit Bowl Tour with the Bureau of Land Management",
-		"startDateTime": "2019-11-26 10:00",
-		"duration": "75",
-		"shortDescription": "Come explore with the Bureau of Land Management (BLM) and GGBY Lead Organizer Dan Walsh around the Fruit Bowl to understand the history, ecology, geology, and wildlife of the canyon area.",
-		"description": "New or a veteran to the Fruit Bowl? Come explore with the Bureau of Land Management (BLM) and GGBY Lead Organizer Dan Walsh around the Fruit Bowl to understand the history, ecology, geology, and wildlife of the canyon area. Learn about the Mission of the BLM and Slackline U.S. and the great partnership driven to balance the priorities of the BLM with those of Slackline U.S. and the greater slackline community that use the Fruit Bowl. ",
-		"instructor": "Katie Stevens, Dan Walsh",
-		"location": "Other"
+		"title": "You Are Music: An Improvisation Workshop",
+		"startDateTime": "2019-11-26 16:30",
+		"duration": "60",
+		"shortDescription": "Bring your voice, percussion, and/or any acoustic instrument. Prior experience is helpful but not necessary.",
+		"description": "Are you afraid to play the wrong notes? Good news, it’s not possible! Like highlining, music is about learning to trust vibrations and conquer fear. Bring your voice, percussion, and/or any acoustic instrument. Prior experience is helpful but not necessary. Let’s make something beautiful together.",
+		"instructor": "Adam Baerd, Kimberly Bridges",
+		"location": "Living Room"
 	},
 	{
 		"id": 47,
+		"title": "OM Circle",
+		"startDateTime": "2019-11-25 16:30",
+		"duration": "60",
+		"shortDescription": "",
+		"description": "",
+		"instructor": "Julian Desforges",
+		"location": "Other"
+	},
+	{
+		"id": 48,
 		"title": "Anusara Yoga Workshop",
-		"startDateTime": "2019-11-27 07:00",
+		"startDateTime": "2019-11-27 07:45",
 		"duration": "60",
 		"shortDescription": "During this workshop, you will learn to pair movement with alignment, while connecting with yoga philosophy and theming.",
 		"description": "During this workshop, you will learn to pair movement with alignment, while connecting with yoga philosophy and theming. Join a courageous group on a journey through the wild unknown to the destination of a beautiful, secluded place of transformation. During the journey, you will learn about the five principles of alignment that keep the body safe in the asana poses, as well as a non-dual tantric yoga philosophy. ",
 		"instructor": "Dani Martin",
-		"location": "Yoga Zone"
-	},
-	{
-		"id": 48,
-		"title": "Therapeutic Partner Yoga",
-		"startDateTime": "2019-11-27 09:00",
-		"duration": "75",
-		"shortDescription": "We will be working with a partner to assist in restorative yoga poses, working with breathe and applying acupressure and bodywork techniques to restore our muscles and bodies to balance.",
-		"description": "Release and renew in this therapeutic partner yoga class. We will be working with a partner to assist in restorative yoga poses, working with breathe and applying acupressure and bodywork techniques to restore our muscles and bodies to balance. Come cozy and a blanket/yoga mat recommended.",
-		"instructor": "Liz Medrano",
 		"location": "Yoga Zone"
 	},
 ]
