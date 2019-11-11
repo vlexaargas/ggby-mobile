@@ -33,5 +33,16 @@
       "node_modules/@expo/vector-icons/fonts/*"
     ],
     "description": "GGBY 2019 is the 12th annual gathering of the international highline community at the Fruit Bowl over the canyons of Moab, Utah over Thanksgiving. This festival guide will help you find your way around, discover workshops, and learn how protect the Fruit Bowl for years to come."
-  }
+  },
+  "hooks": {
+      "postPublish": [
+        {
+          "file": "sentry-expo/upload-sourcemaps",
+          "config": {
+            "organization": "slackline-us",
+            "project": "ggby-mobile",
+          }
+        }
+      ]
+    }
 }
