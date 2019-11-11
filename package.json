@@ -18,7 +18,7 @@
     "react-test-renderer": "16.3.1"
   },
   "main": "node_modules/expo/AppEntry.js",
-    "scripts": {
+  "scripts": {
     "start": "expo start",
     "eject": "expo eject",
     "android": "expo start --android",
@@ -31,6 +31,7 @@
   },
   "dependencies": {
     "expo": "^33.0.0",
+    "expo-constants": "^7.0.1",
     "googleapis": "^34.0.0",
     "moment": "^2.22.2",
     "ramda": "0.26.1",
@@ -49,6 +50,7 @@
     "redux-persist": "^5.10.0",
     "rn-pdf-reader-js": "Codeko/rn-pdf-reader-js#v0.2.2",
     "rxjs": "^6.3.3",
+    "sentry-expo": "^2.0.1",
     "whatwg-fetch": "^2.0.4"
   }
 }
