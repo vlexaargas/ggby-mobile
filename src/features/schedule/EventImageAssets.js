@@ -1,6 +1,5 @@
 export const instructorPicMap = {
   "adam": require("../../../assets/images/instructors/adam.jpg"),
-  "adam_laplante": require("../../../assets/images/instructors/adam_laplante.jpg"),
   "alex_giordano": require("../../../assets/images/instructors/alex_giordano.jpg"),
   "alexandra_reynaldo": require("../../../assets/images/instructors/alexandra_reynaldo.jpeg"),
   "andrew_gasparis": require("../../../assets/images/instructors/andrew_gasparis.jpg"),
@@ -15,7 +14,7 @@ export const instructorPicMap = {
   "cooper_montgomery": require("../../../assets/images/instructors/cooper_montgomery.jpg"),
   "cyn_currie": require("../../../assets/images/instructors/cyn_currie.jpg"),
   "dan_walsh": require("../../../assets/images/instructors/dan_walsh.jpg"),
-  "dani_martin": require("../../../assets/images/instructors/dani_martin.jpeg"),
+  "dani_martin": require("../../../assets/images/instructors/dani_martin.jpg"),
   "dany_schmidt": require("../../../assets/images/instructors/dany_schmidt.jpg"),
   "dave_humphrey": require("../../../assets/images/instructors/dave_humphrey.jpeg"),
   "default": require("../../../assets/images/instructors/default.jpg"),
@@ -26,6 +25,7 @@ export const instructorPicMap = {
   "gaby_vargas": require("../../../assets/images/instructors/gaby_vargas.jpg"),
   "hannah_hausman": require("../../../assets/images/instructors/hannah_hausman.jpg"),
   "helena_gonzales": require("../../../assets/images/instructors/helena_gonzales.jpg"),
+  "herbal_medicine_storytelling__sharing_circle": require("../../../assets/images/instructors/herbal_medicine_storytelling__sharing_circle.jpg"),
   "jacque_garcia": require("../../../assets/images/instructors/jacque_garcia.jpg"),
   "jake_olson": require("../../../assets/images/instructors/jake_olson.jpg"),
   "jeramiah_morgan": require("../../../assets/images/instructors/jeramiah_morgan.jpg"),

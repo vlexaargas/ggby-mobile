@@ -17,7 +17,8 @@ function getPicForEvent(title) {
   if(cleanTitle in eventPicMap) {
     return eventPicMap[cleanTitle];
   }
-  console.log(`no find :( cleaned title name: ${cleanTitle}`)
+  // poor mans way to find mismatched event names / workshop image file names
+  // console.log(`no find :( cleaned title name: ${cleanTitle}`)
   return undefined;
 }
 
@@ -33,7 +34,8 @@ function getPicForInstructor(instructorName) {
   if(cleanInstructorName in instructorPicMap) {
     return instructorPicMap[cleanInstructorName];
   } else {
-    console.log("no find :(" + cleanInstructorName);
+      // poor mans way to find mismatched instructor names / instructor image file names
+    // console.log("no find :( " + cleanInstructorName);
     return instructorPicMap.default;
   }
 }
@@ -57,11 +59,14 @@ function getRender(navigation) {
       <Image style={styles.eventImage} source={getPicForEvent(event.title)} />
       }
       <View style={styles.contentContainer}>
-        <Text style={styles.titleText}>{event.title}</Text>
+      <Text style={styles.titleText}>{event.title}</Text>
 
-        <Text style={styles.normalText}>{event.description}</Text>
+      <Text style={styles.normalText}>{event.description}</Text>
 
-        { !!event.instructor && 
+      <Text style={styles.secondaryTitleText}>Location:</Text>
+      <Text style={styles.normalText}>{event.location}</Text>
+
+       { !!event.instructor && 
           (<View style={styles.instructorsSection}>
             <Text style={styles.secondaryTitleText}>Taught by:</Text>
 
