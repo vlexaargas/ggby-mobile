@@ -79,7 +79,7 @@ class FruitBowlMap extends React.Component {
         imageWidth={mapWidth}
         imageHeight={mapHeight}
         enableCenterFocus={false}
-        centerOn={{ x: 0, y: 0, scale: 0.3, duration: 100 }}
+        centerOn={{ x: 0, y: 0, scale: 0.25, duration: 100 }}
         minScale={0.2}
         maxscale={2.0}
         maxoverflow={0}
