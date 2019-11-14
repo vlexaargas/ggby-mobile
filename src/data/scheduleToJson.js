@@ -74,13 +74,13 @@ function getNewToken(oAuth2Client, callback) {
 
 function getDatas(auth) {
   const sheets = google.sheets({version: 'v4', auth});
-  const startRow = 2;
-  const endRow = 50;
+  const startCol = 'A';
+  const endCol = 'G'; 
   const sheet = "Data" // TODO parameterize
 
   return sheets.spreadsheets.values.get({
     spreadsheetId: spreadsheetId, // TODO parameterize
-    range: sheet + '!' + startRow + ':' + endRow + '',
+    range: sheet + '!' + startCol + ':' + endCol + '',
   }, (err, res) => {
         if (err) return console.log('The API returned an error: ', err);
         return formatData(res);
@@ -89,15 +89,10 @@ function getDatas(auth) {
 }
 
 function formatData(res) {
-  //the row and collumn that the date and times are stores
-    var dateRow = 0;
-    var timeCollumn = 0;
-
-    //the data
     var data = res.data.values;
 
     var json = "[\n"
-    for(var rowIndex = 0; rowIndex < data.length; rowIndex++){
+    for(var rowIndex = 1; rowIndex < data.length; rowIndex++){
       if (data[rowIndex][0] != "" && data[rowIndex][0] != undefined) {
         var title = cleanfield(data[rowIndex][0])
         var startDateTime = cleanfield(data[rowIndex][1])
