@@ -6,7 +6,7 @@
     "icon": "./assets/appicon/ggby-logo-ios.png",
     "version": "1.3.0",
     "orientation": "default",
-    "slug": "ggby-guide-2018",
+    "slug": "ggby-guide",
     "primaryColor": "#252A33",
     "splash": {
       "image": "./assets/images/splash.png",

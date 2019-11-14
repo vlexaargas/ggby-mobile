@@ -91,16 +91,6 @@
 	},
 	{
 		"id": 9,
-		"title": "ZenPlay: Movement Communication",
-		"startDateTime": "2019-11-25 10:00",
-		"duration": "75",
-		"shortDescription": "Zen Play; Researching creative communication with partners and games.",
-		"description": "Zen Play; Researching creative communication with partners and games. How do we express ourselves? How do we organize our bodies and strategies to communicate our ideas? What kind of games do we play to stay young? Where does our movement practice fit into the context of us aging and dying? Why does our physicical structure exist in these patterns? When does training intersect with playing? How well do you adapt? We exist in a web of information, constantly exchanging rythms with life and matter around us.",
-		"instructor": "Eli Strongheart, Jake Olson",
-		"location": "Movement Zone"
-	},
-	{
-		"id": 10,
 		"title": "Soft Shackle Construction",
 		"startDateTime": "2019-11-25 09:00",
 		"duration": "75",
@@ -110,7 +100,7 @@
 		"location": "Living Room"
 	},
 	{
-		"id": 11,
+		"id": 10,
 		"title": "Highlining Techniques for Beginners",
 		"startDateTime": "2019-11-25 09:00",
 		"duration": "75",
@@ -118,6 +108,16 @@
 		"description": "Not sure how you might perform on your first highline at GGBY? Nervous about mounting or getting back up after a potential fall? This beginner's workshop will provide you with the knowledge and skills necessary for success. Pre-requisites and required equipment: Should be able to walk a 20-50 foot slackline successfully, Must have a harness and helmet (helmets can be supplied upon request), Must be in good physical shape (mounting the line after a fall requires a lot of upper body strength and some flexibility), A positive attitude and a willingness to take some falls! Things you can expect to learn: Proper mounting techniques (the 'chongo mount', sit start, etc.), Catching the line, Re-mounting the line after a fall, Climbing the leash in the case of a 'whipper' (falling onto the leash), Getting back onto the line and pulling yourself back to the start, Walking technique (physical techniques, focus, rhythm, using your breath or mantras). Join Emily Sukeinnik, an accomplished slackliner and highliner, for your first steps into the abyss! Emily started slacklining in 2009 and became the 4th woman to walk the Lost Arrow Highline in Yosemite Valley. She spent many years as a sponsored athlete walking over 60 highlines across the US and aboard, being featured on CBS This morning and in various publications (Outside Magazine, National Geographic and Women's Adventure Magazine) for her accomplishments within the sport. She is most passionate about instruction and getting beginners onto their first lines. Emily will support you in your individual learning process and have you feeling both prepared and confident by the end of GGBY! Emily's Blog: www.theascentofem.blogspot.com",
 		"instructor": "Emily Sukiennik, Louie Wray",
 		"location": "Slackline Park"
+	},
+	{
+		"id": 11,
+		"title": "ZenPlay: Movement Communication",
+		"startDateTime": "2019-11-25 10:30",
+		"duration": "75",
+		"shortDescription": "Zen Play; Researching creative communication with partners and games.",
+		"description": "Zen Play; Researching creative communication with partners and games. How do we express ourselves? How do we organize our bodies and strategies to communicate our ideas? What kind of games do we play to stay young? Where does our movement practice fit into the context of us aging and dying? Why does our physicical structure exist in these patterns? When does training intersect with playing? How well do you adapt? We exist in a web of information, constantly exchanging rythms with life and matter around us.",
+		"instructor": "Eli Strongheart, Jake Olson",
+		"location": "Movement Zone"
 	},
 	{
 		"id": 12,
@@ -134,8 +134,8 @@
 		"title": "Mount It Like It's Hot",
 		"startDateTime": "2019-11-25 10:30",
 		"duration": "75",
-		"shortDescription": "Come explore the world of all the different ways to mount a slackline, that is, going from sitting to standing, with Louie Wray.",
-		"description": "Come explore the world of all the different ways to mount a slackline, that is, going from sitting to standing, with Louie Wray. You'll explore the chongo, the sit start, the drop knee start, and more",
+		"shortDescription": "Mount a slackline like its hot betches! Gobble Gobble.",
+		"description": "Struggling to stand in the air? Want to mount a slackline with ease? Join us for a comprehensive mounting class working to comfortably advance your skills. We will go over most basic mounts including but not limited to, sit start, chongo, and drop knee. All levels welcome. BSS (Bring some stoke)",
 		"instructor": "Louie Wray",
 		"location": "Slackline Park"
 	},
@@ -261,13 +261,13 @@
 	},
 	{
 		"id": 26,
-		"title": "OM Circle",
-		"startDateTime": "2019-11-25 16:30",
-		"duration": "60",
-		"shortDescription": "",
-		"description": "",
-		"instructor": "Julian Desforges",
-		"location": "Other"
+		"title": "Tribal Sunset Vibration",
+		"startDateTime": "2019-11-25 16:45",
+		"duration": "20",
+		"shortDescription": "Gather your friends and meet at the top of the rock, right at the heart of the Fruitbowl, for a tribal sunset experience and OM circle.",
+		"description": "This short but powerful ceremony is an invitation for the whole tribe to unify, celebrate, and vibrate with intention, gratitude, and love. Julien Desforges will guide each session with creative exercises to harmonize ourselves, connect our souls, and top it off with the greatest possible sunset OM circle. Gather your friends and meet at the top of the rock, right at the heart of the Fruitbowl, as soon as you hear the bell, about 15 minutes before sunset.",
+		"instructor": "Julien Desforges",
+		"location": "Big Rock"
 	},
 	{
 		"id": 27,
@@ -284,8 +284,8 @@
 		"title": "Sunrise Ecstatic Dance",
 		"startDateTime": "2019-11-26 07:45",
 		"duration": "60",
-		"shortDescription": "Daybreaker! There's no better way to start the day than to dance ecstatically",
-		"description": "Ecstatic Dance at Sunrise. What else is there to say?",
+		"shortDescription": "DANCE, and START YOUR DAY WITH ENERGY & INTENTION!",
+		"description": "Breath the day, gobble gobble style. Join us at sunrise to move your body, DANCE, and START YOUR DAY WITH ENERGY & INTENTION!",
 		"instructor": "Ariana Gradow",
 		"location": "Movement Zone"
 	},
@@ -471,13 +471,13 @@
 	},
 	{
 		"id": 47,
-		"title": "OM Circle",
-		"startDateTime": "2019-11-25 16:30",
-		"duration": "60",
-		"shortDescription": "",
-		"description": "",
-		"instructor": "Julian Desforges",
-		"location": "Other"
+		"title": "Tribal Sunset Vibration",
+		"startDateTime": "2019-11-25 16:45",
+		"duration": "20",
+		"shortDescription": "Gather your friends and meet at the top of the rock, right at the heart of the Fruitbowl, for a tribal sunset experience and OM circle.",
+		"description": "This short but powerful ceremony is an invitation for the whole tribe to unify, celebrate, and vibrate with intention, gratitude, and love. Julien Desforges will guide each session with creative exercises to harmonize ourselves, connect our souls, and top it off with the greatest possible sunset OM circle. Gather your friends and meet at the top of the rock, right at the heart of the Fruitbowl, as soon as you hear the bell, about 15 minutes before sunset.",
+		"instructor": "Julien Desforges",
+		"location": "Big Rock"
 	},
 	{
 		"id": 48,
