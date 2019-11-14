@@ -15,7 +15,7 @@ export default class EventItemView extends React.Component {
       onReminderIconPress
     } = this.props;
 
-    const { title, startDateTime, duration, shortDescription, description, instructor } = event;
+    const { title, startDateTime, duration, shortDescription, description, instructor, location } = event;
 
     return (
       <TouchableOpacity onPress={onEventPress} activeOpacity={description ? 0.2 : 1.0 }> 
@@ -35,7 +35,7 @@ export default class EventItemView extends React.Component {
           <View style={styles.centerEventItemSection}>
             <Text style={styles.eventTitleText}>{title}</Text>
             <Text style={styles.secondaryText} numberOfLines={3} ellipsizeMode="tail">
-              {shortDescription ? shortDescription : (description ? description : instructor ? (`Taught by: ${instructor}`) : "")}
+              {shortDescription ? shortDescription : (description ? description : instructor ? (`By: ${instructor} @ ${location}`) : "")}
             </Text>
           </View>
 
