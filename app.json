@@ -4,7 +4,7 @@
     "privacy": "public",
     "name": "GGBY Guide",
     "icon": "./assets/appicon/ggby-logo-ios.png",
-    "version": "1.4.0",
+    "version": "1.4.1",
     "orientation": "default",
     "slug": "ggby-guide",
     "primaryColor": "#252A33",
