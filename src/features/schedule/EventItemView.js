@@ -7,6 +7,23 @@ import { Ionicons as Icon } from "@expo/vector-icons";
 import styles from "./EventItemView.style";
 
 export default class EventItemView extends React.Component {
+
+  getEventPreview(event) {
+    if (event.shortDescription) {
+      return event.shortDescription;
+    }
+    if (event.description) {
+      return event.description;
+    }
+    if (event.instructor && event.location) {
+      return `By: ${event.instructor} @ ${event.location}`
+    }
+    if (event.location) {
+      return event.location
+    }
+    return ""
+  }
+
   render() {
     const {
       event,
@@ -35,7 +52,7 @@ export default class EventItemView extends React.Component {
           <View style={styles.centerEventItemSection}>
             <Text style={styles.eventTitleText}>{title}</Text>
             <Text style={styles.secondaryText} numberOfLines={3} ellipsizeMode="tail">
-              {shortDescription ? shortDescription : (description ? description : instructor ? (`By: ${instructor} @ ${location}`) : "")}
+              { this.getEventPreview(event) }
             </Text>
           </View>
 

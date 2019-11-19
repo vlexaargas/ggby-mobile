@@ -1,6 +1,16 @@
 [
 	{
 		"id": 1,
+		"title": "Meet and Greet",
+		"startDateTime": "2019-11-23 18:00",
+		"duration": "180",
+		"shortDescription": "Meet your fellow monkeys at Eddie McStiff's bar in Moab!",
+		"description": "",
+		"instructor": "",
+		"location": "Eddie McStiff's"
+	},
+	{
+		"id": 2,
 		"title": "Slackline Instructor - Level C Certification Course",
 		"startDateTime": "2019-11-24 10:30",
 		"duration": "270",
@@ -10,7 +20,7 @@
 		"location": "Slackline Park"
 	},
 	{
-		"id": 2,
+		"id": 3,
 		"title": "Welcome Vinyasa",
 		"startDateTime": "2019-11-24 13:30",
 		"duration": "75",
@@ -20,7 +30,7 @@
 		"location": "Yoga Zone"
 	},
 	{
-		"id": 3,
+		"id": 4,
 		"title": "Pointless Play: A Hooping Workshop",
 		"startDateTime": "2019-11-24 13:30",
 		"duration": "75",
@@ -30,7 +40,7 @@
 		"location": "Movement Zone"
 	},
 	{
-		"id": 4,
+		"id": 5,
 		"title": "Meet and Greet!: A Connection 'Jam'",
 		"startDateTime": "2019-11-24 15:00",
 		"duration": "75",
@@ -40,7 +50,7 @@
 		"location": "Movement Zone"
 	},
 	{
-		"id": 5,
+		"id": 6,
 		"title": "NamaShakeIt",
 		"startDateTime": "2019-11-24 16:30",
 		"duration": "60",
@@ -50,7 +60,7 @@
 		"location": "Yoga Zone"
 	},
 	{
-		"id": 6,
+		"id": 7,
 		"title": "Find Your Flow",
 		"startDateTime": "2019-11-24 16:30",
 		"duration": "60",
@@ -60,7 +70,27 @@
 		"location": "Movement Zone"
 	},
 	{
-		"id": 7,
+		"id": 8,
+		"title": "Welcome Fire ",
+		"startDateTime": "2019-11-24 18:30",
+		"duration": "30",
+		"shortDescription": "",
+		"description": "",
+		"instructor": "",
+		"location": "Party Rock"
+	},
+	{
+		"id": 9,
+		"title": "Kick Off Party",
+		"startDateTime": "2019-11-24 19:00",
+		"duration": "300",
+		"shortDescription": "",
+		"description": "",
+		"instructor": "",
+		"location": "Party Rock"
+	},
+	{
+		"id": 10,
 		"title": "Sunrise Yoga Flow",
 		"startDateTime": "2019-11-25 07:45",
 		"duration": "60",
@@ -70,7 +100,7 @@
 		"location": "Yoga Zone"
 	},
 	{
-		"id": 8,
+		"id": 11,
 		"title": "Sunrise Pranayam: Breathwork",
 		"startDateTime": "2019-11-25 07:45",
 		"duration": "60",
@@ -80,7 +110,7 @@
 		"location": "Movement Zone"
 	},
 	{
-		"id": 9,
+		"id": 12,
 		"title": "Letting Go of Perfectionism and Form in Yoga: Functional Anatomy",
 		"startDateTime": "2019-11-25 09:00",
 		"duration": "75",
@@ -90,7 +120,7 @@
 		"location": "Yoga Zone"
 	},
 	{
-		"id": 10,
+		"id": 13,
 		"title": "Soft Shackle Construction",
 		"startDateTime": "2019-11-25 09:00",
 		"duration": "75",
@@ -100,7 +130,7 @@
 		"location": "Living Room"
 	},
 	{
-		"id": 11,
+		"id": 14,
 		"title": "Highlining Techniques for Beginners",
 		"startDateTime": "2019-11-25 09:00",
 		"duration": "75",
@@ -110,7 +140,7 @@
 		"location": "Slackline Park"
 	},
 	{
-		"id": 12,
+		"id": 15,
 		"title": "ZenPlay: Movement Communication",
 		"startDateTime": "2019-11-25 10:30",
 		"duration": "75",
@@ -120,7 +150,7 @@
 		"location": "Movement Zone"
 	},
 	{
-		"id": 13,
+		"id": 16,
 		"title": "Off-Grid Solar Systems: 24/12 Volt",
 		"startDateTime": "2019-11-25 10:30",
 		"duration": "75",
@@ -130,7 +160,7 @@
 		"location": "Living Room"
 	},
 	{
-		"id": 14,
+		"id": 17,
 		"title": "Mount It Like It's Hot",
 		"startDateTime": "2019-11-25 10:30",
 		"duration": "75",
@@ -140,7 +170,7 @@
 		"location": "Slackline Park"
 	},
 	{
-		"id": 15,
+		"id": 18,
 		"title": "Aerial Conditioning for Maximum Vascularity 101",
 		"startDateTime": "2019-11-25 10:30",
 		"duration": "75",
@@ -150,7 +180,7 @@
 		"location": "Other"
 	},
 	{
-		"id": 16,
+		"id": 19,
 		"title": "AcroLatin Dance Flow",
 		"startDateTime": "2019-11-25 12:00",
 		"duration": "75",
@@ -160,7 +190,7 @@
 		"location": "Movement Zone"
 	},
 	{
-		"id": 17,
+		"id": 20,
 		"title": "How NOT to Highline Q&A",
 		"startDateTime": "2019-11-25 12:00",
 		"duration": "75",
@@ -170,7 +200,7 @@
 		"location": "Living Room"
 	},
 	{
-		"id": 18,
+		"id": 21,
 		"title": "Tandem Slackline",
 		"startDateTime": "2019-11-25 12:00",
 		"duration": "75",
@@ -180,7 +210,7 @@
 		"location": "Slackline Park"
 	},
 	{
-		"id": 19,
+		"id": 22,
 		"title": "Chromatic Dance Twerkshop",
 		"startDateTime": "2019-11-25 13:30",
 		"duration": "75",
@@ -190,7 +220,7 @@
 		"location": "Movement Zone"
 	},
 	{
-		"id": 20,
+		"id": 23,
 		"title": "Dirtbag rope play",
 		"startDateTime": "2019-11-25 13:30",
 		"duration": "75",
@@ -200,7 +230,7 @@
 		"location": "Living Room"
 	},
 	{
-		"id": 21,
+		"id": 24,
 		"title": "Shoulder Stand on the Slackline!",
 		"startDateTime": "2019-11-25 13:30",
 		"duration": "75",
@@ -210,7 +240,7 @@
 		"location": "Slackline Park"
 	},
 	{
-		"id": 22,
+		"id": 25,
 		"title": "Casual Acro : A Guided Acro Jam for All Levels",
 		"startDateTime": "2019-11-25 15:00",
 		"duration": "75",
@@ -220,7 +250,7 @@
 		"location": "Movement Zone"
 	},
 	{
-		"id": 23,
+		"id": 26,
 		"title": "Noise and Harmony: Improv Music Discussion and Guided Jam Session",
 		"startDateTime": "2019-11-25 15:00",
 		"duration": "75",
@@ -230,7 +260,7 @@
 		"location": "Living Room"
 	},
 	{
-		"id": 24,
+		"id": 27,
 		"title": "Slackline Techniques and Flow Management: A Slackline 'Jam'",
 		"startDateTime": "2019-11-25 15:00",
 		"duration": "75",
@@ -240,7 +270,7 @@
 		"location": "Slackline Park"
 	},
 	{
-		"id": 25,
+		"id": 28,
 		"title": "Shoulder Anatomy Workshop & Yin Yoga",
 		"startDateTime": "2019-11-25 16:30",
 		"duration": "60",
@@ -250,7 +280,7 @@
 		"location": "Yoga Zone"
 	},
 	{
-		"id": 26,
+		"id": 29,
 		"title": "Bo Staff Basics",
 		"startDateTime": "2019-11-25 16:30",
 		"duration": "60",
@@ -260,7 +290,7 @@
 		"location": "Movement Zone"
 	},
 	{
-		"id": 27,
+		"id": 30,
 		"title": "Photography",
 		"startDateTime": "2019-11-25 16:30",
 		"duration": "60",
@@ -270,7 +300,7 @@
 		"location": "Living Room"
 	},
 	{
-		"id": 28,
+		"id": 31,
 		"title": "Tribal Sunset Vibration",
 		"startDateTime": "2019-11-25 16:45",
 		"duration": "20",
@@ -280,7 +310,17 @@
 		"location": "Big Rock"
 	},
 	{
-		"id": 29,
+		"id": 32,
+		"title": "Open Mic",
+		"startDateTime": "2019-11-25 19:00",
+		"duration": "180",
+		"shortDescription": "",
+		"description": "",
+		"instructor": "",
+		"location": "The Stoop"
+	},
+	{
+		"id": 33,
 		"title": "Sunrise Yoga",
 		"startDateTime": "2019-11-26 07:45",
 		"duration": "60",
@@ -290,7 +330,7 @@
 		"location": "Yoga Zone"
 	},
 	{
-		"id": 30,
+		"id": 34,
 		"title": "Sunrise Ecstatic Dance",
 		"startDateTime": "2019-11-26 07:45",
 		"duration": "60",
@@ -300,7 +340,7 @@
 		"location": "Movement Zone"
 	},
 	{
-		"id": 31,
+		"id": 35,
 		"title": "Coffee Talks: Flow with Josh Beaudoin",
 		"startDateTime": "2019-11-26 07:45",
 		"duration": "60",
@@ -310,7 +350,7 @@
 		"location": "Living Room"
 	},
 	{
-		"id": 32,
+		"id": 36,
 		"title": "Flexibility and Stretching",
 		"startDateTime": "2019-11-26 09:00",
 		"duration": "75",
@@ -320,7 +360,7 @@
 		"location": "Yoga Zone"
 	},
 	{
-		"id": 33,
+		"id": 37,
 		"title": "Aerial Actions!",
 		"startDateTime": "2019-11-26 09:00",
 		"duration": "75",
@@ -330,7 +370,7 @@
 		"location": "Movement Zone"
 	},
 	{
-		"id": 34,
+		"id": 38,
 		"title": "Beginner Acroyoga for All",
 		"startDateTime": "2019-11-26 10:30",
 		"duration": "75",
@@ -340,7 +380,7 @@
 		"location": "Movement Zone"
 	},
 	{
-		"id": 35,
+		"id": 39,
 		"title": "Herbal Medicine Storytelling & Sharing Circle",
 		"startDateTime": "2019-11-26 10:30",
 		"duration": "75",
@@ -350,7 +390,7 @@
 		"location": "Living Room"
 	},
 	{
-		"id": 36,
+		"id": 40,
 		"title": "Women's Highline Clinic",
 		"startDateTime": "2019-11-26 10:30",
 		"duration": "75",
@@ -360,7 +400,7 @@
 		"location": "Slackline Park"
 	},
 	{
-		"id": 37,
+		"id": 41,
 		"title": "Fruit Bowl Tour with the Bureau of Land Management",
 		"startDateTime": "2019-11-26 10:30",
 		"duration": "75",
@@ -370,7 +410,7 @@
 		"location": "Other"
 	},
 	{
-		"id": 38,
+		"id": 42,
 		"title": "Conscious Contact Dance",
 		"startDateTime": "2019-11-26 12:00",
 		"duration": "75",
@@ -380,7 +420,7 @@
 		"location": "Movement Zone"
 	},
 	{
-		"id": 39,
+		"id": 43,
 		"title": "Slackline U.S. Ambassadors Program",
 		"startDateTime": "2019-11-26 12:00",
 		"duration": "75",
@@ -390,7 +430,7 @@
 		"location": "Living Room"
 	},
 	{
-		"id": 40,
+		"id": 44,
 		"title": "Beginner Slackline Yoga Flow",
 		"startDateTime": "2019-11-26 12:00",
 		"duration": "75",
@@ -400,7 +440,7 @@
 		"location": "Slackline Park"
 	},
 	{
-		"id": 41,
+		"id": 45,
 		"title": "Sassy Acro: The Art of Acro Performance for All Levels",
 		"startDateTime": "2019-11-26 13:30",
 		"duration": "75",
@@ -410,7 +450,7 @@
 		"location": "Movement Zone"
 	},
 	{
-		"id": 42,
+		"id": 46,
 		"title": "'Tech Support'",
 		"startDateTime": "2019-11-26 13:30",
 		"duration": "75",
@@ -420,7 +460,7 @@
 		"location": "Living Room"
 	},
 	{
-		"id": 43,
+		"id": 47,
 		"title": "Rigging Basics",
 		"startDateTime": "2019-11-26 13:30",
 		"duration": "75",
@@ -430,7 +470,7 @@
 		"location": "Slackline Park"
 	},
 	{
-		"id": 44,
+		"id": 48,
 		"title": "Introductory to Intermediate Juggling: Solo and Passing",
 		"startDateTime": "2019-11-26 15:00",
 		"duration": "75",
@@ -440,7 +480,7 @@
 		"location": "Movement Zone"
 	},
 	{
-		"id": 45,
+		"id": 49,
 		"title": "Learning Shibari",
 		"startDateTime": "2019-11-26 15:00",
 		"duration": "75",
@@ -450,7 +490,7 @@
 		"location": "Living Room"
 	},
 	{
-		"id": 46,
+		"id": 50,
 		"title": "Highlining Techniques for Beginners",
 		"startDateTime": "2019-11-26 15:00",
 		"duration": "75",
@@ -460,7 +500,7 @@
 		"location": "Slackline Park"
 	},
 	{
-		"id": 47,
+		"id": 51,
 		"title": "Movement Games! Inspired by the Ido Portal method",
 		"startDateTime": "2019-11-26 16:30",
 		"duration": "60",
@@ -470,7 +510,7 @@
 		"location": "Movement Zone"
 	},
 	{
-		"id": 48,
+		"id": 52,
 		"title": "You Are Music: An Improvisation Workshop",
 		"startDateTime": "2019-11-26 16:30",
 		"duration": "60",
@@ -480,7 +520,17 @@
 		"location": "Living Room"
 	},
 	{
-		"id": 49,
+		"id": 53,
+		"title": "Games Night",
+		"startDateTime": "2019-11-26 16:30",
+		"duration": "120",
+		"shortDescription": "",
+		"description": "",
+		"instructor": "",
+		"location": "The Stoop"
+	},
+	{
+		"id": 54,
 		"title": "Tribal Sunset Vibration",
 		"startDateTime": "2019-11-26 16:45",
 		"duration": "20",
@@ -490,7 +540,17 @@
 		"location": "Big Rock"
 	},
 	{
-		"id": 50,
+		"id": 55,
+		"title": "Film Festival",
+		"startDateTime": "2019-11-26 19:30",
+		"duration": "150",
+		"shortDescription": "",
+		"description": "",
+		"instructor": "",
+		"location": "The Stoop"
+	},
+	{
+		"id": 56,
 		"title": "Anusara Yoga Workshop",
 		"startDateTime": "2019-11-27 07:45",
 		"duration": "60",
@@ -500,7 +560,7 @@
 		"location": "Yoga Zone"
 	},
 	{
-		"id": 51,
+		"id": 57,
 		"title": "Heart Expanding Cacao Ceremony",
 		"startDateTime": "2019-11-27 07:45",
 		"duration": "60",
@@ -510,7 +570,7 @@
 		"location": "Living Room"
 	},
 	{
-		"id": 52,
+		"id": 58,
 		"title": "Therapeutic Partner Yoga",
 		"startDateTime": "2019-11-27 09:00",
 		"duration": "75",
@@ -520,7 +580,7 @@
 		"location": "Yoga Zone"
 	},
 	{
-		"id": 53,
+		"id": 59,
 		"title": "How to Stand on your Hands",
 		"startDateTime": "2019-11-27 09:00",
 		"duration": "75",
@@ -530,7 +590,7 @@
 		"location": "Movement Zone"
 	},
 	{
-		"id": 54,
+		"id": 60,
 		"title": "Acro Hand to Hand",
 		"startDateTime": "2019-11-27 10:30",
 		"duration": "75",
@@ -540,7 +600,7 @@
 		"location": "Movement Zone"
 	},
 	{
-		"id": 55,
+		"id": 61,
 		"title": "Your Voice is a Force of God: Finding the Power in You",
 		"startDateTime": "2019-11-27 10:30",
 		"duration": "75",
@@ -550,7 +610,7 @@
 		"location": "Living Room"
 	},
 	{
-		"id": 56,
+		"id": 62,
 		"title": "Intro to Slackline Yoga",
 		"startDateTime": "2019-11-27 10:30",
 		"duration": "75",
@@ -560,7 +620,7 @@
 		"location": "Slackline Park"
 	},
 	{
-		"id": 57,
+		"id": 63,
 		"title": "Intro & Intermediate Aerial Silks with CynCurrieBird",
 		"startDateTime": "2019-11-27 10:30",
 		"duration": "75",
@@ -570,7 +630,7 @@
 		"location": "Other"
 	},
 	{
-		"id": 58,
+		"id": 64,
 		"title": "Acroyoga: Intermediate L-Base Washing Machines ",
 		"startDateTime": "2019-11-27 12:00",
 		"duration": "75",
@@ -580,7 +640,7 @@
 		"location": "Movement Zone"
 	},
 	{
-		"id": 59,
+		"id": 65,
 		"title": "Everyday Acts of Revolution",
 		"startDateTime": "2019-11-27 12:00",
 		"duration": "75",
@@ -590,7 +650,7 @@
 		"location": "Living Room"
 	},
 	{
-		"id": 60,
+		"id": 66,
 		"title": "Intermediate/Advanced Slackline Yoga",
 		"startDateTime": "2019-11-27 12:00",
 		"duration": "75",
@@ -600,7 +660,7 @@
 		"location": "Slackline Park"
 	},
 	{
-		"id": 61,
+		"id": 67,
 		"title": "Advanced Standing Acro",
 		"startDateTime": "2019-11-27 13:30",
 		"duration": "75",
@@ -610,7 +670,7 @@
 		"location": "Movement Zone"
 	},
 	{
-		"id": 62,
+		"id": 68,
 		"title": "Stick-and-Poke 101",
 		"startDateTime": "2019-11-27 13:30",
 		"duration": "75",
@@ -620,7 +680,7 @@
 		"location": "Living Room"
 	},
 	{
-		"id": 63,
+		"id": 69,
 		"title": "Freestyle on Longlines and Highlines",
 		"startDateTime": "2019-11-27 13:30",
 		"duration": "75",
@@ -630,7 +690,7 @@
 		"location": "Slackline Park"
 	},
 	{
-		"id": 64,
+		"id": 70,
 		"title": "Massage for when your everything hurts",
 		"startDateTime": "2019-11-27 15:00",
 		"duration": "75",
@@ -640,7 +700,7 @@
 		"location": "Movement Zone"
 	},
 	{
-		"id": 65,
+		"id": 71,
 		"title": "Moving Forward from Grief",
 		"startDateTime": "2019-11-27 15:00",
 		"duration": "75",
@@ -650,7 +710,7 @@
 		"location": "Living Room"
 	},
 	{
-		"id": 66,
+		"id": 72,
 		"title": "Highline Rescue",
 		"startDateTime": "2019-11-27 15:00",
 		"duration": "75",
@@ -660,7 +720,7 @@
 		"location": "Slackline Park"
 	},
 	{
-		"id": 67,
+		"id": 73,
 		"title": "Sound Guided Meditation",
 		"startDateTime": "2019-11-27 16:30",
 		"duration": "60",
@@ -670,7 +730,7 @@
 		"location": "Yoga Zone"
 	},
 	{
-		"id": 68,
+		"id": 74,
 		"title": "Group Breathwork Jam",
 		"startDateTime": "2019-11-27 16:30",
 		"duration": "60",
@@ -680,7 +740,7 @@
 		"location": "Movement Zone"
 	},
 	{
-		"id": 69,
+		"id": 75,
 		"title": "Tribal Sunset Vibration",
 		"startDateTime": "2019-11-27 16:45",
 		"duration": "20",
@@ -690,57 +750,17 @@
 		"location": "Big Rock"
 	},
 	{
-		"id": 70,
-		"title": "Thai-Yoga Massage and the Power of Healing Touch",
-		"startDateTime": "2019-11-28 13:30",
-		"duration": "75",
-		"shortDescription": "This workshop is designed to teach a brief history, a general understanding, as well as a hands-on practice of Thai-Yoga Massage.",
-		"description": "This workshop is designed to teach a brief history, a general understanding, as well as a hands-on practice of Thai-Yoga Massage. Those who attend will learn about the benefits, ethics, and contraindications of Thai-Yoga massage. You will learn foundational techniques and stretches to provide a safe and enjoyable massage. We will close with a short discourse on the healing power of touch. Bring a Friend! ",
-		"instructor": "Victor Ahumada",
-		"location": "Yoga Zone"
+		"id": 76,
+		"title": "GGBP - Gobble Gobble, Bitches. Party!",
+		"startDateTime": "2019-11-27 19:00",
+		"duration": "360",
+		"shortDescription": "",
+		"description": "",
+		"instructor": "",
+		"location": "Party Rock"
 	},
 	{
-		"id": 71,
-		"title": "Sensual movement",
-		"startDateTime": "2019-11-28 10:30",
-		"duration": "75",
-		"shortDescription": "Allowing in circular and spiral movement to combat against the linear movements we do on the daily. And also allowing in slow meditative  movements to wake up kundalini/lifeforce energy.",
-		"description": "Allowing in circular and spiral movement to combat against the linear movements we do on the daily. And also allowing in slow meditative  movements to wake up kundalini/lifeforce energy.",
-		"instructor": "Hannah Hausman",
-		"location": "Yoga Zone"
-	},
-	{
-		"id": 72,
-		"title": "Finding Cranial Sacral Rhythm and Unwinding",
-		"startDateTime": "2019-11-28 12:00",
-		"duration": "75",
-		"shortDescription": "In this workshop, we will have a brief overview and discussion of what these motions are, then we will learn how to find it, feel it, and manipulate it gently on both ourselves and on our friends through a trade.",
-		"description": "(Body Work Trade) Our bodies are in a constant state of opening, closing and unwinding. Cranial Sacral and Unwinding teaches us that our bodies have a constant subtle motion that with a soft touch and a present mind you can feel, and even manipulate in order to encourage harmonious movement within our bodies. In this workshop, we will have a brief overview and discussion of what these motions are, then we will learn how to find it, feel it, and manipulate it gently on both ourselves and on our friends through a trade.",
-		"instructor": "Sierra Gutierrez",
-		"location": "Yoga Zone"
-	},
-	{
-		"id": 73,
-		"title": "Know Your Rights",
-		"startDateTime": "2019-11-28 12:00",
-		"duration": "75",
-		"shortDescription": "Many of us have had police officers or park rangers approach us while slacklining. What do you do?",
-		"description": "Many of us have had police officers or park rangers approach us while slacklining. This workshop will cover your basic rights when encountered in public by a law enforcement officer, as well as common-sense strategies for establishing rapport and maintaining access. ",
-		"instructor": "Matthew McMillan",
-		"location": "Living Room"
-	},
-	{
-		"id": 74,
-		"title": "Intro to Slackline Yoga",
-		"startDateTime": "2019-11-28 10:30",
-		"duration": "75",
-		"shortDescription": "The combination of yoga and slackline creates another level of body awareness that teaches greater balance and connection.",
-		"description": "Challenge your balance in a fun, new way and build excellent technique with controlled exits.  Expect to find success in one or more of the Fundamental slackline skills including kneeling, sitting, standing, arm balance, inversions, and even transitions between postures.  The combination of yoga and slackline creates another level of body awareness that teaches greater balance and connection. ",
-		"instructor": "Erin Winters, Matt Eshleman, Andy Woolard",
-		"location": "Slackline Park"
-	},
-	{
-		"id": 75,
+		"id": 77,
 		"title": "'Sith Tricks': A Flow Class",
 		"startDateTime": "2019-11-28 09:00",
 		"duration": "75",
@@ -750,7 +770,27 @@
 		"location": "Movement Zone"
 	},
 	{
-		"id": 76,
+		"id": 78,
+		"title": "Sensual movement",
+		"startDateTime": "2019-11-28 10:30",
+		"duration": "75",
+		"shortDescription": "Allowing in circular and spiral movement to combat against the linear movements we do on the daily. And also allowing in slow meditative  movements to wake up kundalini/lifeforce energy.",
+		"description": "Allowing in circular and spiral movement to combat against the linear movements we do on the daily. And also allowing in slow meditative  movements to wake up kundalini/lifeforce energy.",
+		"instructor": "Hannah Hausman",
+		"location": "Yoga Zone"
+	},
+	{
+		"id": 79,
+		"title": "Intro to Slackline Yoga",
+		"startDateTime": "2019-11-28 10:30",
+		"duration": "75",
+		"shortDescription": "The combination of yoga and slackline creates another level of body awareness that teaches greater balance and connection.",
+		"description": "Challenge your balance in a fun, new way and build excellent technique with controlled exits.  Expect to find success in one or more of the Fundamental slackline skills including kneeling, sitting, standing, arm balance, inversions, and even transitions between postures.  The combination of yoga and slackline creates another level of body awareness that teaches greater balance and connection. ",
+		"instructor": "Erin Winters, Matt Eshleman, Andy Woolard",
+		"location": "Slackline Park"
+	},
+	{
+		"id": 80,
 		"title": "All Levels Partner Acro Play!",
 		"startDateTime": "2019-11-28 10:30",
 		"duration": "75",
@@ -760,7 +800,37 @@
 		"location": "Movement Zone"
 	},
 	{
-		"id": 77,
+		"id": 81,
+		"title": "Wim Hof Method",
+		"startDateTime": "2019-11-28 10:30",
+		"duration": "75",
+		"shortDescription": "Shift your life upside down with the Wim Hof Method",
+		"description": "Learn the basics of the simple but powerful Wim Hof Method (The Ice Man). A breathing technique which as the power to boost your immune system and balance your endocrine system (hormones), heal all diseases, and/or shift your life upside down. ",
+		"instructor": "Julien Desforges",
+		"location": "Living Room"
+	},
+	{
+		"id": 82,
+		"title": "Finding Cranial Sacral Rhythm and Unwinding",
+		"startDateTime": "2019-11-28 12:00",
+		"duration": "75",
+		"shortDescription": "In this workshop, we will have a brief overview and discussion of what these motions are, then we will learn how to find it, feel it, and manipulate it gently on both ourselves and on our friends through a trade.",
+		"description": "(Body Work Trade) Our bodies are in a constant state of opening, closing and unwinding. Cranial Sacral and Unwinding teaches us that our bodies have a constant subtle motion that with a soft touch and a present mind you can feel, and even manipulate in order to encourage harmonious movement within our bodies. In this workshop, we will have a brief overview and discussion of what these motions are, then we will learn how to find it, feel it, and manipulate it gently on both ourselves and on our friends through a trade.",
+		"instructor": "Sierra Gutierrez",
+		"location": "Yoga Zone"
+	},
+	{
+		"id": 83,
+		"title": "Know Your Rights",
+		"startDateTime": "2019-11-28 12:00",
+		"duration": "75",
+		"shortDescription": "Many of us have had police officers or park rangers approach us while slacklining. What do you do?",
+		"description": "Many of us have had police officers or park rangers approach us while slacklining. This workshop will cover your basic rights when encountered in public by a law enforcement officer, as well as common-sense strategies for establishing rapport and maintaining access. ",
+		"instructor": "Matthew McMillan",
+		"location": "Living Room"
+	},
+	{
+		"id": 84,
 		"title": "Tandem Slackline",
 		"startDateTime": "2019-11-28 12:00",
 		"duration": "75",
@@ -770,7 +840,7 @@
 		"location": "Slackline Park"
 	},
 	{
-		"id": 78,
+		"id": 85,
 		"title": "Ecstatic Dance!!!",
 		"startDateTime": "2019-11-28 12:00",
 		"duration": "75",
@@ -780,7 +850,17 @@
 		"location": "Movement Zone"
 	},
 	{
-		"id": 79,
+		"id": 86,
+		"title": "Thai-Yoga Massage and the Power of Healing Touch",
+		"startDateTime": "2019-11-28 13:30",
+		"duration": "75",
+		"shortDescription": "This workshop is designed to teach a brief history, a general understanding, as well as a hands-on practice of Thai-Yoga Massage.",
+		"description": "This workshop is designed to teach a brief history, a general understanding, as well as a hands-on practice of Thai-Yoga Massage. Those who attend will learn about the benefits, ethics, and contraindications of Thai-Yoga massage. You will learn foundational techniques and stretches to provide a safe and enjoyable massage. We will close with a short discourse on the healing power of touch. Bring a Friend! ",
+		"instructor": "Victor Ahumada",
+		"location": "Yoga Zone"
+	},
+	{
+		"id": 87,
 		"title": "Cartwheels! ",
 		"startDateTime": "2019-11-28 13:30",
 		"duration": "75",
@@ -790,13 +870,43 @@
 		"location": "Movement Zone"
 	},
 	{
-		"id": 80,
-		"title": "Wim Hof Method",
-		"startDateTime": "2019-11-28 10:30",
-		"duration": "75",
-		"shortDescription": "Shift your life upside down with the Wim Hof Method",
-		"description": "Learn the basics of the simple but powerful Wim Hof Method (The Ice Man). A breathing technique which as the power to boost your immune system and balance your endocrine system (hormones), heal all diseases, and/or shift your life upside down. ",
-		"instructor": "Julien Desforges",
-		"location": "Living Room"
+		"id": 88,
+		"title": "Group Photo",
+		"startDateTime": "2019-11-28 15:30",
+		"duration": "20",
+		"shortDescription": "",
+		"description": "",
+		"instructor": "",
+		"location": "The Stoop"
+	},
+	{
+		"id": 89,
+		"title": "Thanksgiving Jam",
+		"startDateTime": "2019-11-28 16:00",
+		"duration": "120",
+		"shortDescription": "",
+		"description": "",
+		"instructor": "",
+		"location": "The Stoop"
+	},
+	{
+		"id": 90,
+		"title": "Raffle",
+		"startDateTime": "2019-11-28 19:30",
+		"duration": "120",
+		"shortDescription": "",
+		"description": "",
+		"instructor": "",
+		"location": "The Den"
+	},
+	{
+		"id": 91,
+		"title": "All Crew Derig",
+		"startDateTime": "2019-11-29 08:00",
+		"duration": "540",
+		"shortDescription": "",
+		"description": "",
+		"instructor": "",
+		"location": ""
 	},
 ]

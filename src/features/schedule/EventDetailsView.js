@@ -61,7 +61,7 @@ function getRender(navigation) {
       <View style={styles.contentContainer}>
       <Text style={styles.titleText}>{event.title}</Text>
 
-      <Text style={styles.normalText}>{event.description}</Text>
+      <Text style={styles.normalText}>{getDescription(event)}</Text>
 
       <Text style={styles.secondaryTitleText}>Location:</Text>
       <Text style={styles.normalText}>{event.location}</Text>
