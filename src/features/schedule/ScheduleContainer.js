@@ -33,7 +33,7 @@ class ScheduleContainer extends React.Component {
     const upcomingEvents = filter(
       ({ startDateTime, duration }) =>
         moment(startDateTime)
-          .add(parseFloat(duration), "hours")
+          .add(parseFloat(duration), "minutes")
           .isAfter(moment()),
       events
     );
