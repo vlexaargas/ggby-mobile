@@ -16,7 +16,7 @@ import EventItemView from "./EventItemView";
 class EventItemContainer extends React.PureComponent {
   onEventPress = () => {
     const { navigation, event } = this.props;
-    if (event.description) {
+    if (event.description || (event.shortDescription && event.location)) {
       navigation.navigate("EventDetails", { event });
     }
   };

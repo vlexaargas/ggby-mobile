@@ -9,7 +9,7 @@ const TOKEN_PATH = '../token.json'; // expects to be run from root
 
 const storeLocation = "assets/json/events.json"
 
-const spreadsheetId = "1-g3RgWzJzwTSxgpGGLpBtLGlJj2vieVooXs8_-A8u48"
+const spreadsheetId = "16ejnl2RxkrUiSHqvJroDutCAVUG9Dkvrdax7E9SJYcw"
 
 if (process.argv[2] != null) {
   storeLocation =process.argv[2]
@@ -74,13 +74,13 @@ function getNewToken(oAuth2Client, callback) {
 
 function getDatas(auth) {
   const sheets = google.sheets({version: 'v4', auth});
-  const startRow = 2;
-  const endRow = 50;
-  const sheet = "Schedule Content" // TODO parameterize
+  const startCol = 'A';
+  const endCol = 'G'; 
+  const sheet = "Data" // TODO parameterize
 
   return sheets.spreadsheets.values.get({
     spreadsheetId: spreadsheetId, // TODO parameterize
-    range: sheet + '!' + startRow + ':' + endRow + '',
+    range: sheet + '!' + startCol + ':' + endCol + '',
   }, (err, res) => {
         if (err) return console.log('The API returned an error: ', err);
         return formatData(res);
@@ -89,24 +89,18 @@ function getDatas(auth) {
 }
 
 function formatData(res) {
-  //the row and collumn that the date and times are stores
-    var dateRow = 0;
-    var timeCollumn = 0;
-
-    //the data
     var data = res.data.values;
 
     var json = "[\n"
-    for(var rowIndex = 0; rowIndex < data.length; rowIndex++){
+    for(var rowIndex = 1; rowIndex < data.length; rowIndex++){
       if (data[rowIndex][0] != "" && data[rowIndex][0] != undefined) {
         var title = cleanfield(data[rowIndex][0])
-        var event = cleanfield(data[rowIndex][1])
-        var startDateTime = cleanfield(data[rowIndex][2])
-        var duration = cleanfield(data[rowIndex][3])
-        var shortDescription = cleanfield(data[rowIndex][4]) // if no short description provided, just chop long one
-        var description = cleanfield(data[rowIndex][5])
-        var instructor = cleanfield(data[rowIndex][6])
-        var location = cleanfield(data[rowIndex][7])
+        var startDateTime = cleanfield(data[rowIndex][1])
+        var duration = cleanfield(data[rowIndex][2])
+        var shortDescription = cleanfield(data[rowIndex][3]) // if no short description provided, just chop long one
+        var description = cleanfield(data[rowIndex][4])
+        var instructor = cleanfield(data[rowIndex][5])
+        var location = cleanfield(data[rowIndex][6])
         jsonFormatter = "\t{\n\t\t\"id\": %d,\n\t\t\"title\": \"%s\",\n\t\t\"startDateTime\": \"%s\",\n\t\t\"duration\": \"%s\",\n\t\t\"shortDescription\": \"%s\",\n\t\t\"description\": \"%s\",\n\t\t\"instructor\": \"%s\",\n\t\t\"location\": \"%s\"\n\t},\n"
         json += util.format(jsonFormatter, rowIndex, title, startDateTime, duration, shortDescription, description, instructor, location);
       }

@@ -5,21 +5,20 @@ import { ScrollView, View, Text, Image } from "react-native";
 
 import styles from "./EventDetailsView.style";
 
-// TODO: Extract into own service
-const eventPicMap = {
-  // slackro:                                require("../../../assets/images/events/slackro.jpg"),
-};
-
-// TODO: Extract into own service
-const instructorPicMap = {
-  default:          require("../../../assets/images/instructors/default-profile.jpg"),
-};
+import { instructorPicMap, eventPicMap } from './EventImageAssets'
 
 function getPicForEvent(title) {
-  var cleanTitle = title.trim().toLowerCase();
+  var cleanTitle = title
+    .trim()
+    .replace(/[\.\?&\':\\\/]/g, '')
+    .toLowerCase()
+    .replace(/ /g, '_');
+
   if(cleanTitle in eventPicMap) {
     return eventPicMap[cleanTitle];
   }
+  // poor mans way to find mismatched event names / workshop image file names
+  // console.log(`no find :( cleaned title name: ${cleanTitle}`)
   return undefined;
 }
 
@@ -28,10 +27,15 @@ function getInstructorList(event) {
 }
 
 function getPicForInstructor(instructorName) {
-  var cleanInstructorName = instructorName.toLowerCase();
+  var cleanInstructorName = instructorName
+    .replace(/ /g, "_")
+    .toLowerCase();
+
   if(cleanInstructorName in instructorPicMap) {
     return instructorPicMap[cleanInstructorName];
   } else {
+      // poor mans way to find mismatched instructor names / instructor image file names
+    // console.log("no find :( " + cleanInstructorName);
     return instructorPicMap.default;
   }
 }
@@ -55,18 +59,21 @@ function getRender(navigation) {
       <Image style={styles.eventImage} source={getPicForEvent(event.title)} />
       }
       <View style={styles.contentContainer}>
-        <Text style={styles.titleText}>{event.title}</Text>
+      <Text style={styles.titleText}>{event.title}</Text>
 
-        <Text style={styles.normalText}>{event.description}</Text>
+      <Text style={styles.normalText}>{getDescription(event)}</Text>
 
-        { !!event.instructor && 
+      <Text style={styles.secondaryTitleText}>Location:</Text>
+      <Text style={styles.normalText}>{event.location}</Text>
+
+       { !!event.instructor && 
           (<View style={styles.instructorsSection}>
             <Text style={styles.secondaryTitleText}>Taught by:</Text>
 
             <View style={styles.instructorListView}>
               {map(
                 ({ name }) =>
-                  console.log(name) || (
+                   (
                     <View
                       style={styles.instructorView}
                       key={name}

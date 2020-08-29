@@ -11,7 +11,7 @@ const base64Pdf = `data:application/pdf;base64,${rawGuide}`;
 
 class InfoContainer extends React.Component {
   render() {
-    // return <InfoView />;
+    // TODO: rn-pdf-reader-js does not support embedded images on Android
     return <PDFReader source={{ base64: base64Pdf }} />;
   }
 }

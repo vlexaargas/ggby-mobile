@@ -1,6 +1,7 @@
 import React from "react";
 
 import { Image, Dimensions, StyleSheet } from "react-native";
+import { ScreenOrientation } from "expo";
 import ImageZoom from "react-native-image-pan-zoom";
 
 import {
@@ -24,18 +25,34 @@ const styles = StyleSheet.create({
   }
 });
 
-const mapWidth = 1080;
-const mapHeight = 1750;
+const mapWidth = 1432;
+const mapHeight = 1864;
+const mapPath = "../../../assets/images/FruitBowl.jpg";
 // There are a lot of magic numbers in this file.
 // The mapWidth and height must be included as well as the magic numbers
 // for the crop width and height :/
 
 // Also convert to stateful component so reset() can be called when component will mount.
 // without this, cropWidth
-class CityMap extends React.Component {
+class FruitBowlMap extends React.Component {
   state = {
-    error: false
+    error: false,
+    width: Dimensions.get("screen").width,
+    height: Dimensions.get("screen").height - 240
   };
+
+  constructor(props) {
+    super(props);
+
+    ScreenOrientation.addOrientationChangeListener(() => {
+      this.setState({
+        width: Dimensions.get("screen").width,
+        height: Dimensions.get("screen").height - 240
+      });
+    });
+  }
+
+  componentDidMount() {}
 
   static getDerivedStateFromError() {
     // Update state so the next render will show the fallback UI.
@@ -48,21 +65,21 @@ class CityMap extends React.Component {
         width: mapWidth,
         height: mapHeight
       }}
-      source={require("../../../assets/images/festival-map.png")}
+      source={require(mapPath)}
     />
   );
 
   render() {
-    const { error } = this.state;
+    const { error, width, height } = this.state;
 
     return !error ? (
       <ImageZoom
-        cropWidth={Dimensions.get("screen").width}
-        cropHeight={Dimensions.get("screen").height - 240}
+        cropWidth={width}
+        cropHeight={height}
         imageWidth={mapWidth}
         imageHeight={mapHeight}
         enableCenterFocus={false}
-        centerOn={{ x: 0, y: 0, scale: 0.3, duration: 100 }}
+        centerOn={{ x: 0, y: 0, scale: 0.25, duration: 100 }}
         minScale={0.2}
         maxscale={2.0}
         maxoverflow={0}
@@ -79,17 +96,31 @@ class CityMap extends React.Component {
   }
 }
 
-const map2Width = 613;
-const map2Height = 280;
+const map2Width = 1080;
+const map2Height = 1750;
+const map2Path = "../../../assets/images/Overview.jpg";
 
-class FestivalMap extends React.Component {
+class OverviewMap extends React.Component {
   state = {
-    error: false
+    error: false,
+    width: Dimensions.get("screen").width,
+    height: Dimensions.get("screen").height - 240
   };
 
   static getDerivedStateFromError() {
     // Update state so the next render will show the fallback UI.
     return { error: true };
+  }
+
+  constructor(props) {
+    super(props);
+
+    ScreenOrientation.addOrientationChangeListener(() => {
+      this.setState({
+        width: Dimensions.get("screen").width,
+        height: Dimensions.get("screen").height - 240
+      });
+    });
   }
 
   renderImage = () => (
@@ -98,22 +129,22 @@ class FestivalMap extends React.Component {
         width: map2Width, // yuck TODO no magics numbers
         height: map2Height
       }}
-      source={require("../../../assets/images/details-map.png")}
+      source={require(map2Path)}
     />
   );
 
   render() {
-    const { error } = this.state;
+    const { error, width, height } = this.state;
 
     return !error ? (
       <ImageZoom // this is very brittle with respect to making a general slackline festival app. This code is specific to the GGBY file map. TODO -- clean up
-        cropWidth={Dimensions.get("screen").width}
-        cropHeight={Dimensions.get("screen").height - 240}
+        cropWidth={width}
+        cropHeight={height}
         imageWidth={map2Width}
         imageHeight={map2Height}
         enableCenterFocus={false}
-        centerOn={{ x: 0, y: 0, scale: 0.5, duration: 100 }} // yuck TODO no magic numbers
-        minScale={0.5}
+        centerOn={{ x: 0, y: 0, scale: 0.3, duration: 100 }} // yuck TODO no magic numbers
+        minScale={0.2}
         maxscale={1.0}
         maxoverflow={0}
         style={{
@@ -131,16 +162,16 @@ class FestivalMap extends React.Component {
 
 const MapTabs = createMaterialTopTabNavigator(
   {
-    CityMap: {
-      screen: props => <CityMap />,
+    Map1: {
+      screen: props => <FruitBowlMap />,
       navigationOptions: {
-        title: "City Map"
+        title: "Fruit Bowl"
       }
     },
-    FestivalMap: {
-      screen: props => <FestivalMap />,
+    Map2: {
+      screen: props => <OverviewMap />,
       navigationOptions: {
-        title: "Festival Map"
+        title: "Overview"
       }
     }
   },
