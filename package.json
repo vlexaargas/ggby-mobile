@@ -31,7 +31,7 @@
   },
   "dependencies": {
     "expo": "^33.0.0",
-    "googleapis": "^34.0.0",
+    "googleapis": "^39.0.0",
     "moment": "^2.22.2",
     "ramda": "0.26.1",
     "react": "16.8.3",
