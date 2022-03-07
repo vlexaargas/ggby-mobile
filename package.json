@@ -33,7 +33,7 @@
     "expo": "^33.0.0",
     "googleapis": "^34.0.0",
     "moment": "^2.22.2",
-    "ramda": "0.26.1",
+    "ramda": "0.28.0",
     "react": "16.8.3",
     "react-native": "https://github.com/expo/react-native/archive/sdk-33.0.0.tar.gz",
     "react-native-image-pan-zoom": "^2.1.11",
